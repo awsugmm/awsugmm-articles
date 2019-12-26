@@ -1,1 +1,1 @@
-# awsugmm-articles
+# awsugmm articles collection
