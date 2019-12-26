@@ -19,6 +19,7 @@ AWS Spot Instance တွေကို အထူးသဖြင့် အရေး
 ဒီလောက်ဆိုရင်တော့ EC2 Spot Instance အကြောင်းကို အနည်းနဲ့အများနားလည်သဘောပေါက်လောက်ပြီထင်ပါတယ်။ နောက်ပိုင်း Article တွေမှာလည်း Spot Instance နဲ့ပတ်သက်တဲ့ Spot Block, Spot Fleet နဲ့ Best Practices တွေကိုရေးသားဦးမှာဖြစ်လို့ ဆက်လက်အားပေးကြပါဦးခင်ဗျာ။ 
 
 လေးစားလျက်
+
 [AWS User Group Myanmar](https://www.facebook.com/awsugmm)
 
 
