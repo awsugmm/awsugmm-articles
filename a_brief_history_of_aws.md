@@ -8,7 +8,11 @@
 
 AWS သမိုင်းကြောင်းများအား ပြန်ကြည့်ရမည်ဆိုလျှင် ကနဦး AWS Platform ကို 2002 July တွင် Service အနည်းငယ်မျှဖြင့် စတင်ခဲ့ပြီး 2003 နှောင်းပြီးကာလတွင် Chris Pinkam and Benjamin Black တို့မှစနစ်တကျ Reformulated ပြုလုပ်ခဲ့ပြီး 2004 November တွင် AWS ၏ပထမဦးဆုံး Service ဖြစ်သည့် SQS ကို Public Launch ပြုလုပ်ခဲ့ပါသည်။ ထို့နောက် AWS ၏ဒုတိယမြောက် Service ဖြစ်သည့် Elastic Compute Cloud \(EC2\) ကို တောင်အာဖရိကနိုင်ငံ ကိတ်တောင်းမြို့တွင် Develop ပြုလုပ်ပြီး တရားဝင် Publice Relaunch အား 2006, March14 တွင်
 
-\(1\)S3 \(2\)SQS \(3\)EC2 အစရှိသော Initial Service \(3\) မျိုးဖြင့် စတင်ခဲ့ပါသည်။
+\(1\) S3 
+
+\(2\) SQS 
+
+\(3\) EC2 အစရှိသော Initial Service \(3\) မျိုးဖြင့် စတင်ခဲ့ပါသည်။
 
 Andy Jassy က တော့ 2006 တွင် Vice President အနေဖြင့် တာဝန်ထမ်းဆောင်ခဲ့ပြီး 2016 တွင် CEO အဖြစ်ယနေ့တိုင် ဆောင်ရွက်လျှက်ရှိပါသည်။ ယနေ့ခေတ် Market တွင် Service ပေါင်းတစ်ရာကျော်ဖြင့် Leading Cloud Computing Provider အဖြစ်ရပ်တည်နေပြီးဖြစ်ပါသည်။
 
