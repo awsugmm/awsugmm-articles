@@ -4,7 +4,7 @@
 
 ## Fundamental
 
-* [AWS GLOBAL INFRASTRUCTURE](fundamental/aws-global-infrastructure.md)
+* [AWS Global Infrastructure](fundamental/aws-global-infrastructure.md)
 * [A brief History of AWS](fundamental/a_brief_history_of_aws.md)
 * [Cloud Computing 101](fundamental/cloud_computing_101.md)
 

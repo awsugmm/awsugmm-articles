@@ -2,7 +2,7 @@
 description: Global Infrastructure
 ---
 
-# AWS GLOBAL INFRASTRUCTURE
+# AWS Global Infrastructure
 
 ဒီနေ့မှာတော့ Cloud Service Provider တွေထဲကမှတစ်ခုဖြစ်တဲ့ Amazon Web Service က သူတို့ရဲ့ Global Infrastructure တွေကိုဘယ်လိုမျိုးတွေတည်ဆောက်ထားတယ်ဆိုတဲ့အကြောင်းကို ပြောပြပါရစေ။ အရင်ဦးဆုံးအနေနဲ့ Global Infrastructure ဆိုတဲ့အတိုင်း AWS ရဲ့ Infrastructure တွေကို ကမ္ဘာ့ geographic location တော်တော်များများမှာတည်ဆောက်ထားတာဖြစ်ပါတယ်။
 
@@ -31,6 +31,16 @@ Geographic location \( Region \) တွေအနေနဲ့ အခု \(၂၀\
 Edge Locations ဆိုတာကတော့ AWS က Sevice တစ်ချို့ \( CloudFront, Lambda@Edge \) တို့ကို User တွေအနေနဲ့အသုံးပြုရာမှာပိုမိုမြန်ဆန်ဆောင်ပြုလုပ်ပေးတဲ့ Global Content Delivery Network \(CDN\) EndPoints တွေပဲဖြစ်ပါတယ်။ အများသိကြတဲ့ အတိုင်းပဲ User တွေအနေနဲ့ ပုံမှန်အတိုင်း Content Delivery Network \( CDN \) မသုံးပဲ United State မှာရှိတဲ့ မိမိတို့ Server ကို တိုက်ရိုက် access လုပ်မယ်ဆိုရင် Latency အရ စက္ကန့်အနည်းနဲ့အများ ပိုကြာနိုင်ပြီးအဝိုင်းလေးလည်နေမှာပါ။ Edge Locations တွေက User အနေနဲ့ Access လုပ်လိုက်တဲ့ Content Data တွေကို Low-latency နဲ့ access ရအောင်လုပ်ပေးမှာပဲဖြစ်ပါတယ်။
 
 ![How Content Delivery Network \( CDN \) works](../.gitbook/assets/47065833_10205954262653659_4605161400464048128_n.jpg)
+
+![Edge Locations explained](../.gitbook/assets/47283312_10205954478379052_698213162360504320_n.jpg)
+
+![Point of Presence \( PoPs \)](../.gitbook/assets/47157274_10205954288014293_6632083654312984576_o.jpg)
+
+Edge Location တွေအနေနဲ့လည်း Geographic Region တစ်ခုမှာ အနည်းဆုံး ၂ ခုဆီရှိတတ်ကြပါတယ်။ Global အတိုင်းအတာအနေနဲ့ Point of Presence \(PoPs\) ၁၅၀ \( 139 Edge Locations and 11 Regional Edge Caches \) ရှိပါတယ်။ ဒီလောက်ဆိုရင်တော့ AWS ရဲ့ Global Infrastructure ကဘယ်လို ဒီဇိုင်းကာလာအနေအထားရှိတယ်ဆိုတာ အားလုံးပဲနားလည်သဘောပေါက်လိမ့်မယ်လို့ယူဆမိပါတယ်ခင်ဗျာ။ နောက်ထပ်နောက်ထပ်သော စိတ်ဝင်စားစရာ အကြောင်းအရာကောင်းတွေကို ရေးသားသွားဦးမှာမို့ ဆက်လက်အားပေးကြပါဦးခင်ဗျာ။ Stay Tuned !!! Have a nice day
+
+ကြိုးစားပါဦးမည်၊ အားလုံးကိုကျေးဇူးတင်လျက် 
+
+[AWS User Group Myanmar \( AWSUGMM \)](https://www.facebook.com/groups/AWSusergroupmyanmar)
 
 
 
