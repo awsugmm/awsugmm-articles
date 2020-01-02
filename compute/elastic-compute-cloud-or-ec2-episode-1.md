@@ -1,3 +1,7 @@
+---
+description: Elastic Compute Cloud Introduction
+---
+
 # Elastic Compute Cloud \(or\) EC2 - Episode \(1\)
 
 ![](https://i.imgur.com/dRgLosS.jpg)
