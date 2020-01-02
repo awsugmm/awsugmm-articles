@@ -11,3 +11,7 @@
 
 * [Reduce cloud compute cost with EC2 Spot Instance](compute/reduce_cloud_compute_cost_with_ec2_spot_instance.md)
 
+## Tutorials
+
+* [Using AWS Systems Manager to login EC2 instance without SSH](tutorials/using-aws-systems-manager-to-login-ec2-instance-without-ssh.md)
+
