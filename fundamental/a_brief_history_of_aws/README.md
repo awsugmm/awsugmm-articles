@@ -1,7 +1,5 @@
 # A brief History of AWS
 
-## tags: `Fundamental` `AWS` `Introduction`
-
 နိုင်ငံတကာတွင် Cloud Computing ရေစီးကြောင်းတိုးတက်လာသည်နှင့် တပြိုင်နက် Cloud Computing စနစ်ကို ထောက်ပံ့ပေးနေသော provider များပေါ်ထွက်လာခဲ့ပါသည်။ Amazon, Google, Microsoft ကဲ့သို့သော Company ကြီးများနှင့်အတူ IBM, Alibaba, Century Link, Rackspace အစရှိသော Company ကြီးများမှလဲ Cloud Platforms များတည်ဆောက်ပြီး Service Provider အနေဖြင့် ရပ်တည်လျက်ရှိကြပါသည်။ ထို Company ကြီးများအနက် Amazon မှ AWS Cloud သည် 2017 ခုနှစ် Gartner Survey အရ Market Leader Cloud Provider အဖြစ်ထိပ်ဆုံးမှ ရပ်တည်လျှက်ရှိပြီး Public Cloud Service အားအဓိက support ပေးလျှက်ရှိပါသည်။ AWS Cloud သည် 2017 စစ်တမ်းများအရ 17.46 Billion Annual Revenue အဖြစ် ဝင်ငွေအများဆုံး Cloud provider အဖြစ်ရပ်တည်နေပါသည်။ အထူးသဖြင့် လက်ရှိ AWS သည် Public Cloud Computing Provider ဖြစ် IAAS, PAAS, SAAS အစရှိသော Cloud Service များကိုထောက်ပံ့ပေးလျှက်ရှိသော Provider တစ်ခုအဖြစ်သာမက Hybrid Cloud Setup များကို Support ပေးနေသော Service များရှိသော Provider တစ်ခုလည်းဖြစ်ပါသည်။
 
 ![](https://i.imgur.com/oR5YqIJ.jpg)
