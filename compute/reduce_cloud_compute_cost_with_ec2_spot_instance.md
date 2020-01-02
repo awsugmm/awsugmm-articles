@@ -1,3 +1,7 @@
+---
+description: AWS Spot Instance Introduction
+---
+
 # Reduce cloud compute cost with EC2 Spot Instance
 
 ![](https://i.imgur.com/jhLoKY2.png)
