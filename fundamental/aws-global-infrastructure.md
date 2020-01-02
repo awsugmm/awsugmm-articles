@@ -26,7 +26,11 @@ Geographic location \( Region \) တွေအနေနဲ့ အခု \(၂၀\
 
 ![Region and Availability Zone Explained](../.gitbook/assets/47025826_10205954190371852_7708778414357872640_n.jpg)
 
-### 1.3 Edge Locations
+#### 1.3 Edge Locations
 
 Edge Locations ဆိုတာကတော့ AWS က Sevice တစ်ချို့ \( CloudFront, Lambda@Edge \) တို့ကို User တွေအနေနဲ့အသုံးပြုရာမှာပိုမိုမြန်ဆန်ဆောင်ပြုလုပ်ပေးတဲ့ Global Content Delivery Network \(CDN\) EndPoints တွေပဲဖြစ်ပါတယ်။ အများသိကြတဲ့ အတိုင်းပဲ User တွေအနေနဲ့ ပုံမှန်အတိုင်း Content Delivery Network \( CDN \) မသုံးပဲ United State မှာရှိတဲ့ မိမိတို့ Server ကို တိုက်ရိုက် access လုပ်မယ်ဆိုရင် Latency အရ စက္ကန့်အနည်းနဲ့အများ ပိုကြာနိုင်ပြီးအဝိုင်းလေးလည်နေမှာပါ။ Edge Locations တွေက User အနေနဲ့ Access လုပ်လိုက်တဲ့ Content Data တွေကို Low-latency နဲ့ access ရအောင်လုပ်ပေးမှာပဲဖြစ်ပါတယ်။
+
+![How Content Delivery Network \( CDN \) works](../.gitbook/assets/47065833_10205954262653659_4605161400464048128_n.jpg)
+
+
 
