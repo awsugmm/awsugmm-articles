@@ -1,6 +1,7 @@
 # Table of contents
 
 * [AWS User Group Myanmar](README.md)
+* [FAQ](faq.md)
 
 ## Fundamental
 
