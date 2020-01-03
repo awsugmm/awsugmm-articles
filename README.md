@@ -1,5 +1,5 @@
 ---
-description: Document Platform
+description: 'Blogging Platform [https://blog.awsugmm.org]'
 ---
 
 # AWS User Group Myanmar
