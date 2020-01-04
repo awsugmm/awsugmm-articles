@@ -43,6 +43,8 @@ description: Elastic Compute Cloud Introduction
 * EC2 Instances များအတွက်လိုအပ်သော Virtual Network များကို AWS Cloud အတွင်း Logically Isolated ဖြစ်ရန်အတွက်သတ်မှတ်နိုင်သော _**Amazon Virtual Private Clouds \( Amazon VPCs\)**_
 * AWS အတွင်းရှိ Instances, Amazon Machine Images \( AMI \) နှင့် အခြားသော Resources များကို Manage လုပ်ရလွယ်ကူစေရန်အတွက် _**Tags**_
 
+![Photo Reference: Linux Academy](../.gitbook/assets/awsec2cs-2.png)
+
 သည်လောက်ဆိုရင်တော့ **Amazon EC2** ရဲ့ အခြေခံ Concepts နဲ့ သူရဲ့နာမည်အခေါ်အဝေါ်လေးတွေကို အကြမ်းဖျင်းသဘောပေါက်လိမ့်မယ်ထင်ပါတယ်။ Episode \(1\) ပဲရှိသေးတဲ့အတွက်နောက်ထပ် Episodes တွေမှာ Feature တစ်ခုချင်းစီရဲ့ Use Case နဲ့ Details လေးတွေရေးသားသွားဦးမှာမို့ ဆက်လက်အားပေးကြပါဦး ခင်ဗျာ။
 
 လေးစားလျက်
