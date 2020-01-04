@@ -50,5 +50,7 @@ Software as a Service model ကတော့ကျွန်တော်တို�
 
 နောက်ထပ် Topic တွေမှာလည်းယခုထပ်ပိုတဲ့အကြောင်းအရာတွေကို ဆက်လက်ရေးသားသွားပါဦးမယ်ခင်ဗျာ။
 
-Photo Ref: Google [ AWS User Group Myanmar](https://www.facebook.com/groups/AWSusergroupmyanmar)
+Photo Ref: Google 
+
+[AWS User Group Myanmar](https://www.facebook.com/groups/AWSusergroupmyanmar)
 
