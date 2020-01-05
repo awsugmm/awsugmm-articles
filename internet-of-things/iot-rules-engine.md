@@ -50,7 +50,7 @@ Store လုပ်ထားတဲ့ Data တွေကို  Kinesis Analytics 
 
 ## IoT \(Internet of Things\)
 
-![IoT Devices](../../.gitbook/assets/image%20%2822%29.png)
+![IoT Devices](../.gitbook/assets/image%20%2822%29.png)
 
 ပထမဦးစွာ IoT Devices တွေကို AWS IoT Core ရဲ့ Manage မှာ Things connect လုပ်ပီး အသုံးပြုလို့ရနိုင်ပါတယ်။ 
 
@@ -62,7 +62,7 @@ Store လုပ်ထားတဲ့ Data တွေကို  Kinesis Analytics 
 
 MQTT ဆိုတဲ့ Message Queuing Telemetry Transport ဆိုတဲ့ Protocol ကို တော့ IoT သုံးဖူးတဲ့သူတိုင်း သိကြမှာပါ။
 
-![MQTT](../../.gitbook/assets/image%20%289%29.png)
+![MQTT](../.gitbook/assets/image%20%289%29.png)
 
 MQTT ရဲ့ အလုပ်လုပ်ပုံကတော့ Publisher ဆိုတာ IoT devices တွေကနေ Real time messages တွေကို ပို့လိုက်ပီး Subscriber က လက်ခံသူတွေ ဖြစ်ပါတယ်။
 
@@ -72,7 +72,7 @@ MQTT ရဲ့ အလုပ်လုပ်ပုံကတော့ Publisher ဆ
 
 **Subscribe**
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 ပုံမှာပြထားသလို AWS IoT Core အောက်မှာ Testလုပ်လို့ရနိုင်ပါတယ်။ 
 
@@ -84,7 +84,7 @@ Subscribe လုပ်ထားပီးရင် အောက်ကပုံလ
 
 **Publish**
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 အဲ့ဒီ JSON Formatနဲ့ပြထားတဲ့နေရာကနေ message တွေကို publish လုပ်ပြပါမယ်။ တကယ့် လက်တွေ့ IoT Device နဲ့စမ်းရင်တော့ အဲ့ IoT Device ကရလာတဲ့ Message ကို ဒီ MQTT Client  ကနေ real time data တွေကို မြင်ရမှာပါ။
 
@@ -122,7 +122,7 @@ Subscribe လုပ်ထားပီးရင် အောက်ကပုံလ
 
 JSON Format နဲ့ Data ကို အောက်ထဲကပုံကလို Publish လုပ်ပြထားပါတယ်။
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ## IoT Rules
 
@@ -130,13 +130,13 @@ Rules Engine / Rule actions လို့လည်း ခေါ်လို့ရ
 
 ဘာ Rule မမှ ရှိသေးတဲ့ပုံပါ။
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 Rule တစ်ခု Create ဖို့ဆိုရင် Topic တစ်ခုလောက်ရှိထားသင့်ပါတယ်။ Test ကနေ topic ကို publish/shbscribe လုပ်ထားပီး စမ်းကြည့်လို့ရနိုင်ပါတယ်။
 
 
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 Name တွေ Description တွေက မိမိ ကြိုက်တာပေးလို့ရပါတယ်။ ဒီ Article ရဲ့ အဓိက ပြောပြချင်တဲ့အပိုင်းလေးကို ရောက်ပါပီ။ တစ်ခုကတော့ **Rule query statement** ပါ။
 
@@ -168,21 +168,21 @@ WHERE Clause
 
 အပေါ်က ပြောခဲ့တဲ့ AWS Serviceတွေကို action ကနေ သွားထည့်လို့ရပါတယ်။ Rule create လုပ်တဲ့အချိန်မှာ Add actions ကိုနှိပ်လိုက်ရင်  အောက်က ပုံကို တွေ့ရမှာပါ။
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 ဒီလို Actions တွေ ကို သုံးပီး မိမိတို့ရဲ့ IoT Devices ရဲ့ Data တွေကို Real time monitoring / Dashboard ပါတစ်ခါတည်းလုပ်နိုင်ပါတယ်။
 
 အခုကတော့ DynamoDBနဲ့စမ်းပြပါမယ်။
 
-![Choose an action](../../.gitbook/assets/image%20%2826%29.png)
+![Choose an action](../.gitbook/assets/image%20%2826%29.png)
 
 Action တစ်ခုကို ရွေးပီးရင် မိမိသုံးမယ့် Action က ဒီ AWS IoT Core ကနေ လာတဲ့ Datas တွေကိုလက်ခံမယ့် Resourceရှိဖို့လိုပါတယ်။ မရှိသေးလို့ Createလုပ်လို့ရပါတယ်။ ဒီ Article မှတော့ test ဆိုတဲ့ DynamoDB tableနဲ့ နည်းနည်း စမ်းပြပါမယ်။
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 Action တစ်ခုကိုထည့်ပီးရင် အောက်ကပုံလို နောက် Action တွေပါထပ်ထည့်လို့ရပါတယ်။
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 
 
@@ -194,11 +194,11 @@ Rule တစ်ခုမှာ Actions တွေကို ကိုယ့် Solu
 
 Rule တစ်ခုမှာ error action ပါထည့်လို့ရပါတယ်။ Rule တစ်ခုကို Create လုပ်ပြရင် အောက်ကပုံလို မြင်ရမှာပါ။
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 Rule Create လုပ်ပီးရင် Test ကနေ Message တွေကို Publishလုပ်ပီး DynamoDB မှာဝင် Action အလုပ်လုပ် /မလုပ်ကို ဝင်ကြည့်လို့ရပါပီ။
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 Action လည်း အလုပ်လုပ်ပီဆိုတော့ SQL ရဲ့Case Statmentလေး စမ်းပြပါမယ်။
 
@@ -213,7 +213,7 @@ SELECT *,
 
 Demo စမ်းပြထားတဲ့  emp\_name ရဲ့ swezinတို့ awsugmmတို့ကို Full Nameပြောင်းပီး နောက် Column တစ်ခုကို Case statement နဲ့ create လုပ်ပီး Update လုပ်ပေးလိုက်ပါ။
 
-![](../../.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 Test Table မှာ Column တစ်ခု create လုပ်သွားပါတယ်။ ဒီနေရာမှာ ပြောချင်တာကတော့ IoT Devices ကပို့လိုက်တဲ့ Data တွေကို SQL Rule Query statement ကနေ တော်တော်များများကို filter လုပ်နိုင်ပါတယ်။
 

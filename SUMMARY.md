@@ -21,6 +21,5 @@
 
 ## Internet of Things
 
-* [IoT Rules Engine](internet-of-things/iot-rules-engine/README.md)
-  * [Untitled](internet-of-things/iot-rules-engine/untitled.md)
+* [IoT Rules Engine](internet-of-things/iot-rules-engine.md)
 
