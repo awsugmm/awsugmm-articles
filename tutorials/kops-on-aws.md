@@ -569,7 +569,7 @@ $ kubectl create -f developer-rbac.yaml
 ```
 {% endcode %}
 
-aws-iam-authenticator အလုပ်လုပ်ရန် နင့် သတ်မှတ်ထားသည့် user group policy  များ အသက်ဝင်ရန် အောက်ပါ configmap ကို create 
+aws-iam-authenticator အလုပ်လုပ်ရန် နင့် သတ်မှတ်ထားသည့် user group policy  များ အသက်ဝင်ရန် အောက်ပါ configmap ကို create ပြုလုပ်ပေးရန်လိုအပ်ပါသည်။ 
 
 {% code title="aws-auth.yaml" %}
 ```yaml
