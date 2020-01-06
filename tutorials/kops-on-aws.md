@@ -21,15 +21,15 @@ description: Kops on AWS
 
 #### What is Kops ? 
 
-**Kops** သည် K for kubernetes၊ ops for Operations ၂ခု ပေါင်းသည့်အခါ Kubernetes Operations ဟုတ် အဓိပ္ပါယ်ရသည်။ အမျိုးမျိုးသော cloud platforms များပေါ်တွင် kubernetes cluster ကို version control system ဖြင့် install ပြုလုပ်ခြင်း၊ manage ပြုလုပ်ခြင်း၊ စသည့် operation များကို ကူညီ အထောက်အပံ ဖြစ်ရန် ရည်ရွယ် ထုတ်လုပ်ထားသည့် cli tool တစ်ခု ဖြစ်သည်။ Kops သည် kubernetes project အတူဖြစ်ပေါ်လာပြီ K8s team မှ ထိန်းသိမ်းသည့် tools တစ်ခု ဖြစ်သည်။ 
+**Kops** သည် K for kubernetes၊ ops for Operations ၂ခု ပေါင်းသည့်အခါ Kubernetes Operations ဟုတ် အဓိပ္ပါယ်ရသည်။ အမျိုးမျိုးသော cloud platforms များပေါ်တွင် kubernetes cluster ကို version control system ဖြင့် install ပြုလုပ်ခြင်း၊ manage ပြုလုပ်ခြင်း၊ စသည့် operation များကို ကူညီ အထောက်အပံ ဖြစ်ရန် ရည်ရွယ် ထုတ်လုပ်ထားသည့် CLI tool တစ်ခုလည်း ဖြစ်ပါသည်။ Kops သည် kubernetes project အတူဖြစ်ပေါ်လာပြီး K8s team မှ ထိန်းသိမ်းသည့် tools တစ်ခု ဖြစ်သည်။ 
 
 #### What is AWS CLI ? 
 
-**AWS cli** သည် developer များ၊ Ops များ အတွက် AWS cloud platform ၏ resources များကို command line မှ တဆင့် အလွယ်တကူ အသုံးပြုနိုင်ရန် အထူးပြုလုပ်ထားသော Amazon Web Services မှ tools တစ်ခုဖြစ်သည်။
+**AWS CLI** သည် Developer များ၊ Ops များ အတွက် AWS cloud platform ၏ resources များကို command line မှ တဆင့် အလွယ်တကူ အသုံးပြုနိုင်ရန် အထူးပြုလုပ်ထားသော Amazon Web Services မှ tools တစ်ခုဖြစ်သည်။
 
 #### What is aws-iam-authenticator ?
 
-Kubernetes Cluster ကို AWS ၏ IAM ကို အသုံးပြု၍ authentication ပြုလုပ်နိုင်ရန် အတွက် ထုတ်လုပ်ထားသော tools တစ်ခုဖြစ်သည်။ aws-iam-authenticator သည် kubernetes special interest groups \( SIG \) ၏ project တစ်ခု ဖြစ်ပြီး ယခု လက်ရှိတွင် Heptio and Amazon EKS OSS မှ ထိန်းသိမ်ထားပါသည်။  
+Kubernetes Cluster ကို AWS ၏ **IAM** ကို အသုံးပြု၍ authentication ပြုလုပ်နိုင်ရန် အတွက် ထုတ်လုပ်ထားသော tools တစ်ခုဖြစ်သည်။ aws-iam-authenticator သည် kubernetes special interest groups \( SIG \) ၏ project တစ်ခု ဖြစ်ပြီး ယခု လက်ရှိတွင် Heptio and Amazon EKS OSS မှ ထိန်းသိမ်ထားပါသည်။  
 
 #### What is kubectl ? 
 
@@ -78,7 +78,7 @@ $ aws s3api put-bucket-encryption --bucket ${NAME} --server-side-encryption-conf
 ```
 {% endcode %}
 
-AWS S3 တည်ဆောက်ပြီသောအခါ ကျွန်တော်တို့ လိုချင်သည့် ပုံစံဖြင့် kubernetes cluster ကို တည်ဆောက်ရန် အဆင်သင့် ဖြစ်နေပြီ ဖြစ်သည်။ Kops ကို အသုံးပြု၍ private နဲ့ public topology ၂ မျိုးဖြင့် cluster ကို တည်ဆောက် နိုင်ပါသည်။ 
+AWS S3 တည်ဆောက်ပြီသောအခါ မှာကျွန်တော်တို့ လိုချင်သည့် ပုံစံဖြင့် kubernetes cluster ကို တည်ဆောက်ရန် အဆင်သင့် ဖြစ်နေပြီပဲ ဖြစ်ပါသည်။ Kops ကို အသုံးပြု၍ private နဲ့ public topology ၂ မျိုးဖြင့် cluster ကို တည်ဆောက် နိုင်ပါသည်။ 
 
 ဒီ scenario မှာတော့ private topology ကျွန်တော် အသုံးပြုသွားမှာ ဖြစ်သည်။ t3.medium instance type နှင့် weave network plugin ကို အသုံးပြုပြီး masters ၃ လုံး၊ nodes ၃လုံးကို အသုံးပြု၍တည်ဆောက်သွားမည်ဖြစ်ပါသည်။
 
