@@ -65,7 +65,7 @@ $ aws configure
 ```
 {% endcode %}
 
-AWS CLI  ကို setup လုပ်ပြီ:သောအခါ AWS ၏ S3 bucket တစ်ကို  kops state file များ သိမ်းရန် အောက်ပါ command များကို အသုံးပြု၍ တည်ဆောက်နိုင်ပါသည်။
+AWS CLI  ကို setup လုပ်ပြီသောအခါ AWS ၏ S3 bucket တစ်ကို  kops state file များ သိမ်းရန် အောက်ပါ command များကို အသုံးပြု၍ တည်ဆောက်နိုင်ပါသည်။
 
 {% code title="Terminal" %}
 ```bash
@@ -403,7 +403,7 @@ $ kops kops validate cluster # validate cluster is check for your cluster state
 ```
 {% endcode %}
 
-Cluster ဆောက်ပြီးဖြစ်သော်လည်း Status ကတော့  valid ဖြစ်သေးမှာမဟုတ်ပါဘူး။အကြောင်းရင်းမှာ authentication plugin ၏ configuration လိုနေသောကြောင့်ဖြစ်ပါသည်။
+Cluster တည်ဆောက်ပြီးဖြစ်သော်လည်း Status ကတော့  valid ဖြစ်သေးမှာမဟုတ်ပါဘူး။ ဘာလို့လဲဆိုတော့ authentication plugin ၏ configuration လိုနေသောကြောင့်ဖြစ်ပါသည်။
 
 {% code title="json" %}
 ```javascript
@@ -882,7 +882,7 @@ $ kubectl create -f external-dns.yaml
 
 ယခုအခြေအနေတွင်အားလုံးတည်ဆောက်ပြီး ဖြစ်ပါသည်။ 
 
-တည်ဆောက်ခဲ့သည့် cluster, iam authentication and k8s rbac, alb ingress and automatic external DNS service များကို စမ်းသပ်ရန်အတွက် အောက်ဖော်ပြပါ 2048 web application game ဖြင့်စမ်းသပ်နိုင်ပါသည်။ 
+တည်ဆောက်ခဲ့သည့် Cluster, IAM authentication and k8s RBAC, ALB ingress and automatic external DNS service များကို စမ်းသပ်ရန်အတွက် အောက်ဖော်ပြပါ 2048 web application game ဖြင့်စမ်းသပ်နိုင်ပါသည်။ 
 
 {% code title="Terminal" %}
 ```bash
