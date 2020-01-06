@@ -29,11 +29,11 @@ description: Kops on AWS
 
 #### What is aws-iam-authenticator ?
 
-Kubernetes Cluster ကို AWS ၏ IAM ကို အသုံးပြု၍ authentication ပြုလုပ်နိုင်ရန် အတွက် ထုတ်လုပ်ထားသော tools တစ်ခုဖြစ်သည်။ aws-iam-authenticator သည် kubernetes special interest groups ၏ project တစ်ခု ဖြစ်ပြီး ယခု လက်ရှိတွင် Heptio and Amazon EKS OSS မှ ထိန်းသိမ်ထားပါသည်။  
+Kubernetes Cluster ကို AWS ၏ IAM ကို အသုံးပြု၍ authentication ပြုလုပ်နိုင်ရန် အတွက် ထုတ်လုပ်ထားသော tools တစ်ခုဖြစ်သည်။ aws-iam-authenticator သည် kubernetes special interest groups \( SIG \) ၏ project တစ်ခု ဖြစ်ပြီး ယခု လက်ရှိတွင် Heptio and Amazon EKS OSS မှ ထိန်းသိမ်ထားပါသည်။  
 
 #### What is kubectl ? 
 
-Kubectl သည် kubernetes cluster အတွက် client command line interface tool တစ်ခု ဖြစ်သည်. kubectl သည် kubernetes cluster ကို ဆက်သွယ် ချိတ်ဆက် ရန် $HOME/.kube directory အောက် တွင် ရှိသောက် config file များကို ဖတ်သည်။ environment variable _**KUBECONFIG**_ ကိုလဲ config file အစား အသုံး ပြုနိုင်သည်။
+Kubectl သည် kubernetes cluster အတွက် client command line interface tool တစ်ခု ဖြစ်သည်။ kubectl သည် kubernetes cluster ကို ဆက်သွယ် ချိတ်ဆက် ရန် $HOME/.kube directory အောက် တွင် ရှိသောက် config file များကို ဖတ်သည်။ environment variable _**KUBECONFIG**_ ကိုလဲ config file အစား အသုံး ပြုနိုင်သည်။
 
 
 
@@ -49,7 +49,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ```
 {% endcode %}
 
-Kops ကို အသုံးပြုရန် AWS ၏ IAM user တစ်ခု လိုအပ်ပါသည်။ ထို IAM user တွင် Kops မှ AWS ၏ resource များကို အသုံးပြုရန် အနည်းဆုံး အောက်ပါ permission များ လိုအပ်ပါသည်။ 
+Kops ကို အသုံးပြုရန် AWS ၏ IAM user တစ်ယောက် လိုအပ်ပါသည်။ ထို IAM user တွင် Kops မှ AWS ၏ resource များကို အသုံးပြုရန် အနည်းဆုံး အောက်ပါ permission များ လိုအပ်ပါသည်။ 
 
 * `AmazonEC2FullAccess`
 * `AmazonRoute53FullAccess`
@@ -57,7 +57,7 @@ Kops ကို အသုံးပြုရန် AWS ၏ IAM user တစ်ခ�
 * `IAMFullAccess`
 * `AmazonVPCFullAccess`
 
-လိုအပ်သော Permission နှင့် User  တစ်ယောက်ဆောက်ပြီးသည့်အခါတွင်အောက်ဖော်ပြပါ Command နဲ့ AWS CLI ကို Setup လုပ်ပေးရမည်။ 
+လိုအပ်သော Permission နှင့် User  တစ်ယောက်ဆောက်ပြီးသည့်အခါတွင် အောက်ဖော်ပြပါ Command နဲ့ AWS CLI ကို Setup လုပ်ပေးရမည်။ 
 
 {% code title="Terminal" %}
 ```bash
@@ -65,7 +65,7 @@ $ aws configure
 ```
 {% endcode %}
 
-AWS cli ကို setup လုပ်ပြီ:သောအခါ AWS ၏ S3 bucket တစ်ကို  kops state file များ သိမ်းရန် အောက်ပါ command များကို အသုံးပြု၍ တည်ဆောက်နိုင်ပါသည်။
+AWS CLI  ကို setup လုပ်ပြီ:သောအခါ AWS ၏ S3 bucket တစ်ကို  kops state file များ သိမ်းရန် အောက်ပါ command များကို အသုံးပြု၍ တည်ဆောက်နိုင်ပါသည်။
 
 {% code title="Terminal" %}
 ```bash
@@ -928,6 +928,6 @@ $ google-chrome-stable yourcluster.com
 {% endcode %}
 
 {% hint style="success" %}
-ယခု ကျွန်တော်တို. လုပ်ပြထားသော tutorial လေးသည် Non-Profit Organization တစ်ခုတွက်ကျွန်တော်တို. Setup လုပ်ပေးခဲ့သော Production Kops cluster Setup Usecase မှ ကောက်နုတ်ဖော်ပြထားချင်းဖြစ်သည့်အတွက် စာဖတ်သူတို.စိတ်ထဲတွင် မရှင်းမလင်းတစ်ခုခုခံစားခဲ့ရရင်ကျွန်တော်တို.ရဲ့ Facebook Group or Page ကိုဆက်သွယ်မေးမြန်းနိုင်ပါသည်။ 
+ယခု ကျွန်တော်တို. လုပ်ပြထားသော tutorial လေးသည် Non-Profit Organization တစ်ခုအတွက် ကျွန်တော်တို. Setup လုပ်ပေးခဲ့သော Production Grade Kops Cluster Setup Use-case မှ ကောက်နုတ်ဖော်ပြထားခြင်းဖြစ်သည့်အတွက် စာဖတ်သူတို.စိတ်ထဲတွင် မရှင်းမလင်းတစ်ခုခုခံစားခဲ့ရရင်ကျွန်တော်တို.ရဲ့ Facebook Group or Page ကိုဆက်သွယ်မေးမြန်းနိုင်ပါသည်။ 
 {% endhint %}
 
