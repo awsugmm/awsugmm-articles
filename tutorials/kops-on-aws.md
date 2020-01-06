@@ -101,7 +101,7 @@ $ kops create cluster ${NAME} --state=${KOPS_STATE_STORE} --master-count 3 --mas
 Line number  ၁၀ နှင့် ၁၁ တွင်ရှိသော အောက်ဖော်ပြပါ **authentication:aws:{}**  ကိုထည့်ပေးရန်လိုအပ်ပါသည်။
 
 {% hint style="warning" %}
-AWS IAM နှင့် Authentication ကို Integrate မလုပ်ချင်ပါက ယခု Config ကို ပြင်ဆင်စရာမလိုအပ်ပါ။ပြီးတော့ aws-iam-authenticator ကို   
+AWS IAM နှင့် Authentication ကို Integrate မလုပ်ချင်ပါက ယခု Config ကို ပြင်ဆင်စရာမလိုအပ်ပါ။ပြီးတော့ aws-iam-authenticator ကို  
 {% endhint %}
 
 {% code title="mycluster.yaml" %}
@@ -460,7 +460,7 @@ Cluster ဆောက်ပြီးဖြစ်သော်လည်း Status �
 {% hint style="warning" %}
 အောက်တွင်ဖော်ပြထားသော commands ဖြင့် K8sDeveloper နှင့် K8sAdmin အစရှိသော role နှစ်ခုကို configmap အတွက်  တည်ဆောက်သည့်အခါတွင် အပေါ် မှာ json များထွက်လာမည်ဖြစ်ပါသည်။ 
 
-Example   
+Example ပြထားခြင်းဖြစ်ပါသည်။   
 {% endhint %}
 
 {% code title="Terminal" %}
