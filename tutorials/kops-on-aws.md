@@ -6,10 +6,10 @@ description: Kops on AWS
 
 #### Thinking Basic requirement 
 
-* Installing cluster \(IAC\)
-* Authentication \(IAM\)
-* Authorization \(k8s resources\)
-* Ingress Controller \(ALB\)
+* Installing Cluster \( IAC \)
+* Authentication \( IAM \)
+* Authorization \( K8s resources\)
+* Ingress Controller \( ALB \)
 * External DNS 
 
 #### Prerequisites before setup cluster
@@ -19,19 +19,19 @@ description: Kops on AWS
 * [aws-iam-authenticator](https://github.com/kubernetes-sigs/aws-iam-authenticator)
 * [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
-#### what is kops ? 
+#### What is Kops ? 
 
 **Kops** သည် K for kubernetes၊ ops for Operations ၂ခု ပေါင်းသည့်အခါ Kubernetes Operations ဟုတ် အဓိပ္ပါယ်ရသည်။ အမျိုးမျိုးသော cloud platforms များပေါ်တွင် kubernetes cluster ကို version control system ဖြင့် install ပြုလုပ်ခြင်း၊ manage ပြုလုပ်ခြင်း၊ စသည့် operation များကို ကူညီ အထောက်အပံ ဖြစ်ရန် ရည်ရွယ် ထုတ်လုပ်ထားသည့် cli tool တစ်ခု ဖြစ်သည်။ Kops သည် kubernetes project အတူဖြစ်ပေါ်လာပြီ K8s team မှ ထိန်းသိမ်းသည့် tools တစ်ခု ဖြစ်သည်။ 
 
-#### what is aws cli ? 
+#### What is AWS CLI ? 
 
 **AWS cli** သည် developer များ၊ Ops များ အတွက် AWS cloud platform ၏ resources များကို command line မှ တဆင့် အလွယ်တကူ အသုံးပြုနိုင်ရန် အထူးပြုလုပ်ထားသော Amazon Web Services မှ tools တစ်ခုဖြစ်သည်။
 
-#### what is aws-iam-authenticator ?
+#### What is aws-iam-authenticator ?
 
 Kubernetes Cluster ကို AWS ၏ IAM ကို အသုံးပြု၍ authentication ပြုလုပ်နိုင်ရန် အတွက် ထုတ်လုပ်ထားသော tools တစ်ခုဖြစ်သည်။ aws-iam-authenticator သည် kubernetes special interest groups ၏ project တစ်ခု ဖြစ်ပြီး ယခု လက်ရှိတွင် Heptio and Amazon EKS OSS မှ ထိန်းသိမ်ထားပါသည်။  
 
-#### what is kubectl ? 
+#### What is kubectl ? 
 
 Kubectl သည် kubernetes cluster အတွက် client command line interface tool တစ်ခု ဖြစ်သည်. kubectl သည် kubernetes cluster ကို ဆက်သွယ် ချိတ်ဆက် ရန် $HOME/.kube directory အောက် တွင် ရှိသောက် config file များကို ဖတ်သည်။ environment variable _**KUBECONFIG**_ ကိုလဲ config file အစား အသုံး ပြုနိုင်သည်။
 

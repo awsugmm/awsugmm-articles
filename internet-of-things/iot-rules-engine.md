@@ -132,7 +132,7 @@ Rules Engine / Rule actions လို့လည်း ခေါ်လို့ရ
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-Rule တစ်ခု Create ဖို့ဆိုရင် Topic တစ်ခုလောက်ရှိထားသင့်ပါတယ်။ Test ကနေ topic ကို publish/shbscribe လုပ်ထားပီး စမ်းကြည့်လို့ရနိုင်ပါတယ်။
+Rule တစ်ခု Create ဖို့ဆိုရင် Topic တစ်ခုလောက်ရှိထားသင့်ပါတယ်။ Test ကနေ topic ကို publish/subscribe လုပ်ထားပီး စမ်းကြည့်လို့ရနိုင်ပါတယ်။
 
 
 
