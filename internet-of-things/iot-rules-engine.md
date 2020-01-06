@@ -224,5 +224,9 @@ topic(2) as level FROM 'awsugmm/+/test'
 
 + ကတော့ any one level ပါ။ awsugmmအောက်မှာ Devices ပေါင်းစုံရှိနေရင် အဲ့ Device အကုန်လုံးရဲ့ data တွေပါ ရနိုင်ပါတယ်။ topic\(2\) ကတော့ DynamoDB ထဲကို levelဆိုတဲ့ column အနေနဲ့ ဘယ် Deviceကလာတာကို သိမ်းထားနိုင်ပါတယ်။လေ့လာနေတဲ့သူတစ်ယောက်မို့ အမှားပါရင် ခွင့်လွှတ်ပေးကြပါ။ ဆက်လက်ကြိုးစားပါ့မယ်။ 
 
+ I hope you found it useful and interesting .Thanks for taking the time.
+
+
+
 
 
