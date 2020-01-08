@@ -14,7 +14,9 @@ Create Instance ကနေ မိမိ အသုံးပြုလိုသေ�
 
 ![](https://leetdev.net/wp-content/uploads/2019/10/Screenshot-from-2019-10-22-14-23-32-700x529.png)
 
- ကိုယ်ပေးခြင်တဲ့ နာမည်နဲ့ Create Instance ရသွားပီးဆိုရင် WordPress site လေးတော့ ပီးသွားပီလို့ ယူစလို့ရပါတယ်။![](https://leetdev.net/wp-content/uploads/2019/10/Screenshot-from-2019-10-22-14-24-45-700x414.png)
+ ကိုယ်ပေးခြင်တဲ့ နာမည်နဲ့ Create Instance ရသွားပီးဆိုရင် WordPress site လေးတော့ ပီးသွားပီလို့ ယူစလို့ရပါတယ်။
+
+![](https://leetdev.net/wp-content/uploads/2019/10/Screenshot-from-2019-10-22-14-24-45-700x414.png)
 
 Running ဖြစ်နေတဲ့ WordPress လေးကို ခဗျားတို့ တွေ့ရမှာ ဖြစ်ပါတယ်
 
@@ -24,9 +26,13 @@ Running ဖြစ်နေတဲ့ WordPress လေးကို ခဗျား
 
 ![](https://leetdev.net/wp-content/uploads/2019/10/Screenshot-from-2019-10-22-14-28-40-700x454.png)
 
-Create Static IP လုပ်တဲ့အခါမှာ ဘယ်အလုံးကို Attach လုပ်မလဲရွေးပေးရပါတယ် ကျွန်တော်တို့ အနေနဲ့ WordPress Leetdev ကို ရွေးပေးလိုက်ပါပြီ Create လိုက်ရင် ရပါပြီ။ သူအစကတည်းက ပေးထားတဲ့ Public IP သုံးလို့လည်းရပါတယ်။![](https://leetdev.net/wp-content/uploads/2019/10/Screenshot-from-2019-10-22-14-30-26-700x544.png)
+Create Static IP လုပ်တဲ့အခါမှာ ဘယ်အလုံးကို Attach လုပ်မလဲရွေးပေးရပါတယ် ကျွန်တော်တို့ အနေနဲ့ WordPress Leetdev ကို ရွေးပေးလိုက်ပါပြီ Create လိုက်ရင် ရပါပြီ။ သူအစကတည်းက ပေးထားတဲ့ Public IP သုံးလို့လည်းရပါတယ်။
 
-အခုဆိုရင် ကျွန်တော်တို့ wordpress ဆိုဒ်ကို ခေါ်လို့ရမယ့် Public IP တခုရလာပါပြီ AWS Route53 နဲ့ Domain ဘယ်လို Point မလဲဆိုတာကိုတော့ ကျွန်တော်နောက် အချိန်ရရင် ရေးပေးပါအုံးမယ်။![](https://leetdev.net/wp-content/uploads/2019/10/Screenshot-from-2019-10-22-14-32-03-700x385.png)
+![](https://leetdev.net/wp-content/uploads/2019/10/Screenshot-from-2019-10-22-14-30-26-700x544.png)
+
+အခုဆိုရင် ကျွန်တော်တို့ wordpress ဆိုဒ်ကို ခေါ်လို့ရမယ့် Public IP တခုရလာပါပြီ AWS Route53 နဲ့ Domain ဘယ်လို Point မလဲဆိုတာကိုတော့ ကျွန်တော်နောက် အချိန်ရရင် ရေးပေးပါအုံးမယ်။
+
+![](https://leetdev.net/wp-content/uploads/2019/10/Screenshot-from-2019-10-22-14-32-03-700x385.png)
 
 အောက်ကပုံကတော့ WordPress setup လုပ်ထားပီးသား Default ဆိုဒ်တခုရလာပါပြီ ကျွန်တော်တို့အနေနဲ့ မိမိတို့သုံးလိုတဲ့ Themes တွေ Plugin တွေတော့ ထည့်ပီး လုပ်ဖို့တော့လိုပါအုံးမယ်။
 
