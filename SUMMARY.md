@@ -13,6 +13,7 @@
 
 * [Elastic Compute Cloud \(or\) EC2 - Episode \(1\)](compute/elastic-compute-cloud-or-ec2-episode-1.md)
 * [Reduce cloud compute cost with EC2 Spot Instance](compute/reduce_cloud_compute_cost_with_ec2_spot_instance.md)
+* [Deploying Wordpress Website with Amazon Lightsail](compute/deploying-wordpress-website-with-amazon-lightsail.md)
 
 ## Tutorials
 
