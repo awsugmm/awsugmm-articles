@@ -20,7 +20,7 @@ Bastion Host ဆိုတာ AWS ရဲ့ service တစ်ခုလားလ�
 
 ![Photo reference - &quot;aws.amazon.com&quot;](../.gitbook/assets/2.png)
 
-ဒါဆိုကျွန်တော်တို. AWS management console ကို login ဝင်ပြီး  Ec2 တစ်လုံးကို private subnet မှာ ဆောက်လိုက်ပါမယ်။ amazon linux 2 နဲ့ပါ။ 
+ဒါဆိုကျွန်တော်တို. AWS management console ကို login ဝင်ပြီး  EC2 တစ်လုံးကို private subnet မှာ ဆောက်လိုက်ပါမယ်။ Amazon Linux 2 Image နဲ့ပါ။ 
 
 {% hint style="warning" %}
 ယခုပြထားသော public domain များ IP များသည် Demonstration ပြရန်သာ ရည်ရွယ်ပါသည်။ 
@@ -32,7 +32,7 @@ Bastion Host ဆိုတာ AWS ရဲ့ service တစ်ခုလားလ�
 
 ![](../.gitbook/assets/4.png)
 
-အားလုံး steps တွေပြီးသွားရင် pem key တစ်ခု create ပြီး instance ကို စတင် run လို.ရပါပြီ။ 
+အားလုံး steps တွေပြီးသွားရင် PEM Key တစ်ခု create ပြီး instance ကို စတင် run လို.ရပါပြီ။ 
 
 ![](../.gitbook/assets/5.png)
 
@@ -42,21 +42,21 @@ Pem Key Download ပြီးသွားတာနဲ့ Ec2 instance က privat
 
 ![](../.gitbook/assets/7.png)
 
-ထိုနောက်ကျွန်တော်တို. bastion host ကို public subnet မှာဆောက်ပါမယ်။ amazon linux 2 နဲ့ပါပဲ။ 
+ထိုနောက်ကျွန်တော်တို. bastion host ကို public subnet မှာဆောက်ပါမယ်။ Amazon Linux 2 Image နဲ့ပါပဲ။ 
 
 ![](../.gitbook/assets/8.png)
 
 ![](../.gitbook/assets/9.png)
 
-ပြီးရင် private instance လိုပဲ security group မှာပြင်ပါမယ်။ Bastion host ရဲ့ security group မှာ ကျွန်တော် laptop ရဲ့ Public IP ကိုပဲ specific allow ပေးပါမယ်။Bastion host ကို ကျွန်တော်တစ်ယောက်တည်းကပဲ ssh access ရအောင်လို.ပါ။ 
+ပြီးရင် private instance လိုပဲ security group မှာပြင်ပါမယ်။ Bastion host ရဲ့ security group မှာ ကျွန်တော် laptop ရဲ့ Public IP ကိုပဲ specific allow ပေးပါမယ်။Bastion host ကို ကျွန်တော်တစ်ယောက်တည်းကပဲ SSH access ရအောင်လို.ပါ။ 
 
 ![](../.gitbook/assets/10.png)
 
-ထုံးစံအတိုင်းနောက်ဆုံးမှာ PEM key ကို download ချပါမယ်။ 
+ထုံးစံအတိုင်းနောက်ဆုံးမှာ PEM Key ကို Download ချပါမယ်။ 
 
 ![](../.gitbook/assets/11.png)
 
-နောက်ဆုံး အောက်ကပုံမှာပြထားတဲ့အတိုင်း Ec2 နှစ်လုံး running ဖြစ်နေပါလိမ့်မယ်။တစ်ခုက public subnet နောက်တစ်ခုက private subnet မှာ run နေပါလိမ့်မယ်။  
+နောက်ဆုံး အောက်ကပုံမှာပြထားတဲ့အတိုင်း E2 နှစ်လုံး running ဖြစ်နေပါလိမ့်မယ်။တစ်ခုက public subnet နောက်တစ်ခုက private subnet မှာ run နေပါလိမ့်မယ်။  
 
 ![](../.gitbook/assets/12.png)
 
@@ -114,7 +114,7 @@ Host private-instance
 ယခုပြထားသော public domain များ IP များသည် Demonstration ပြရန်သက်သက်သာရည်ရွယ်ပါသည်။ 
 {% endhint %}
 
-ဒါဆို file လည်းဆောက်ပြီးပီ config လေးလည်းဖြည့်ပြီးပြီဆိုပါက ကျွန်တော်တို. terminal ကနေအောက်ပါ command လေးရိုက်ပြီး private instance ကိုတိုက်ရိုက် login လုပ်လိုရပါပြီ။  
+ဒါဆို file လည်းဆောက်ပြီးပီ config လေးလည်းဖြည့်ပြီးပြီဆို ကျွန်တော်တို. terminal ကနေအောက်ပါ command လေးရိုက်ပြီး private instance ကိုတိုက်ရိုက် Login လုပ်လိုရပါပြီ။  
 
 ```text
 $ ssh private-instance 
