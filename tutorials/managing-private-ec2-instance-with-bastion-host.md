@@ -34,7 +34,13 @@ Bastion Host ဆိုတာ AWS ရဲ့ service တစ်ခုလားလ�
 
 အားလုံး steps တွေပြီးသွားရင် pem key တစ်ခု create ပြီး instance ကို စတင် run လို.ရပါပြီ 
 
+![](../.gitbook/assets/5.png)
+
 Pem Key Download ပြီးသွားတာနဲ့ Ec2 instance က private subnet မှာ running ဖြစ်နေတာကို မြင်တွေ.ရပါလိမ့်မယ်။ 
+
+![](../.gitbook/assets/6.png)
+
+![](../.gitbook/assets/7.png)
 
 ထိုနောက်ကျွန်တော်တို. bastion host ကို public subnet မှာဆောက်ပါမယ်။ amazon linux 2 နဲ့ပါပဲ။ 
 
