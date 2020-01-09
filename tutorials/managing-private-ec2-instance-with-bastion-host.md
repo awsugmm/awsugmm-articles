@@ -14,11 +14,11 @@ Bastion Host ဆိုတာ AWS ရဲ့ service တစ်ခုလားလ�
 
 ဒါဆို bastion host နဲ့ private subnet က ec2 instance တစ်လုံးကိုဘယ်လိုဝင်ပြီး manage လုပ်မလဲဆိုတာကြည့်ကြည့်ရအောင်။အောက်ကပုံလေးကနေ bastion host ရဲ့ overview diagram ကိုလေ့လာနိုင်ပါတယ်။ 
 
-![](../.gitbook/assets/1.png)
+![Photo reference - &quot;aws.amazon.com&quot;](../.gitbook/assets/1.png)
 
 ပုံမှာပြထားတဲ့အတင်းဆိုရင် bastion host ကို public subnet မှာထားပြီး user က private subnet က instance ကိုလှမ်း remote login ဝင်တာပါ။အဲ့ဒီမှာ ကျွန်တော်ပြောမှာက AWS မှာဆိုတော့ security group ကိုနည်းနည်း configure လုပ်ပေးရပါတယ်။အထူးသဖြင့် security တွက် ဆို ကျွန်တော် public subnet က  bastion instance ရဲ့ security group မှာ ကျွန်တော်လက်ရှိ public ip range ကိုပဲ SSH Allow လုပ်ပါမယ် ပြီးနောက် private subnet က instance ရဲ့ security group မှာကတော့ bastion host ရဲ့ security group ကိုပဲ SSH Allow ပေးမှာပါ။Security အရဆိုရင်တော့ private subnet မှာရှိတဲ့ instance ကို bastion host ကနေပဲ access လုပ်လို.ရမှာပါ။
 
-![](../.gitbook/assets/2.png)
+![Photo reference - &quot;aws.amazon.com&quot;](../.gitbook/assets/2.png)
 
 ဒါဆိုကျွန်တော်တို. AWS management console ကို login ဝင်ပြီး  Ec2 တစ်လုံးကို private subnet မှာ ဆောက်လိုက်ပါမယ်။ amazon linux 2 နဲ့ပါ။ 
 
