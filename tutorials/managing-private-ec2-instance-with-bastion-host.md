@@ -26,7 +26,11 @@ Bastion Host ဆိုတာ AWS ရဲ့ service တစ်ခုလားလ�
 ယခုပြထားသော public domain များ ip များသည် Demonstration ပြရန်သက်သက်သာရည်ရွယ်ပါသည်။ 
 {% endhint %}
 
+![](../.gitbook/assets/3.png)
+
 ထိုနောက်ကျွန်တော်တို. private instance ရဲ့ security group မှာ ssh allow ကို bastion host ရဲ့ security group id ကိုပဲပေးထားပါမယ်။ဆိုလိုတာက ssh ကို bastion host ကနေပဲ access လုပ်လို.ရမှာပါ။  
+
+![](../.gitbook/assets/4.png)
 
 အားလုံး steps တွေပြီးသွားရင် pem key တစ်ခု create ပြီး instance ကို စတင် run လို.ရပါပြီ 
 
