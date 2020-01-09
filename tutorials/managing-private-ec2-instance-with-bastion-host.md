@@ -7,14 +7,18 @@ description: Bastion Hosts on AWS Cloud
 ကျွန်တော်တို. AWS မှာ Infrastructure စဆောက်ရင် VPC ဆောက်ကြပီးတော့ public subnet တွေ private subnet တွေ စခွဲကြပါတယ်။ပြီးတော့ route table နဲ့ route တွေခွဲ ပြီးတော့ NAT gateway or NAT instance setup လုပ်ကြနဲ့စတင်လုပ်ကြရပါတယ်။ အဲ့မှာ ကျွန်တော်ဆို public subnet မှာ ဆို loadbalancer , NAT gateway or instance ထားပြီး  တကယ် run နေတဲ့ instance တွေ DB တွေဆိုတတ်နိုင်သလောက်  private subnet မှာ ထားပါတယ်။Security အရဆိုလည်း ကောင်းတာပေါ့။  
 ဥပမာ Web Server တစ်လုံးကို VPC Private Subnet မှာထားပြီး ALB or Classic Load Balancer  public subnet မှာထားပြီး run ဖြစ်ပါတယ်။ ဒါဆို user တွေက loadbalancer endpoint \(or\) AWS Route 53 DNS name နဲ့ လှမ်း Access  လုပ်လို.ရပါတယ်။နောက်ပြီး public subnet မှာရှိတဲ့ instance တွေဆို ssh or rdp နဲ့လှမ်းaccess လုပ်ဖို.အဆင်ပြေပေမဲ့ private subnet မှာရှိတဲ့ instance တွေဆိုလှမ်းaccess လုပ်ဖို.နည်းနည်းအခက်ခဲရှိလာပါတယ်။   
 ဒါဆို ဘယ်လိုအခြေနေမှာ Bastion Host လိုမလဲပေါ့ ။   
-အဲ့တာလေးမပြောခင် bastion Host ဘာလဲဆိုတော့ public subnet မှာ ရှိတဲ့ Ec2 instance ပါပဲ သူကဘာလုပ်ပေးလဲဆိုတော့ AWS VPC private subnet မှာရှိနေတဲ့ ကိုယ့်ရဲ့ အရေးကြီး server တွေကို ssh or rdp လှမ်းဝင်ပြီး manage လုပ်ဖို.ပါပဲ။ သာမန်အားဖြင့် private subnet က instance တွေက public ip မရှိပါဘူး ထို.ကြောင့် သူတို.ကို ကျွန်တော် တို. laptop ကနေ လှမ်း manage လုပ်ဖို. bastion host ကနေတဆင့်မှ jump 
+အဲ့တာလေးမပြောခင် bastion Host ဘာလဲဆိုတော့ public subnet မှာ ရှိတဲ့ Ec2 instance ပါပဲ သူကဘာလုပ်ပေးလဲဆိုတော့ AWS VPC private subnet မှာရှိနေတဲ့ ကိုယ့်ရဲ့ အရေးကြီး server တွေကို ssh or rdp လှမ်းဝင်ပြီး manage လုပ်ဖို.ပါပဲ။ သာမန်အားဖြင့် private subnet က instance တွေက public ip မရှိပါဘူး ထို.ကြောင့် သူတို.ကို ကျွန်တော် တို. laptop ကနေ လှမ်း manage လုပ်ဖို. bastion host ကနေတဆင့်မှ ဝင်ရောက်ပြုလုပ်ရပါတယ်။ 
 
 Bastion Host ဆိုတာ AWS ရဲ့ service တစ်ခုလားလို.မေးလာရင် မဟုတ်ပါဘူး အမှန်က သူသည် အဓိကအားဖြင့် linux ဆို  linux တစ်လုံးတာဖြစ်ပြီး SSH protocol ကို သုံးပြီး jump လုပ်ကာနောက်တစ်လုံးကို Login ဝင်ပြီး manage လုပ်တာပါ။Windows ဆိုလည်း ထိုနည်းအတူပဲ RDP နဲ့ jump လုပ်ကာ နောက်တစ်လုံးကို manage လုပ်တာပါပဲ။ ကျွန်တော်က ဒီ tutorial လေးမှာတော့ Linux instance တွေနဲ့လုပ်ပြမှာပါ။  
 ဒီနေရာမှာ မေးစရာရှိတာက ကျွန်တော် AWS သုံးတာ bastion host မသုံးပဲ private subnet က instance ကိုဝင်မရဘူးလား? ဒီလိုဆိုရင်တော့ ကျွန်တော်ရေးထားတဲ့ ဒီ [**`tutorial`**](https://blog.awsugmm.org/tutorials/using-aws-systems-manager-to-login-ec2-instance-without-ssh) လေးနဲ့လည်း အသုံးပြုနိုင်ပါတယ်။တခြားသော cloud provider တွေမှာလည်းဆိုင်ရာဆိုင်ရာတွေရှိနေမှာပါ။ 
 
 ဒါဆို bastion host နဲ့ private subnet က ec2 instance တစ်လုံးကိုဘယ်လိုဝင်ပြီး manage လုပ်မလဲဆိုတာကြည့်ကြည့်ရအောင်။အောက်ကပုံလေးကနေ bastion host ရဲ့ overview diagram ကိုလေ့လာနိုင်ပါတယ်။ 
 
+![](../.gitbook/assets/1.png)
+
 ပုံမှာပြထားတဲ့အတင်းဆိုရင် bastion host ကို public subnet မှာထားပြီး user က private subnet က instance ကိုလှမ်း remote login ဝင်တာပါ။အဲ့ဒီမှာ ကျွန်တော်ပြောမှာက AWS မှာဆိုတော့ security group ကိုနည်းနည်း configure လုပ်ပေးရပါတယ်။အထူးသဖြင့် security တွက် ဆို ကျွန်တော် public subnet က  bastion instance ရဲ့ security group မှာ ကျွန်တော်လက်ရှိ public ip range ကိုပဲ SSH Allow လုပ်ပါမယ် ပြီးနောက် private subnet က instance ရဲ့ security group မှာကတော့ bastion host ရဲ့ security group ကိုပဲ SSH Allow ပေးမှာပါ။Security အရဆိုရင်တော့ private subnet မှာရှိတဲ့ instance ကို bastion host ကနေပဲ access လုပ်လို.ရမှာပါ။
+
+![](../.gitbook/assets/2.png)
 
 ဒါဆိုကျွန်တော်တို. AWS management console ကို login ဝင်ပြီး  Ec2 တစ်လုံးကို private subnet မှာ ဆောက်လိုက်ပါမယ်။ amazon linux 2 နဲ့ပါ။ 
 
