@@ -4,6 +4,8 @@ description: CFP For AWS User Group Myanmar Events
 
 # Call for Meetup Speakers
 
+![AWS User Group Myanmar](.gitbook/assets/65467247_884595288552038_4707545582485372928_n.jpg)
+
 AWS User Group Myanmar welcomes proposals from members with topics worth sharing with the community.Our Meetups are volunteer-run with volunteer speakers focusing on AWS services and products.   
 Please submit your application to speak at our meetups and we shall get back to you.
 
