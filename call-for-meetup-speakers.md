@@ -7,7 +7,7 @@ description: CFP For Future AWS User Group Myanmar Events
 AWS User Group Myanmar welcomes proposals from members with topics worth sharing with the community.Our Meetups are volunteer-run with volunteer speakers focusing on AWS services and products.   
 Please submit your application to speak at our meetups and we shall get back to you.
 
-ကျွန်တော်တို. AWS User Group Myanmar ၏ကျင်းပမည့် Event များ Meetup များတွက် Contributor များကို အစဉ်တစိုက်လေးစားစွာ ဖိတ်ခေါ်  လျက်ရှိပါသည်။   
+ကျွန်တော်တို. AWS User Group Myanmar မှာကျင်းပမည့် Event နှင့် Meetup များတွက် Contributor များကို အစဉ်တစိုက်လေးစားစွာ ဖိတ်ခေါ်လျက်ရှိပါသည်။   
 ထို.ကြောင့် AWS User Group Myanmar က ကျင်းပမည့် ပွဲများတွင် AWS နဲ့ပတ်သက်သော အခြားသော cloud နည်းပညာများကို Knowledge Sharing လုပ်ချင်ပါက ကျွန်တော်တို.အောက်မှာဖော်ပြထားသော Link မှတဆင့် ဆက်သွယ်နိုင်ပါသည်။   
 
 
