@@ -28,7 +28,7 @@ Bastion Host ဆိုတာ AWS ရဲ့ service တစ်ခုလားလ�
 
 ![](../.gitbook/assets/3.png)
 
-ထိုနောက်ကျွန်တော်တို. private instance ရဲ့ security group မှာ ssh allow ကို bastion host ရဲ့ security group id ကိုပဲပေးထားပါမယ်။ဆိုလိုတာက ssh ကို bastion host ကနေပဲ access လုပ်လို.ရမှာပါ။  
+ထိုနောက်ကျွန်တော်တို. private instance ရဲ့ security group မှာ ssh allow ကို bastion host ရဲ့ security group id ကိုပဲပေးထားပါမယ်။ဆိုလိုတာက ssh ကို bastion host ကနေပဲ access လုပ်လို.ရမှာပါ။
 
 ![](../.gitbook/assets/4.png)
 
@@ -50,9 +50,15 @@ Pem Key Download ပြီးသွားတာနဲ့ Ec2 instance က privat
 
 ပြီးရင် private instance လိုပဲ security group မှာပြင်ပါမယ်။ Bastion host ရဲ့ security group မှာ ကျွန်တော် laptop ရဲ့ public ip ကိုပဲ specific allow ပေးပါမယ်။Bastion host ကို ကျွန်တော်တစ်ယောက်တည်းကပဲ ssh access ရအောင်လို.ပါ။ 
 
+![](../.gitbook/assets/10.png)
+
 ထုံးစံအတိုင်းနောက်ဆုံးမှာ pem key ကို download ချပါမယ်။ 
 
+![](../.gitbook/assets/11.png)
+
 နောက်ဆုံး အောက်ကပုံမှာပြထားတဲ့အတိုင်း Ec2 နှစ်လုံး running ဖြစ်နေပါလိမ့်မယ်။တစ်ခုက public subnet နောက်တစ်ခုက private subnet မှာ run နေပါလိမ့်မယ်။  
+
+![](../.gitbook/assets/12.png)
 
 အားလုံး ဆောက်ပြီးပါက ကျွန်တော်တို.စပြီး bastion host ကနေတဆင့် private subnet က instance ကို login ဝင်ကြည့်ရအောင်။ မဝင်ခင်ကျွန်တော်တို. ip တွေ ssh username တွေတစ်ချက်ကြည့်ကြည့်ရအောင်။ 
 
