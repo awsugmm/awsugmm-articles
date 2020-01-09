@@ -32,7 +32,7 @@ Bastion Host ဆိုတာ AWS ရဲ့ service တစ်ခုလားလ�
 
 ![](../.gitbook/assets/4.png)
 
-အားလုံး steps တွေပြီးသွားရင် pem key တစ်ခု create ပြီး instance ကို စတင် run လို.ရပါပြီ 
+အားလုံး steps တွေပြီးသွားရင် pem key တစ်ခု create ပြီး instance ကို စတင် run လို.ရပါပြီ။ 
 
 ![](../.gitbook/assets/5.png)
 
@@ -43,6 +43,10 @@ Pem Key Download ပြီးသွားတာနဲ့ Ec2 instance က privat
 ![](../.gitbook/assets/7.png)
 
 ထိုနောက်ကျွန်တော်တို. bastion host ကို public subnet မှာဆောက်ပါမယ်။ amazon linux 2 နဲ့ပါပဲ။ 
+
+![](../.gitbook/assets/8.png)
+
+![](../.gitbook/assets/9.png)
 
 ပြီးရင် private instance လိုပဲ security group မှာပြင်ပါမယ်။ Bastion host ရဲ့ security group မှာ ကျွန်တော် laptop ရဲ့ public ip ကိုပဲ specific allow ပေးပါမယ်။Bastion host ကို ကျွန်တော်တစ်ယောက်တည်းကပဲ ssh access ရအောင်လို.ပါ။ 
 
