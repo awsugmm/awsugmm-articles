@@ -20,6 +20,7 @@
 
 * [Gain free, hands-on experience with the AWS platform, products, and services](tutorials/gain-free-hands-on-experience-with-the-aws-platform-products-and-services.md)
 * [Using AWS Systems Manager to login EC2 instance without SSH](tutorials/using-aws-systems-manager-to-login-ec2-instance-without-ssh.md)
+* [Managing private EC2 instance with Bastion Host](tutorials/managing-private-ec2-instance-with-bastion-host.md)
 * [How to complete setup Kubernetes Cluster on AWS using Kops](tutorials/kops-on-aws.md)
 
 ## Internet of Things
