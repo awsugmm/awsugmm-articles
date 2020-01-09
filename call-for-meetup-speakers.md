@@ -1,5 +1,5 @@
 ---
-description: CFP For Future AWS User Group Myanmar Events
+description: CFP For AWS User Group Myanmar Events
 ---
 
 # Call for Meetup Speakers
