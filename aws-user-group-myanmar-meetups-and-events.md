@@ -4,6 +4,8 @@ description: AWSUGMM Events History
 
 # AWS User Group Myanmar Events History
 
+![](.gitbook/assets/highres_484143261.jpeg)
+
 ## AWS User Group Myanmar Meetup - 1 
 
 | Date | 23.6.2019 |
