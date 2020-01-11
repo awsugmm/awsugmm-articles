@@ -2,7 +2,7 @@
 description: AWSUGMM Events History
 ---
 
-# AWS User Group Myanmar Meetups and Events
+# AWS User Group Myanmar Events History
 
 ## AWS User Group Myanmar Meetup - 1 
 
