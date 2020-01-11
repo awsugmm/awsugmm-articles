@@ -56,7 +56,7 @@ Pem Key Download ပြီးသွားတာနဲ့ Ec2 instance က privat
 
 ![](../.gitbook/assets/11.png)
 
-နောက်ဆုံး အောက်ကပုံမှာပြထားတဲ့အတိုင်း E2 နှစ်လုံး running ဖြစ်နေပါလိမ့်မယ်။တစ်ခုက public subnet နောက်တစ်ခုက private subnet မှာ run နေပါလိမ့်မယ်။  
+နောက်ဆုံး အောက်ကပုံမှာပြထားတဲ့အတိုင်း EC2 နှစ်လုံး running ဖြစ်နေပါလိမ့်မယ်။တစ်ခုက public subnet နောက်တစ်ခုက private subnet မှာ run နေပါလိမ့်မယ်။  
 
 ![](../.gitbook/assets/12.png)
 
