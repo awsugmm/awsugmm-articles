@@ -3,6 +3,7 @@
 * [AWS User Group Myanmar](README.md)
 * [FAQ](faq.md)
 * [Call for Meetup Speakers](call-for-meetup-speakers.md)
+* [AWS User Group Myanmar Meetups and Events](aws-user-group-myanmar-meetups-and-events.md)
 
 ## Fundamental
 
