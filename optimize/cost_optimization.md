@@ -11,5 +11,11 @@
 
 2. ပြီးတော့ ကိုယ်သုံးထားတဲ့ service တွေရဲ့ pricing ကိုသေချာသိရပါမယ် ၊ ဒီမှာဘာပြသနာရှိလဲဆိုတော့ AWS က သူရဲ့ Region အလိုက် Service Pricing တွေက အများကြီးရှိတဲ့ အတွက်အကုန်တော့ ထည့်မပြောနိုင်တော့ပါဘူး။  ဥပမာအနေနဲ့ မြင်သာအောင်ပြောရမယ်ဆိုရင် North Virginia \( us-east-1 \) မှာ ရှိတဲ့ EC2 Pricing နဲ့ Singapore \( ap-southeast-1 \) မှာရှိတဲ့ EC2 Pricing က မတူပါဘူး။ 
 
+![US East \( N. Virginia\) EC2 t3.medium price per hour](../.gitbook/assets/screenshot-from-2020-01-14-00-14-14.png)
+
+![Asia Pacific  \( Singapore \) EC2 t3.medium price per hour](../.gitbook/assets/screenshot-from-2020-01-14-00-14-47.png)
+
+ဒီပုံမှာကြည့်မယ်ဆိုရင် US East \( N. Virginia\) EC2 t3.medium price per hour က **$​0.0416** ပဲကျသင့်မှာဖြစ်ပြီးတော့ Asia Pacific \( Singapore \) EC2 t3.medium price per hour က **$0.0528** ကျသင့်မှာပါ။  
+
 
 
