@@ -15,7 +15,10 @@
 
 ![Asia Pacific  \( Singapore \) EC2 t3.medium price per hour](../.gitbook/assets/screenshot-from-2020-01-14-00-14-47.png)
 
-ဒီပုံမှာကြည့်မယ်ဆိုရင် US East \( N. Virginia\) EC2 t3.medium price per hour က **$​0.0416** ပဲကျသင့်မှာဖြစ်ပြီးတော့ Asia Pacific \( Singapore \) EC2 t3.medium price per hour က **$0.0528** ကျသင့်မှာပါ။  
+ဒီပုံမှာကြည့်မယ်ဆိုရင် US East \( N. Virginia\) EC2 t3.medium price per hour က **$​0.0416** ပဲကျသင့်မှာဖြစ်ပြီးတော့ Asia Pacific \( Singapore \) EC2 t3.medium price per hour က **$0.0528** ကျသင့်မှာပါ။  တစ်ခြားသော Instance Type တွေလည်း ထိုနည်းလည်းကောင်းပါပဲ။ US East \( N. Virginia \) ကပိုသက်သာပါတယ်။ ဆိုလိုတာကတော့ ကျွန်တော်တို့တွေအနေနဲ့ ကိုယ်ရဲ့ company requirement  အရ Region အလိုက်စျေးနှုန်းတွေကို အကြမ်းဖျင်နားလည်ထားရပါမယ်။ ဒါဆိုဘာလို့ US East \( N. Virginia \) ကပိုသက်သာတာလဲဆိုရင် AWS ရဲ့ Default Region ဖြစ်တာလည်း တစ်ကြောင်း၊ များပြားတဲ့ Customer တွေကို Service ပေးနိုင်ဖို့ Resource များများရှိတာရယ်၊ Physical Datacenter တွေအတွက် လိုအပ်တဲ့ Electrical Power ရပုံခြင်းမတူတာရယ် နိုင်ငံရဲ့ Tax rule ဘာညာအနေအထားတွေ မတူညီတာရယ်ကြောင့်လို့ ယေဘုယျ ဆိုနိုင်ပါတယ်။
+
+* 
+
 
 
 
