@@ -28,3 +28,11 @@
 
 * [IoT Rules Engine](internet-of-things/iot-rules-engine.md)
 
+## Storage
+
+* [Cloud Object Storage \(aka\) Amazon Simple storage service \(S3\)](storage/cloud-object-storage-aka-amazon-simple-storage-service-s3.md)
+
+## Optimize
+
+* [Cost Optimization on AWS Cloud](optimize/cost_optimization.md)
+
