@@ -39,7 +39,7 @@ description: Overview of AWS Services' Pricing and Cost Optimization
 Under Utilized  ဖြစ်နေတဲ့ Resource တွေကို ကြည့်ဖို့ [**AWS Trusted Advisor**](https://aws.amazon.com/premiumsupport/trustedadvisor/) နဲ့ Cost တွေရဲ့ Data Metric တွေကြည့်ဖို့ [**AWS Cost Explorer**](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) ရှိပါတယ်။
 {% endhint %}
 
-အကောင်းဆုံးက တော့ Tools တွေ အကူအညီ နဲ့ Monitoring က ရတဲ့ Metric Data တွေကို ကြည့်ပြီး ကိုယ်နဲ့ အကိုက်ညီဆုံးဖြစ်အောင် ကိုယ့် Organization နဲ့ Fit in ဖြစ်မဲ့ Cost Optimization  
+အကောင်းဆုံးက တော့ Tools တွေ အကူအညီ နဲ့ Monitoring က ရတဲ့ Metric Data တွေကို ကြည့်ပြီး ကိုယ်နဲ့ အကိုက်ညီဆုံးဖြစ်အောင် ကိုယ့် Organization နဲ့ Fit in ဖြစ်မဲ့ Cost Optimization 
 
 ### Right Sizing
 
