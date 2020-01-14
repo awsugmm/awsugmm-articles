@@ -61,7 +61,7 @@ Lastest Generation Resource ဆိုတာကတော့ AWS ရဲ့ EC2, RD
 
 ![Previous Generation vs Lastest Generation Cost Comparison](../.gitbook/assets/screenshot-from-2020-01-14-15-08-56.png)
 
-M4 vs M5 , C4 vs C5 , T2 vs T3 ကိုကြည့်မယ်ဆိုရင် Lastest Generation ကိုသုံးခြင်းဖြင့်  Cost 
+M4 vs M5 , C4 vs C5 , T2 vs T3 ကိုကြည့်မယ်ဆိုရင် Lastest Generation ကိုသုံးခြင်းဖြင့် Cost and Performance Advantage ရမှာပါ။ 
 
 
 
