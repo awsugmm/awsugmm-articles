@@ -6,6 +6,8 @@ description: Overview of AWS Services' Pricing and Cost Optimization
 
 ဒီနေ့မှာတော့ကျွန်တော်တို့ Amazon Web Services အသုံးပြုနေကြတဲ့သူတွေအတွက် အသုံးဝင်လောက်မဲ့ articleလေး တစ်ခုကိုရေးပေးချင်ပါတယ်။ ကျွန်တော်တို့ ရုံးတွေ Organizationတွေ မှာ AWS သုံးကြတယ် Costတွေ ကလည်း တော်တော်လေးကုန် ကျနေတယ် ဘာတွေကကုန်နေမှန်းလည်း မသိဘူး Billing Console မှာတော့ပြနေတယ် ဘာတွေအတွက်ကဘယ်လောက် ဘယ်လောက်ကုန်နေတယ် ဒါပေမယ့် သူတို့ဘယ်လိုဘယ်လိုတွက်လိုက်လဲ မသိဘူးဖြစ်နေတယ်ဆိုရင် ၊ Cost တွေ ကအဆမတန်ကုန်ကျနေတယ်ဆိုရင်  အခု article လေး က သင့်အတွက် လက်ရှိကုန်ကျနေတဲ့ Cost တွေရဲ့ တွက်ချက်ပုံ အကြမ်းဖျင်းနဲ့ Optimization သဘောတရား များကို အနည်းနဲ့အများ နားလည် သဘောပေါက်ပြီး အထောက်အကူပြုလိမ့်မယ်လို့ ယုံကြည်ပါတယ်။ ဟုတ်ပြီ အဲ့တော့ စလိုက်ကြရအောင်။
 
+### Foundation of Cost Optimization
+
 ကျွန်တော်တို့ အနေနဲ့ ဘယ်လိုစလုပ်မလဲ
 
 * အရင်ဆုံးကိုယ်က AWS ရဲ့ ဘယ် service တွေကို သုံးထားလဲသိရပါမယ်   
@@ -34,12 +36,16 @@ description: Overview of AWS Services' Pricing and Cost Optimization
 * နောက်တစ်ခုကတော့ AWS က သူရဲ့ Ecosystem ထဲမှာ အသုံးပြုဖို့ ထုတ်ပေးထားတဲ့ Tools တွေကို အသုံးပြုပြီး ဘယ် Resource တွေက Utilization တွေနည်းလည်းဆိုတာတွေကို ကြည့်ပြီး Cost Optimize လုပ်ရပါမယ်။ 
 
 {% hint style="info" %}
- ဖြစ်နေတဲ့ Resource တွေကို ကြည့်ဖို့ [**AWS Trusted Advisor**](https://aws.amazon.com/premiumsupport/trustedadvisor/) ****
+Under Utilized  ဖြစ်နေတဲ့ Resource တွေကို ကြည့်ဖို့ [**AWS Trusted Advisor**](https://aws.amazon.com/premiumsupport/trustedadvisor/) နဲ့ Cost တွေရဲ့ Data Metric တွေကြည့်ဖို့ [**AWS Cost Explorer**](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) ရှိပါတယ်။
 {% endhint %}
 
 အကောင်းဆုံးက တော့ Tools တွေ အကူအညီ နဲ့ Monitoring က ရတဲ့ Metric Data တွေကို ကြည့်ပြီး ကိုယ်နဲ့ အကိုက်ညီဆုံးဖြစ်အောင် ကိုယ့် Organization နဲ့ Fit in ဖြစ်မဲ့ Cost Optimization  
 
-## Right Sizing 
+### Right Sizing
+
+Right Sizing ဆိုတာက တော့ ကိုယ်တော့ တို့ အနေနဲ့ ကိုယ့် ရဲ့ Infrastructure နဲ့ Application workloads တွေကို သေချာသိပြီဆိုရင်တော့  ဘယ် Instance တွေကတော့ Under Utilized ဖြစ်နေလဲ Over Provision ဖြစ်နေလဲဆိုတာကို ခွဲခြမ်းစိတ်ဖြာပြီး ရှိသင့် ရှိထိုက် ဖြစ်သင့် ဖြစ်ထိုက် သုံးသင့် သုံးထိုက် တဲ့ Resource တွေကို သေချာရွေးချယ်လို့ ရပါပြီ။  
+
+###  
 
 \*\*\*\*
 
