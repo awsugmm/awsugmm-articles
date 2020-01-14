@@ -65,7 +65,7 @@ M4 vs M5 , C4 vs C5 , T2 vs T3 ကိုကြည့်မယ်ဆိုရင�
 
 ![Right Sizing Example](../.gitbook/assets/81965407_3008857425830215_291821853574430720_n.jpg)
 
-ဒီအပေါ်က ပုံကတော့ စာရေးသူလက်ရှိလုပ်ကိုင် နေတဲ့  Company မှာ Cloud Team နဲ့ Software Architect Team တို့ အတူတကွ တိုင်ပင်ပြီး Cost Optimize လုပ်ထားတဲ့ 
+ဒီအပေါ်က ပုံကတော့ စာရေးသူလက်ရှိလုပ်ကိုင် နေတဲ့  Company မှာ Cloud Team နဲ့ Software Architect Team, Development Team တို့ အတူတကွ တိုင်ပင်ပြီး Cost Optimize လုပ်ထားတဲ့ ပုံပဲဖြစ်ပါတယ်။ 
 
 ဒီလောက်ဆိုရင်တော့ AWS Cloud မှာ Cost Calculation , Billing အကြောင်းနဲ့ Cost Optimization အကြောင်းကို အနည်းနဲ့ အများနားလည်မယ်လို့ ယုံကြည်ပါတယ်။ Cost Optimization နဲ့ ပတ်သက်ပြီး နောက်ထပ် Article တွေဆက်ရေးသွားဖို့ရှိလို့ ဆက်လက်အားပေးကြပါဦး ခင်ဗျာ :D  
 
