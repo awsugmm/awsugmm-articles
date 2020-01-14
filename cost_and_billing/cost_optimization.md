@@ -53,6 +53,8 @@ Last Generation Resource ဆိုတာကတော့ AWS ရဲ့ EC2, RDS, 
 
 ![Last Generation General Instance](../.gitbook/assets/screenshot-from-2020-01-14-14-48-41.png)
 
+အပေါ်က ပုံ ၂ ပုံမှာတော့ Previous Generation General Instance \( M4 \) နဲ့ Last Generation General Instance \( M5 \) Performance ကွာခြားပုံလေးကိုပြထားတာဖြစ်ပါတယ်။ 
+
 ###  
 
 \*\*\*\*
