@@ -32,7 +32,7 @@
 
 * [Cloud Object Storage \(aka\) Amazon Simple storage service \(S3\)](storage/cloud-object-storage-aka-amazon-simple-storage-service-s3.md)
 
-## Optimize
+## Cost and Billing <a id="cost_and_billing"></a>
 
-* [Cost Optimization on AWS Cloud](optimize/cost_optimization.md)
+* [Cost Optimization on AWS Cloud](cost_and_billing/cost_optimization.md)
 
