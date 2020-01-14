@@ -51,17 +51,17 @@ Lastest Generation Resource ဆိုတာကတော့ AWS ရဲ့ EC2, RD
 
 ![Previous Generation General Instance ](../.gitbook/assets/screenshot-from-2020-01-14-14-47-57.png)
 
-![Lastest Generation General Instance](../.gitbook/assets/screenshot-from-2020-01-14-14-48-41.png)
+![Latest Generation General Instance](../.gitbook/assets/screenshot-from-2020-01-14-14-48-41.png)
 
-အပေါ်က ပုံ ၂ ပုံမှာတော့ Previous Generation General Instance \( M4 \) နဲ့ Lastest Generation General Instance \( M5 \) Performance ကွာခြားပုံလေးကိုပြထားတာဖြစ်ပါတယ်။ Last Generation မှာ ဘာတွေ Advantage ရလဲဆိုရင် သိသိသာသာဖြစ်တာက Underlying CPU Generation , Network Bandwidth \( Gbps \) နဲ့ EBS Bandwidth \( Mbps \) တို့ပဲဖြစ်ပါတယ်။ ဒါကတော့ Performance Advantage ပါ။ 
+အပေါ်က ပုံ ၂ ပုံမှာတော့ Previous Generation General Instance \( M4 \) နဲ့ Lastest Generation General Instance \( M5 \) Performance ကွာခြားပုံလေးကိုပြထားတာဖြစ်ပါတယ်။ Latest Generation မှာ ဘာတွေ Advantage ရလဲဆိုရင် သိသိသာသာဖြစ်တာက Underlying CPU Generation , Network Bandwidth \( Gbps \) နဲ့ EBS Bandwidth \( Mbps \) တို့ပဲဖြစ်ပါတယ်။ ဒါကတော့ Performance Advantage ပါ။ 
 
-နောက်တစ်ခုက Last Generation Instance တွေရဲ့ Cost Advantage ပါ။ 
+နောက်တစ်ခုက Latest Generation Instance တွေရဲ့ Cost Advantage ပါ။ 
 
 ![M4 vs M5 Cost Comparison](../.gitbook/assets/screenshot-from-2020-01-14-15-06-20.png)
 
-![Previous Generation vs Lastest Generation Cost Comparison](../.gitbook/assets/screenshot-from-2020-01-14-15-08-56.png)
+![Previous Generation vs Latest Generation Cost Comparison](../.gitbook/assets/screenshot-from-2020-01-14-15-08-56.png)
 
-M4 vs M5 , C4 vs C5 , T2 vs T3 ကိုကြည့်မယ်ဆိုရင် Lastest Generation ကိုသုံးခြင်းဖြင့် Cost and Performance Advantage ရမှာပါ။ 
+M4 vs M5 , C4 vs C5 , T2 vs T3 ကိုကြည့်မယ်ဆိုရင် Latest Generation ကိုသုံးခြင်းဖြင့် Cost and Performance Advantage ရမှာပါ။ အချုပ်ကိုပြောရမယ်ဆိုရင်တော့ Right Sizing လုပ်တဲ့ အခါ ဒီလိုအချက်တွေထည့်သွင်းစဉ်းစားဖို့လိုပြီး Cost and Performance 
 
 
 
