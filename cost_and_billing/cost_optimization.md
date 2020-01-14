@@ -47,7 +47,7 @@ Under Utilized  ဖြစ်နေတဲ့ Resource တွေကို ကြ�
 
 Right Sizing ဆိုတာက တော့ ကိုယ်တော့ တို့ အနေနဲ့ ကိုယ့် ရဲ့ Infrastructure နဲ့ Application workloads တွေကို သေချာသိပြီဆိုရင်တော့  ဘယ် Instance တွေကတော့ Under Utilized ဖြစ်နေလဲ Over Provision ဖြစ်နေလဲဆိုတာကို ခွဲခြမ်းစိတ်ဖြာပြီး ရှိသင့် ရှိထိုက် ဖြစ်သင့် ဖြစ်ထိုက် သုံးသင့် သုံးထိုက် တဲ့ Resource တွေကို သေချာရွေးချယ်လို့ပြောရပါမယ်။ ဆိုလိုတာက ဥပမာ Monitoring Metric တွေအရ CPU 2vCore RAM 4GB ပဲလိုတဲ့ Peak Hour တွေမှ အများဆုံးအဲသည်လောက်ပဲသုံးတဲ့ Application တင် run  Instance  Sizeကို ကျွန်တော်တို့က CPU 4vCore RAM 8GB ပေးထားမိတယ်ဆိုရင် ကျွန်တော်တို့က Over Provision ဖြစ်နေတယ်ဆိုတာသေချာပါပြီ။ အဲ့သည် Instance အတွက် Right Sizing ကိုမဖြစ်မနေလုပ်သင့်ပါပြီ။  Right Sizing ကျွန်တော်တို့က  ပြုလုပ်ရာမှာလည်း Cost and Performance Trade-offs လေး တွေကိုလည်း သတိထားသင့်ပါတယ်။ Optimization လုပ်လိုက်လို့ Cost နည်းသွားပြီး Performance ကျသွားလို့ မရပါဘူး။ မရပါဘူးဆိုတာထပ် အဆင်မပြေတာပါ။ Performance ကျရင် Business Impact တွေ ရှိလာနိုင်ပါတယ်။ Infrastructure Price and Performance Trade-offs အတွက်လည်း AWS မှာဆိုရင် ကျွန်တော်တို့အနေနဲ့ Next Generation Resource တွေကို ရွေးချယ်အသုံးပြုခြင်းဖြင့် Cost လည်းအကုန်အကျသက်သာ Performance လည်းမထိခိုက် \( တစ်ချို့ Resource တွေဆိုရင် Cost သက်သာပြီး Performance သိသိသာသာတိုးလာတာမျိုး \)  စေတဲ့ အတွက် တော်တော်လေးကိုအဆင်ပြေပါတယ်။ 
 
-Lastest Generation Resource ဆိုတာကတော့ AWS ရဲ့ EC2, RDS, ElastiCache, ElasticSearch မှာသုံးထားတဲ့ Underlying Hardware Resource တွေရဲ့ Generation ကိုဆိုလိုတာပါ။ ကျွန်တော်တို့ အနေနဲ့ Last Generation Resource တွေကနေ Price to performance ကို advantage ယူလို့ရပါတယ်။  
+Latest Generation Resource ဆိုတာကတော့ AWS ရဲ့ EC2, RDS, ElastiCache, ElasticSearch မှာသုံးထားတဲ့ Underlying Hardware Resource တွေရဲ့ Generation ကိုဆိုလိုတာပါ။ ကျွန်တော်တို့ အနေနဲ့ Last Generation Resource တွေကနေ Price to performance ကို advantage ယူလို့ရပါတယ်။  
 
 ![Previous Generation General Instance ](../.gitbook/assets/screenshot-from-2020-01-14-14-47-57.png)
 
@@ -55,15 +55,25 @@ Lastest Generation Resource ဆိုတာကတော့ AWS ရဲ့ EC2, RD
 
 အပေါ်က ပုံ ၂ ပုံမှာတော့ Previous Generation General Instance \( M4 \) နဲ့ Lastest Generation General Instance \( M5 \) Performance ကွာခြားပုံလေးကိုပြထားတာဖြစ်ပါတယ်။ Latest Generation မှာ ဘာတွေ Advantage ရလဲဆိုရင် သိသိသာသာဖြစ်တာက Underlying CPU Generation , Network Bandwidth \( Gbps \) နဲ့ EBS Bandwidth \( Mbps \) တို့ပဲဖြစ်ပါတယ်။ ဒါကတော့ Performance Advantage ပါ။ 
 
-နောက်တစ်ခုက Latest Generation Instance တွေရဲ့ Cost Advantage ပါ။ 
+နောက်တစ်ခုက Latest Generation Instance တွေရဲ့ **Cost Advantage** ပါ။ 
 
 ![M4 vs M5 Cost Comparison](../.gitbook/assets/screenshot-from-2020-01-14-15-06-20.png)
 
 ![Previous Generation vs Latest Generation Cost Comparison](../.gitbook/assets/screenshot-from-2020-01-14-15-08-56.png)
 
-M4 vs M5 , C4 vs C5 , T2 vs T3 ကိုကြည့်မယ်ဆိုရင် Latest Generation ကိုသုံးခြင်းဖြင့် Cost and Performance Advantage ရမှာပါ။ အချုပ်ကိုပြောရမယ်ဆိုရင်တော့ Right Sizing လုပ်တဲ့ အခါ ဒီလိုအချက်တွေထည့်သွင်းစဉ်းစားဖို့လိုပြီး Cost and Performance 
+M4 vs M5 , C4 vs C5 , T2 vs T3 ကိုကြည့်မယ်ဆိုရင် Latest Generation ကိုသုံးခြင်းဖြင့် Cost and Performance Advantage ရမှာပါ။ အချုပ်ကိုပြောရမယ်ဆိုရင်တော့ Right Sizing လုပ်တဲ့ အခါ ဒီလိုအချက်တွေထည့်သွင်းစဉ်းစားဖို့လိုပြီး Cost and Performance Advantage ကိုယူကာ Over Provision နဲ့ Under Provision ဖြစ်နေတဲ့ Resource တွေကို Optimize ပြုလုပ်နိုင်မှာပဲဖြစ်ပါတယ်။ 
 
+![Right Sizing Example](../.gitbook/assets/81965407_3008857425830215_291821853574430720_n.jpg)
 
+ဒီအပေါ်က ပုံကတော့ စာရေးသူလက်ရှိလုပ်နေတဲ့ Company မှာ Cloud Team နဲ့ Software Architect Team တို့ အတူတကွ တိုင်ပင်ပြီး Cost Optimize လုပ်ထားတဲ့ 
+
+ဒီလောက်ဆိုရင်တော့ AWS Cloud မှာ Cost Calculation , Billing အကြောင်းနဲ့ Cost Optimization အကြောင်းကို အနည်းနဲ့ အများနားလည်မယ်လို့ ယုံကြည်ပါတယ်။ Cost Optimization နဲ့ ပတ်သက်ပြီး နောက်ထပ် Article တွေဆက်ရေးသွားဖို့ရှိလို့ ဆက်လက်အားပေးကြပါဦး ခင်ဗျာ :D  
+
+ဆက်လက်ကြိုးစားပါဦးမည်
+
+လေးစားစွာဖြင့်
+
+\*\*\*\*[**AWS User Group Myanmar**](https://www.facebook.com/awsugmm/)  
 
 ###  
 
