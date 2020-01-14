@@ -34,5 +34,5 @@
 
 ## Cost and Billing <a id="cost_and_billing"></a>
 
-* [Cost Optimization on AWS Cloud](cost_and_billing/cost_optimization.md)
+* [Cost Optimization on AWS Cloud - Part 1](cost_and_billing/cost_optimization.md)
 
