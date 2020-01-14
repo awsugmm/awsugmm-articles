@@ -55,6 +55,14 @@ Last Generation Resource ဆိုတာကတော့ AWS ရဲ့ EC2, RDS, 
 
 အပေါ်က ပုံ ၂ ပုံမှာတော့ Previous Generation General Instance \( M4 \) နဲ့ Last Generation General Instance \( M5 \) Performance ကွာခြားပုံလေးကိုပြထားတာဖြစ်ပါတယ်။ Last Generation မှာ ဘာတွေ Advantage ရလဲဆိုရင် သိသိသာသာဖြစ်တာက Underlying CPU Generation , Network Bandwidth \( Gbps \) နဲ့ EBS Bandwidth \( Mbps \) တို့ပဲဖြစ်ပါတယ်။ ဒါကတော့ Performance Advantage ပါ။ 
 
+နောက်တစ်ခုက Last Generation Instance တွေရဲ့ Cost Advantage ပါ။ 
+
+![M4 vs M5 Cost Comparison](../.gitbook/assets/screenshot-from-2020-01-14-15-06-20.png)
+
+![Previous Generation vs Last Generation Cost Comparison](../.gitbook/assets/screenshot-from-2020-01-14-15-08-56.png)
+
+
+
 
 
 ###  
