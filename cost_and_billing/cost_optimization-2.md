@@ -28,7 +28,22 @@ AWS မှာ Right Sizing လုပ်မယ်ဆိုရင်တော့ �
 
 #### Reserved Instance
 
-နောက်ထပ် Cost Optimize လုပ်နိုင်မဲ့ အချက်ကတော့ Reserved လုပ်ခြင်းပါ။ ဥပမာ ကျွန်တော်တို့ Gym မှာပိုက်ဆံပေးပြီးသွားဆော့သလိုပဲ တစ်နေ.ဆော့ရင် \( On-Demand \) ဆိုရင် စျေးတစ်မျိုး ၁နှစ်စာကြိုပေးပြီးဆော့မယ်ဆိုရင်စျေးတစ်မျိုး \(  AllUpFront \) ၁ နှစ်တော့ဆော့မယ် တစ်လချင်တစ်မျိုး \( NoUpfront \) ၁နှစ်တော့ ဆော့မယ် ၆လတစ်ဖြတ်ပေးမယ် \( PartialUpFront \) ဆိုတဲ့ သဘောတရားပါပဲ။ ဆိုလိုတာက ကိုယ့်ရဲ့ Infra အနေအထား မြွေဖားက ပြောင်းဖို့မရှိဘူး ဒါမှမဟုတ် တစ်နှစ်အတွင်းဒီ ဟာကို အပြီပြင်သုံးမယ်ဆို Reserved Instance က On Demand ထက်ပို စျေးသက်သာပါတယ်။ 
+နောက်ထပ် Cost Optimize လုပ်နိုင်မဲ့ အချက်ကတော့ Reserved လုပ်ခြင်းပါ။ ဥပမာ ကျွန်တော်တို့ Gym မှာပိုက်ဆံပေးပြီးသွားဆော့သလိုပဲ တစ်နေ.ဆော့ရင် \( On-Demand \) ဆိုရင် စျေးတစ်မျိုး ၁နှစ်စာကြိုပေးပြီးဆော့မယ်ဆိုရင်စျေးတစ်မျိုး \(  AllUpFront \) ၁ နှစ်တော့ဆော့မယ် တစ်လချင်တစ်မျိုး \( NoUpfront \) ၁နှစ်တော့ ဆော့မယ် ၆လတစ်ဖြတ်ပေးမယ် \( PartialUpFront \) ဆိုတဲ့ သဘောတရားပါပဲ။ ဆိုလိုတာက ကိုယ့်ရဲ့ Infra အနေအထား မြွေဖားက ပြောင်းဖို့မရှိဘူး ဒါမှမဟုတ် တစ်နှစ်အတွင်းဒီ ဟာကို အပြီပြင်သုံးမယ်ဆို Reserved Instance က On Demand ထက်ပို စျေးသက်သာပါတယ်။ ဆိုတော့ Compute Ec2 Reserved သုံးတော့မယ်ဆို သိသင့်တာလေးတစ်ခုက သူရဲ့ အမျိုးအစားလေးပါပဲ ဘာတွေလဲဆိုတော့ 
+
+1. Standard 
+2. Convertible 
+
+တွေပဲဖြစ်ပါတယ်။ အဲ့ထဲမှာ Standard က  Convertible ထက်ပိုပြီးစျေးကိုသက်သာစေပါတယ်။ အဲ့နှစ်မျိုးဘာတွေကွာလဲ ဆို တော့ Standard က သာမန် တစ်နှစ် သုံးနှစ် Reserved လုပ်လိုက်ပြီဆိုရင် သူက Region or AZ ပြောင်းလိုတော့ရပါတယ် နောက်ပြီး Instance Flexible ရတယ်ဆို တော့ Same Instance Family က Size အတိုးလျော့လုပ်လို.ရပါတယ် ဒါပေမဲ့ Instance Family တော့ပြောင်းမရပါဘူး ဆိုလိုတာ က T series standard reserved ကို တစ်နှစ်ဝယ်ထားရင်  M series ကို ပြောင်းမရပါဘူးဒါလေးက Standard Reserved ရဲ့ Limitation လေးပေါ့။Convertible ဆိုရင်တော့ Standard ထက်နည်းနည်းလေးပိုစျေးပေးရမယ် ဒါပေမဲ့ သူက convertible ဆိုတဲ့အတိုင်း Instance Size or Family လေးတွေပြောင်းလို.ရတယ်။ အကျယ်တဝန့် ကိုလည်း သူရဲ့ Official Documentation မှာဝင်ရောက်ဖတ်လို.ရပါတယ်။ ဒါဆို reserved instance ကို ယေဘူယျ တော့ သဘောပေါက်လောက်ပြီထင်ပါတယ်။ 
+
+{% hint style="success" %}
+[https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/reserved-instances-types.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/reserved-instances-types.html)
+{% endhint %}
+
+{% hint style="success" %}
+[https://aws.amazon.com/blogs/aws/new-instance-size-flexibility-for-ec2-reserved-instances/](https://aws.amazon.com/blogs/aws/new-instance-size-flexibility-for-ec2-reserved-instances/)
+{% endhint %}
+
+
 
 
 
