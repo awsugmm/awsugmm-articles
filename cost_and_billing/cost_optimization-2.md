@@ -16,7 +16,7 @@ AWS မှာ Right Sizing လုပ်မယ်ဆိုရင်တော့ �
 
 ![AWS Cost Explorer](../.gitbook/assets/screenshot-from-2020-01-27-16-59-31.png)
 
-* နောက်ထပ်တစ်ခုကတော့ AWS Trusted Advisor ပါ။ **သူကတော့ ကိုယ့် AWS account ရဲ့ Support Plan ပေါ်မူတည်ပြီး သုံးလို့ရတဲ့ Features တွေတော့ ကွာခြားချက်ရှိပါတယ်။** ကိုယ်တော်တို့ ကတော့ Business Plan ယူထားတဲ့ အတွက် Feature အစုံသုံးလို့ရနေပါတယ်။ Trusted Advisor ထဲက Cost Optimization Checks ဆိုတဲ့ feature ရဲ့ အကူအညီနဲ့လည်း Low utilization EC2 Instance တွေ Idle ဖြစ်နေတဲ့ RDS Instance တွေ မသုံးပဲ ထားမိနေတဲ့ Resources တွေကို ပြပေးပါတယ်။ 
+* နောက်ထပ်တစ်ခုကတော့ AWS Trusted Advisor ပါ။ **သူကတော့ ကိုယ့် AWS account ရဲ့ Support Plan ပေါ်မူတည်ပြီး သုံးလို့ရတဲ့ Features တွေတော့ ကွာခြားချက်ရှိပါတယ်။** ကိုယ်တော်တို့ ကတော့ Business Plan ယူထားတဲ့ အတွက် Feature အစုံသုံးလို့ရနေပါတယ်။ Trusted Advisor ထဲက Cost Optimization Checks ဆိုတဲ့ feature ရဲ့ အကူအညီနဲ့လည်း Low utilization EC2 Instance တွေ Idle ဖြစ်နေတဲ့ RDS Instance တွေ မသုံးပဲ ထားမိနေတဲ့ Resources တွေကို ပြပေးပါတယ်။ အဲ့သည်လိုပြပေးတဲ့ အတွက်ကျွန်တော်တို့က ဘယ် resource တွေကကိုယ်တစ်ကယ်မသုံးပဲ ပိုက်ဆံကုန်နေသလဲ ဆိုတာကို မြန်မြန်ဆန်ဆန်သိနိုင်တာပေါ့ဗျာ။ 
 
 ![AWS Trusted Advisor](../.gitbook/assets/screenshot-from-2020-01-27-17-10-47.png)
 
