@@ -20,7 +20,7 @@ AWS မှာ Right Sizing လုပ်မယ်ဆိုရင်တော့ �
 
 ![AWS Trusted Advisor](../.gitbook/assets/screenshot-from-2020-01-27-17-10-47.png)
 
-* နောက်ထပ်တစ်ခုကတော့ AWS Compute Optimizer ဆိုတဲ့ Tools လေးပါ။ သူကတော့ AWS ရဲ့ Service တစ်ခုအနေနဲ့ဖြစ်လာတာတော့ မကြာသေးပါဘူး။ ဒါပေ့မယ် တော်တော်လေးအသုံးဝင်တဲ့ Tool တစ်ခုပါ။ Compute Optimizer ဆိုတဲ့ အတိုင်းပဲ လက်ရှိမှာတော့ Compute Resource တွေထဲကမှာ AWS EC2 Instance နဲ့ Autoscaling Group တွေအတွက်ပဲ အသုံးပြုလို့ရနိုင်ပါသေးတယ်။ နောက်ထပ်တစ်ခုက အခုအချိန်မှာတော့ AWS Region ၅ ခုမှာပဲ အသုံးပြုနိုင်ပါသေးတယ်။ 
+* နောက်ထပ်တစ်ခုကတော့ AWS Compute Optimizer ဆိုတဲ့ Tools လေးပါ။ သူကတော့ AWS ရဲ့ Service တစ်ခုအနေနဲ့ဖြစ်လာတာတော့ မကြာသေးပါဘူး။ ဒါပေ့မယ် တော်တော်လေးအသုံးဝင်တဲ့ Tool တစ်ခုပါ။ Compute Optimizer ဆိုတဲ့ အတိုင်းပဲ EC2 Instance တွေ Optimize ဖြစ်ရဲ့လား Over Provision/Under Provision ဖြစ်နေလားဆိုတာကိုကြည့်လို့ရမယ်၊ မြန်မြန်ကြည့် မြန်မြန်သိတော့ Cost Optimize မြန်မြန်လုပ်နိုင်တာပေါ့ဗျာ။  လက်ရှိမှာတော့ Compute Resource တွေထဲကမှာ AWS EC2 Instance နဲ့ Autoscaling Group တွေအတွက်ပဲ အသုံးပြုလို့ရနိုင်ပါသေးတယ်။ နောက်ထပ်တစ်ခုက အခုအချိန်မှာတော့ AWS Region ၅ ခုမှာပဲ အသုံးပြုနိုင်ပါသေးတယ်။ 
 
 ![AWS Compute Optimizer](../.gitbook/assets/screenshot-from-2020-01-27-17-27-29.png)
 
