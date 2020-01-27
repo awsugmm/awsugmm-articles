@@ -53,8 +53,18 @@ Cost Optimize ပြုလုပ်နိုင်မဲ့ နောက်တ�
 
 Elasticity အနေနဲ့ဆိုရင် အဓိက ၂ ပိုင်းခွဲလို့ရတယ်ပေါ့နော် 
 
-1. Time-Based
-2. Volume-Based 
+1. **Time-Based**
+2. **Volume-Based** 
+
+#### **Time-Based** 
+
+မှာသိသိသာသာ Cost လျော့နိုင်တာကတော့ ကျွန်တော်တို့ရဲ့ **Development/QA/Staging Environment က Server တွေကို ကိုယ့်ရုံးချိန်အလိုက် အပိတ်အဖွင့်ပြုလုပ်တာမျိုးပေါ့။** AWS EC2 Instance တွေက EBS ကလွဲရင် ပိတ်ထားရင် ပိုက်ဆံမကောက်ပါဘူး။ အဲ့သည်အတွက် ရုံးချိန်ပြင်ပနဲ့ စနေ တနင်္ဂနွေလိုနေ့မျိုးတွေမှာ ကိုယ်ရဲ့ Development/QA/Staging environment က Instance တွေကို EC2 Instance Scheduler နဲ့ Auto **START/STOP** လုပ်ထားမယ်ဆိုရင်ရုံးချိန်အတွင်းသုံးတဲ့ ၈ နာရီစာလောက်ပဲကုန်ကျမှာဖြစ်ပါတယ်။ 
+
+{% hint style="danger" %}
+Please don't ever try on your production environment. If yes, do as your own RISK !!
+{% endhint %}
+
+#### Volume-Based
 
  ဥပမာ ကျွန်တော်တို့ရဲ့ Web Server က LoadBalancer အနောက်မှာ အမြဲတမ်း ၂ လုံး Up and Running ဖြစ်နေရမယ်ဆိုပါစို့။ အဲ့သည်မှာ ကျွန်တော်တို့ Company က Promotion ချလို့ User Base ကအရမ်းများလာပြီဆိုရင် အနောက်က web server ၂ လုံးက Load မခံနိုင်တော့ဘူးဆိုရင် ကျွန်တော်တို့ ကလုပ်စရာ ၃ မျိုးလောက်ဖြစ်လာပြီ။ အဖြေရှာရင် ကျွန်တော်တို့က User တွေအသုံးမများခင်မှာ ကြိုတင်ပြီးတော့ server ကို instance size ကြီးကြီးသုံးထားမလား ၊ အဲ့လိုသုံးလိုက်ပြန်ရင်လည်း User တွေမသုံးခင် ကြိုပြင်ထားရဆိုတော့ Cost effective လည်းမဖြစ်လှဘူး မသုံးပဲကြိုပေးနေရမှာ၊ နောက်တစ်ခုက User တွေများလာတော့မှ Server ကို Vertically Scaling - CPU, Memory တွေထပ်တိုတာမျိုး လုပ်မလား၊ သည်လိုဆိုရင်လည်း အဆင်မပြေသေးပြန်ဘူး။ အဲ့သည်မှာ Elasticity ဆိုတာလိုလာတယ်။ ဒီနေရာမှာ Customer Demand ဘယ်လောက်များများ ကျွန်တော်တို့ Infrastructure က အလိုလလျောက် ကြုံ့နိုင်ဆံ့နိုင်မယ်ဆိုရင် Business လည်းမထိခိုက်ဘူး Customer တွေရဲ့ စိတ်ကြေနပ်မှုကိုလည်း တိုးမလာရင်တော့ မကျသွားတော့ဘူးဗျာ။ နောက်တစ်ခုက အဓိက အချက်ဖြစ်တဲ့ Cost Effective လည်းဖြစ်မယ်ဆိုရင် Win-win ပဲ။ သည်တော့ ကျွန်တော်တို့ AWS Autoscaling လိုဟာမျိုးကိုသုံးပြီး Customer Demand နဲ့ကိုက်ညီအောင် Auto Scale Out / In လုပ်လို့ရနိုင်မယ်။ ဆိုလိုတာကတော့ အသုံးပြုတဲ့ User တွေများလာလို့ CPU Utilization , Network Utilization , Memory Utilization ဘယ်လောက်ရောက်ရင်တော့ အစက Server ၂ လုံးရှိတာကနေ နောက်ထပ် ၃ လုံးလား ၅လုံးလာ Auto Scale Out လုပ်လို့ရနိုင်မယ်။ အိုကေ အဲ့မှာ User တွေသိပ်မသုံးတော့ဘူး ဆိုလည်း Server ရဲ့ resource utilization လည်းပြန်ကျသွားရင် ကျွန်တော်တို့က Auto Scale In ဖြစ်အောင်လုပ်ထားမယ် Elasticity ရှိမယ်ဆိုရင် အပေါ်မှာပြောခဲ့သလိုပဲ Win-win solution ဖြစ်မယ်ပေါ့‌ဗျာ :\) 
 
