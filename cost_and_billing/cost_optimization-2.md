@@ -14,11 +14,15 @@ AWS မှာ Right Sizing လုပ်မယ်ဆိုရင်တော့ �
 
 * ပထမဆုံးတစ်ခုက **AWS Cost Explorer** ပါ။ ဒီကောင်လေးကတော့ ကိုယ်သုံးနေတဲ့ ဘယ် resource တွေက ဘယ်လောက်တော့ ကုန်ကျနေတယ်ဆိုတာကိုပြန်ကြည့်လို့ရပါတယ်။ နောက်ပြီး လွန်ခဲ့တဲ့ ၇ရက် ၁လ ၂လ ကကိုယ်သုံးခဲ့တဲ့ resource တွေရဲ့ utilization ကိုအခြေခံပြီး ဘယ် resource တွေကတော့ reserved လုပ်သင့်တယ် တစ်ချို့ဆိုလည်း Down Sizing လုပ်သင့်တယ် ဘာညာစတာတွေကို ပြပေးထားတဲ့ အတွက် ကျွန်တော့်တို့ က သူ့ tools က ထုတ်ပးတဲ့ Data တွေနဲ့ ကိုယ့် environment , organization ကလိုချင်တဲ့ လိုအပ်တဲ့အရာတွေနဲ့ ကိုက်ညီတယ်ဆိုရင် ကျွန်တော်တို့က လွယ်လွယ်ကူကူပဲ Cost Optimize ပြုလုပ်နိုင်မှာပါ။ 
 
+![AWS Cost Explorer](../.gitbook/assets/screenshot-from-2020-01-28-11-28-50.png)
+
 ![AWS Cost Explorer](../.gitbook/assets/screenshot-from-2020-01-27-16-59-31.png)
 
 * နောက်ထပ်တစ်ခုကတော့ AWS Trusted Advisor ပါ။ **သူကတော့ ကိုယ့် AWS account ရဲ့ Support Plan ပေါ်မူတည်ပြီး သုံးလို့ရတဲ့ Features တွေတော့ ကွာခြားချက်ရှိပါတယ်။** ကိုယ်တော်တို့ ကတော့ Business Plan ယူထားတဲ့ အတွက် Feature အစုံသုံးလို့ရနေပါတယ်။ Trusted Advisor ထဲက Cost Optimization Checks ဆိုတဲ့ feature ရဲ့ အကူအညီနဲ့လည်း Low utilization EC2 Instance တွေ Idle ဖြစ်နေတဲ့ RDS Instance တွေ မသုံးပဲ ထားမိနေတဲ့ Resources တွေကို ပြပေးပါတယ်။ အဲ့သည်လိုပြပေးတဲ့ အတွက်ကျွန်တော်တို့က ဘယ် resource တွေကကိုယ်တစ်ကယ်မသုံးပဲ ပိုက်ဆံကုန်နေသလဲ ဆိုတာကို မြန်မြန်ဆန်ဆန်သိနိုင်တာပေါ့ဗျာ။ 
 
 ![AWS Trusted Advisor](../.gitbook/assets/screenshot-from-2020-01-27-17-10-47.png)
+
+![Trusted Advisor](../.gitbook/assets/screenshot-from-2020-01-28-11-30-25.png)
 
 * နောက်ထပ်တစ်ခုကတော့ AWS Compute Optimizer ဆိုတဲ့ Tools လေးပါ။ သူကတော့ AWS ရဲ့ Service တစ်ခုအနေနဲ့ဖြစ်လာတာတော့ မကြာသေးပါဘူး။ ဒါပေ့မယ် တော်တော်လေးအသုံးဝင်တဲ့ Tool တစ်ခုပါ။ Compute Optimizer ဆိုတဲ့ အတိုင်းပဲ EC2 Instance တွေ Optimize ဖြစ်ရဲ့လား Over Provision/Under Provision ဖြစ်နေလားဆိုတာကိုကြည့်လို့ရမယ်၊ မြန်မြန်ကြည့် မြန်မြန်သိတော့ Cost Optimize မြန်မြန်လုပ်နိုင်တာပေါ့ဗျာ။  လက်ရှိမှာတော့ Compute Resource တွေထဲကမှာ AWS EC2 Instance နဲ့ Autoscaling Group တွေအတွက်ပဲ အသုံးပြုလို့ရနိုင်ပါသေးတယ်။ နောက်ထပ်တစ်ခုက အခုအချိန်မှာတော့ AWS Region ၅ ခုမှာပဲ အသုံးပြုနိုင်ပါသေးတယ်။ 
 
