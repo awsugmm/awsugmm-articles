@@ -64,11 +64,13 @@ Elasticity အနေနဲ့ဆိုရင် အဓိက ၂ ပိုင်
 
 #### **Time-Based** 
 
-မှာသိသိသာသာ Cost လျော့နိုင်တာကတော့ ကျွန်တော်တို့ရဲ့ **Development/QA/Staging Environment က Server တွေကို ကိုယ့်ရုံးချိန်အလိုက် အပိတ်အဖွင့်ပြုလုပ်တာမျိုးပေါ့။** AWS EC2 Instance တွေက EBS ကလွဲရင် ပိတ်ထားရင် ပိုက်ဆံမကောက်ပါဘူး။ အဲ့သည်အတွက် ရုံးချိန်ပြင်ပနဲ့ စနေ တနင်္ဂနွေလိုနေ့မျိုးတွေမှာ ကိုယ်ရဲ့ Development/QA/Staging environment က Instance တွေကို EC2 Instance Scheduler နဲ့ Auto **START/STOP** လုပ်ထားမယ်ဆိုရင်ရုံးချိန်အတွင်းသုံးတဲ့ ၈ နာရီစာလောက်ပဲကုန်ကျမှာဖြစ်ပါတယ်။ 
+မှာသိသိသာသာ Cost လျော့နိုင်တာကတော့ ကျွန်တော်တို့ရဲ့ **Development/QA/Staging Environment က Server တွေကို ကိုယ့်ရုံးချိန်အလိုက် အပိတ်အဖွင့်ပြုလုပ်တာမျိုးပေါ့။** AWS EC2 Instance တွေက EBS ကလွဲရင် ပိတ်ထားရင် ပိုက်ဆံမကောက်ပါဘူး။ အဲ့သည်အတွက် ရုံးချိန်ပြင်ပနဲ့ စနေ တနင်္ဂနွေလိုနေ့မျိုးတွေမှာ ကိုယ်ရဲ့ Development/QA/Staging environment က Instance တွေကို [EC2 Instance Scheduler](https://aws.amazon.com/answers/infrastructure-management/instance-scheduler/) နဲ့ Auto **START/STOP** လုပ်ထားမယ်ဆိုရင်ရုံးချိန်အတွင်းသုံးတဲ့ ၈ နာရီစာလောက်ပဲကုန်ကျမှာဖြစ်ပါတယ်။ 
 
 {% hint style="danger" %}
 Please don't ever try on your production environment. If yes, do as your own RISK !!
 {% endhint %}
+
+![Turn of resources](../.gitbook/assets/screenshot-from-2020-01-28-11-27-58.png)
 
 #### Volume-Based
 
