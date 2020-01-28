@@ -84,7 +84,11 @@ Please don't ever try on your production environment. If yes, do as your own RIS
 
 ![Spot Instance cost saving](../.gitbook/assets/screenshot-from-2020-01-28-11-42-36.png)
 
+သည်လောက်ဆိုရင် တော့ မိမိတို့ Organization နဲ့ကိုက်ညီမဲ့ Cost Optimization ကိုအလွယ်တကူပြုလုပ်နိုင်မယ်လို့ မျှော်လင့်မိပါတယ်။ နောက်ထပ် နောက်ထပ် အကြောင်းအရာတွေနဲ့ပတ်သက်ပြီး ရေးသား ဝေမျှသွားဦးမှာဖြစ်တဲ့ အတွက်ဆက်လက်အားပေးကြပါဦးခင်ဗျာ။ 
 
+ကျေးဇူးတင်လျက်
+
+\*\*\*\*[**AWS User Group Myanmar**](https://www.facebook.com/groups/AWSusergroupmyanmar)\*\*\*\*
 
 
 
