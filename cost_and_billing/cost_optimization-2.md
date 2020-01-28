@@ -78,7 +78,11 @@ Please don't ever try on your production environment. If yes, do as your own RIS
 
 ![Auto Scaling](../.gitbook/assets/screenshot-from-2020-01-28-00-39-34.png)
 
+## Spot Instance
 
+\*\*\*\*[**Spot Instance**](https://aws.amazon.com/ec2/spot/) အသုံးပြုခြင်းဟာလည်း Cost Optimization လုပ်တဲ့နေရာမှာ အရေးပါပါတယ်။ Spot Instance တွေက ကျွန်တော်တို့သုံးနေတဲ့ On-Demand Instance တွေနဲ့ စျေးနှုန်းခြင်းယှဉ်ရင် 60% ကနေ 90% လောက်ထိကိုသက်သာပါတယ်။ Spot Instance ကတော့ AWS ကသူရဲ့ ပိုလျံနေတဲ့ spare compute resource တွေကို စျေးသက်သက်သာသာနဲ့ ငှားတဲ့ သဘောပါပဲ။ Spot Instance အကြောင်းကို [**ဒီမှာ** ](https://blog.awsugmm.org/compute/reduce_cloud_compute_cost_with_ec2_spot_instance)လည်းဖတ်ရှုလို့ရပါတယ် ခင်ဗျာ။
+
+![Spot Instance cost saving](../.gitbook/assets/screenshot-from-2020-01-28-11-42-36.png)
 
 
 
