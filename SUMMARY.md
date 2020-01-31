@@ -1,9 +1,9 @@
 # Table of contents
 
 * [AWS User Group Myanmar](README.md)
-* [FAQ](faq.md)
 * [Call for Meetup Speakers](call-for-meetup-speakers.md)
 * [AWS User Group Myanmar Events History](aws-user-group-myanmar-meetups-and-events.md)
+* [FAQ](faq.md)
 
 ## Fundamental
 
