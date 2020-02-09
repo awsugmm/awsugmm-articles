@@ -4,6 +4,7 @@
 * [AWS User Group Myanmar Events History](aws-user-group-myanmar-meetups-and-events.md)
 * [Call for Meetup Speakers](call-for-meetup-speakers.md)
 * [FAQ](faq.md)
+* [AWS User Group Myanmar Upcoming Events](aws-user-group-myanmar-upcoming-events.md)
 
 ## Fundamental
 
