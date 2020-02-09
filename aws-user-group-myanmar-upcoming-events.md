@@ -6,7 +6,7 @@ description: AWSUGMM Upcoming Events
 
 ## AWS Certifications and Exam Readiness In Myanmar
 
-### 15/02/2020 - 10AM ~ 5PM
+### 16/02/2020 - 10AM ~ 5PM
 
 ![AWS Certifications and Exam Readiness In Myanmar](.gitbook/assets/g.jpeg)
 
