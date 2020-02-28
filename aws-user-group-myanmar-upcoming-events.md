@@ -10,7 +10,7 @@ description: AWSUGMM Upcoming Events
 
 ![AWS User Group Myanmar - Meetup \#3](.gitbook/assets/5.jpg)
 
-
+![Agenda for meetup \#3](.gitbook/assets/dark-1.jpg)
 
 ## About this Event
 
