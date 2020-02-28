@@ -40,5 +40,10 @@ description: AWSUGMM Events History
 | Activities | [https://www.meetup.com/awsugmm/events/267041772/](https://www.meetup.com/awsugmm/events/267041772/) |
 | Demo | [https://github.com/aws-user-group-myanmar-aws-ugm/decoupling\_demo](https://github.com/aws-user-group-myanmar-aws-ugm/decoupling_demo) |
 
+## AWS Certifications and Exam Readiness In Myanmar
 
+| Date | 16.02.2020 |
+| :--- | :--- |
+| Venue | Cyber Bay Kin |
+|  |  |
 

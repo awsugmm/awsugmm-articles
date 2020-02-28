@@ -4,26 +4,25 @@ description: AWSUGMM Upcoming Events
 
 # AWS User Group Myanmar Upcoming Events
 
-## AWS Certifications and Exam Readiness In Myanmar
+### AWS User Group Myanmar - Meetup \#3
 
-### 16/02/2020 - 10AM ~ 5PM
+### 01/03/2020 - 1:00 PM ~ 5:00 PM
 
-![AWS Certifications and Exam Readiness In Myanmar](.gitbook/assets/g.jpeg)
+![AWS User Group Myanmar - Meetup \#3](.gitbook/assets/5.jpg)
 
-### About this Event
+
+
+## About this Event
 
 Event Organizer - AWS User Group Myanmar  
-Co-Event Organizer - Zwenexsys International Ltd.  
-Venue Sponsor - Cyberbaykin  
-Lunch Sponsor - Ahtar Oo Co., Ltd.
+Venue Sponsor - True Money Myanmar  
+Refreshment Sponsor - True Money Myanmar
 
-This event will be intended to person who will sit the AWS exam shortly and want to learn "what is the facts to know before AWS exam".  
-  
-AWS User Group Myanmar welcomes you to join and explore AWS Certification preparation and readiness guide to enter the AWS Exam with full confidence.
+AWS User Group Myanmar ရဲ့ တတိယမြောက် Meetup ကို မတ်လ ၁ ရက်နေ့ နေ့လည် ၁ နာရီမှ ညနေ ၅ နာရီ အထိ True Money Myanmar Office မှာပြုလုပ်ကျင်းပမှာဖြစ်ပါတယ်။ Amazon Web Services ရဲ့ Core Services, Security, Application နဲ့ ပတ်သက်တဲ့ အကြောင်းအရာများကို ဆွေးနွေးကြမည့်အပြင် Networking session လည်းပါဝင်မှာဖြစ်ပါတယ်။
 
 ### Registration 
 
-> [https://bit.ly/38oeCRC](https://bit.ly/38oeCRC)
+> [https://www.eventbrite.com/e/aws-user-group-myanmar-meetup-3-tickets-97029292225](https://www.eventbrite.com/e/aws-user-group-myanmar-meetup-3-tickets-97029292225)
 
 
 
