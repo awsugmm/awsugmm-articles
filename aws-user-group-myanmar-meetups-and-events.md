@@ -44,6 +44,6 @@ description: AWSUGMM Events History
 
 | Date | 16.02.2020 |
 | :--- | :--- |
-| Venue | Cyber Bay Kin |
-|  |  |
+| Venue | Cyberbaykin |
+| Co-Event Organizer | Zwenexsys International Ltd. |
 
