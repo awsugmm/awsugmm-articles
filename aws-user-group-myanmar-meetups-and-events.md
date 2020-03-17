@@ -47,3 +47,12 @@ description: AWSUGMM Events History
 | Venue | Cyberbaykin |
 | Co-Event Organizer | Zwenexsys International Ltd. |
 
+## AWS User Group Myanmar Meetup - 3
+
+| Date | 01.03.2020 |
+| :--- | :--- |
+| Venue  | True Money Myanmar |
+| Activities | [https://www.meetup.com/awsugmm/events/269056513/](https://www.meetup.com/awsugmm/events/269056513/) |
+
+### 
+
