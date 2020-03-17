@@ -4,7 +4,7 @@ description: AWSUGMM Events History
 
 # AWS User Group Myanmar Events History
 
-![](.gitbook/assets/highres_484143261.jpeg)
+![AWS User Group Myanmar](.gitbook/assets/highres_484143261.jpeg)
 
 ## AWS User Group Myanmar Meetup - 1 
 
