@@ -38,3 +38,7 @@
 * [Cost Optimization on AWS Cloud - Part 1](cost_and_billing/cost_optimization.md)
 * [Cost Optimization on AWS Cloud - Part 2](cost_and_billing/cost_optimization-2.md)
 
+## Learn From Home
+
+* [AWS Essentials](learn-from-home/aws-essentials.md)
+
