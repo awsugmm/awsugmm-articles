@@ -26,6 +26,12 @@ https://www.aws.training/Details/Curriculum?id=12049
 
 ## AWS Solution Architect Associate 
 
+```text
+### AWS Solution Architect Associate SAA - 01 ###
+
+https://youtu.be/Ia-UEYYR44s
+```
+
 {% file src="../.gitbook/assets/aws-certified-solutions-architect-official-study-guide.pdf" caption="First Edition" %}
 
 {% file src="../.gitbook/assets/aws-certified-solutions-architect-study-guide-saa-c01-exam-2ed.pdf" caption="Second Edition" %}
