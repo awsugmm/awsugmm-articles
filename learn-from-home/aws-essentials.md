@@ -28,7 +28,7 @@ https://youtu.be/Ia-UEYYR44s
 
 ## Good to read URLs
 
-AWS နဲ့ ပက်သက်တဲ့ 
+AWS နဲ့ ပက်သက်တဲ့ အကြောင်းအရာတွေ ကိုအေးဆေးဖတ်ချင်တယ်ဆိုရင် အသုံးဝင်မဲ့ URL 
 
 {% embed url="https://aws.amazon.com/blogs/" %}
 
