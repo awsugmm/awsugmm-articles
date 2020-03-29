@@ -28,9 +28,15 @@ https://youtu.be/Ia-UEYYR44s
 
 ## Good to read URLs
 
+AWS နဲ့ ပက်သက်တဲ့ 
+
 {% embed url="https://aws.amazon.com/blogs/" %}
 
+AWS မှာ ဘာတွေအသစ်တွေထွက်လဲ ဘယ်လို features တွေ ထပ်တိုးလာလဲဆိုတာမျိုးတွေကို ဖတ်ရှုနိုင်မှာပဲဖြစ်ပါတယ်။
+
 {% embed url="https://aws.amazon.com/new" %}
+
+AWS Training and Certification အကြောင်းတွေ Education အပိုင်းကို လေ့လာမယ်ဆိုရင် အသုံးဝင်တဲ့ URL 
 
 {% embed url="https://aws.amazon.com/certification/" %}
 
