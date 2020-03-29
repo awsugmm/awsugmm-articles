@@ -52,5 +52,9 @@ https://youtu.be/Ia-UEYYR44s
 
 {% file src="../.gitbook/assets/choosing-the-right-aws-ec2-instances-to-optimize-your-cloud-ebook.pdf" caption="The right instances" %}
 
+## AWS Well-Architected Framework
+
+{% file src="../.gitbook/assets/awsome\_day\_online\_2019\_-\_module4\_aws\_architecting.pdf" caption="Well-Architected Framework" %}
+
 
 
