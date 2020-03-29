@@ -28,7 +28,11 @@ https://youtu.be/Ia-UEYYR44s
 
 ## Good to read URLs
 
-> [https://aws.amazon.com/blogs/](https://aws.amazon.com/blogs/)
+{% embed url="https://aws.amazon.com/blogs/" %}
+
+{% embed url="https://aws.amazon.com/new" %}
+
+{% embed url="https://aws.amazon.com/certification/" %}
 
 ## Study Guides and Ebooks
 
