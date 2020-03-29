@@ -28,7 +28,7 @@ https://youtu.be/Ia-UEYYR44s
 
 ## Good to read URLs
 
-AWS နဲ့ ပက်သက်တဲ့ အကြောင်းအရာတွေ ကိုအေးဆေးဖတ်ချင်တယ်ဆိုရင် အသုံးဝင်မဲ့ URL 
+AWS နဲ့ ပက်သက်တဲ့ အကြောင်းအရာတွေ ကိုအေးဆေးဖတ်ချင်တယ်ဆိုရင် အသုံးဝင်မဲ့ URL ပဲဖြစ်ပါတယ်။ 
 
 {% embed url="https://aws.amazon.com/blogs/" %}
 
@@ -36,7 +36,7 @@ AWS မှာ ဘာတွေအသစ်တွေထွက်လဲ ဘယ်�
 
 {% embed url="https://aws.amazon.com/new" %}
 
-AWS Training and Certification အကြောင်းတွေ Education အပိုင်းကို လေ့လာမယ်ဆိုရင် အသုံးဝင်တဲ့ URL 
+AWS Training and Certification အကြောင်းတွေ Education အပိုင်းကို လေ့လာမယ်ဆိုရင် အသုံးဝင်တဲ့ URL တစ်ခုပါ။ 
 
 {% embed url="https://aws.amazon.com/certification/" %}
 
