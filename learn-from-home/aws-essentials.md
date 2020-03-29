@@ -34,3 +34,17 @@ https://www.aws.training/Details/Curriculum?id=12049
 
 {% file src="../.gitbook/assets/aws-certified-sysops-administrator-official-study-guide.pdf" caption="SysOps" %}
 
+## AWS Cost Optimization 
+
+{% file src="../.gitbook/assets/aws\_co\_playbook\_final.pdf" caption="Cost Optimization" %}
+
+{% file src="../.gitbook/assets/10-best-practices-reducing-aws-spend.pdf" caption="CloudHealth by VMware" %}
+
+{% file src="../.gitbook/assets/ebook-the-ultimate-guide-to-aws-savings-plans.pdf" caption="CloudHealth by VMware" %}
+
+## Right Sizing
+
+{% file src="../.gitbook/assets/choosing-the-right-aws-ec2-instances-to-optimize-your-cloud-ebook.pdf" caption="The right instances" %}
+
+
+
