@@ -24,7 +24,11 @@ https://www.aws.training/Details/Curriculum?id=12049
 https://youtu.be/Ia-UEYYR44s
 ```
 
+```text
+### AWS Concepts and Essentials Course FROM UDEMY ###
 
+https://www.udemy.com/course/linux-academy-aws-essentials-2019/
+```
 
 ## Good to read URLs
 
