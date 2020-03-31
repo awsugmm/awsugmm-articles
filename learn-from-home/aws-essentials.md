@@ -27,6 +27,7 @@ https://youtu.be/Ia-UEYYR44s
 ```text
 ### AWS Concepts and Essentials Course FROM UDEMY ###
 
+https://www.udemy.com/course/aws-concepts/
 https://www.udemy.com/course/linux-academy-aws-essentials-2019/
 ```
 
