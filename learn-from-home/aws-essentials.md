@@ -45,6 +45,10 @@ AWS Training and Certification အကြောင်းတွေ Education အ�
 
 {% embed url="https://aws.amazon.com/certification/" %}
 
+AWS အသုံးပြုပြီး Cost တွေများနေလို့ပဲဖြစ်ဖြစ် ကိုယ်မသိပဲကုန်နေတဲ့ Charges တွေကို ဘယ်လို Optimization လုပ်မလဲဆိုတာကို လေ့လာနိုင်မဲ့ URL ပဲဖြစ်ပါတယ် 
+
+{% embed url="https://aws.amazon.com/pricing/cost-optimization/" %}
+
 ## Study Guides and Ebooks
 
 ### AWS Cloud Practitioner Study Guide 
