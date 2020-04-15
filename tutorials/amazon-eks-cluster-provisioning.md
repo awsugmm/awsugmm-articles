@@ -71,5 +71,13 @@ VPC မဆောက်ခင် တစ်ချက်ကြည့်ကြည့
 
 ![VPC Network CIDR ](../.gitbook/assets/cf-3.png)
 
+![VPC Network CIDR](../.gitbook/assets/cf-4.png)
+
+![EKS-VPC](../.gitbook/assets/cf-6.png)
+
+ကျွန်တော်တို. EKS Cluster တွက် VPC ကို CloudFormation Template နဲ့ တည်ဆောက်ပြီးသွားပြီဆိုတော့ ကျွန်တော်တို.ဆက်ပြီး EKS Cluster ကို ဆက်လက်တည်ဆောက်ပါမယ်။ AWS EKS Cluster တည်ဆောက် ရာတွင် ကျွန်တော်တို.သုံးမျိုး တည်ဆောက်လို.ရပါတယ် AWS Management Console , AWS CLI နှင့် eksctl နဲ့တည်ဆောက်လို.ရပါတယ်။ကျွန်တော်ကတော့ AWS CLI သုံးပြီး တော့တည်ဆောက်ပါမယ်။ 
+
+
+
 
 
