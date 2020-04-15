@@ -63,7 +63,7 @@ CloudFormation Template တွေကိုလည်းတနေရာထဲက D
 
 ![Creating EKS Role ](../.gitbook/assets/eks-role-3.png)
 
-![Creating EKS Role](../.gitbook/assets/eks-role-4.png)
+![](../.gitbook/assets/screen-shot-2020-04-16-at-02.57.52.png)
 
 EKS IAM Role ဆောက်ပြီးပြီ ဆိုတော့ နောက်တစ်ဆင့်အနေနဲ့ EKS Cluster အတွက် VPC ဆောက်ပြီး Networking setting ချပေးရပါမယ်။ VPC ဆောက်ရာတွင် manual ဆောက်တာထက် CloudFormation နဲ့တည်ဆောက်ပါမယ်။ EKS VPC တည်ဆောက်တဲ့ CloudFormation Template ကိုအောက်ကလင့်မှာ Clone or Download လုပ်လို.ရပါတယ်။ \(**Official Link ကနေလဲ Download လုပ်လို.ရပါတယ်**\)။ 
 
