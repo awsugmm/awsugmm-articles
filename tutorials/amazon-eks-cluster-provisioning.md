@@ -4,6 +4,8 @@ description: Introduction to Amazon EKS - Kubernetes on AWS
 
 # Amazon EKS Cluster Provisioning
 
+![Introduction to Amazon EKS - Kubernetes on AWS](../.gitbook/assets/screen-shot-2020-04-16-at-01.17.37.png)
+
 ပထမဦးစွာ ဒီ Blog tutorial က [AWS User Group Myanmar](https://www.facebook.com/groups/AWSusergroupmyanmar/) က ကျင်းပမဲ့ Online Meetup မှာ ကျွန်တော်ပြောသွားမဲ့ "**Amazon EKS - Kubernetes on AWS**" Topic လေးနဲ့တူတူ လေ့လာပြီး ကိုယ်ကိုတိုင် AWS EKS cluster ဆောက်ပြီးလိုက်စမ်းနိုင်အောင်ရည်ရွယ်ပြီးရေးထားချင်းဖြစ်ပါတယ်။   
 ကျွန်တော်တို.ပွဲလေး ကိုတက်ရောက်ဖို.ဖိတ်ပါရစေ .. ပြီးတော့ Topic များကိုလည်းအောက်မှာဖော်ပြထားတဲ့ Topic Board မှာ ဝင်ရောက်ကြည့်နိုင်ပါတယ်။ 
 
@@ -34,6 +36,12 @@ Kubernetes is a portable, extensible, open-source platform for managing containe
 Amazon EKS က Amazon Web Services ရဲ. Managed Kubernetes Service တစ်ခုဖြစ်ပါသည်။ အဓိက အားဖြင့် Kubernetes ရဲ့ master control plane ကို AWS ဘက်က managed လုပ်ပေးချင်းကို ဆိုလိုတာပါ။ အဲ့ထက်ပိုပြီး EKS က data plane ဖြစ်တဲ့ worker nodes များပါ managed လုပ်ပေးနိုင်ပြီ ဟုလည်း  AWS က  [announced](https://aws.amazon.com/blogs/containers/eks-managed-node-groups/) လုပ်ထားပါတယ်။ 
 
 အိုကေ .. ဒါဆို လက်တွေ EKS Cluster ကို ဆောက်ကြည့်ကြရအောင်။အရင်ဆုံး EKS Cluster မဆောက်ခင် Official Documentation ကို Share ပါရစေ။  
+
+ပြီးနောက် AWS EKS ရဲ့ Architecture လေးကိုလည်း တစ်ချက်လောက်လေ့လာကြရအောင်။  
+
+![EKS High Level Architecture](../.gitbook/assets/eks.png)
+
+![EKS Consumption Design](../.gitbook/assets/eks2.png)
 
 {% hint style="success" %}
 [https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)
