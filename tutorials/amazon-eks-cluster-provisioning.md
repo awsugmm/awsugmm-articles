@@ -96,7 +96,7 @@ AWS CLI ကို Configure လုပ်ပေးရပါမယ်။
 ```
 
 ```text
-#aws eks --region region-code create-cluster --name demo-eks-cluster --kubernetes-version 1.15 --role-arn arn:aws:iam::111122223333:role/EKS-Role --resources-vpc-config subnetIds=subnet-01,subnet-02,subnet-03,securityGroupIds=[sg-id]
+#aws eks --region region-code create-cluster --name demo-eks-cluster --role-arn arn:aws:iam::111122223333:role/EKS-Role --resources-vpc-config subnetIds=subnet-01,subnet-02,subnet-03,securityGroupIds=[sg-id]
 ```
 
 ![EKS Cluster](../.gitbook/assets/eks-cluster-create-1%20%281%29.png)
@@ -124,6 +124,24 @@ demo-eks-cluster တွက် kube config လေး ထွက်လာပါလ�
 ပုံပါအတိုင်းဆို ကျွန်တော်တို. EKS cluster ကတော့ အလုပ်လုပ်နေပါပြီ။ဆိုတော့ကျွန်တော်တို.တွေ Worker nodes တွေ ထည့်ကြည့်ရအောင်။ 
 
 Worker nodes တွေထည့်ဖို. ကျွန်တော်တို. CloudFormation Template ကို အောက်က လင့်မှာ Download လုပ်လို.ရပါတယ်။  \(**Official Link ကနေလဲ Download လုပ်လို.ရပါတယ်**\)။ 
+
+{% hint style="success" %}
+[https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git](https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git)
+{% endhint %}
+
+Download လုပ်ပြီးပြီဆိုတော့ ကျနော်တို. တွေ CloudFormation Template နဲ့ Worker nodes တွေကို  တည်ဆောက်ကြရအောင်။ ပထမဆုံး Download လုပ်ထားတဲ့ CloudFormation Template လေးကို Upload လုပ်ပြီး Run လိုက်ပါမယ်။ Parameters တွေက တော့ အောက်ဖော်ပြပါပုံအတိုင်းထည့်ရပါမယ် တချိူ. parameter တွေကို တော့ default ထားပါမယ်။ 
+
+{% hint style="info" %}
+**ami-0c5b63ec54dd3fc38** ကတော့ us-east-1 မှာဆိုရင်တော့ eks node ami ပါ။ 
+{% endhint %}
+
+![](../.gitbook/assets/worker1.png)
+
+![](../.gitbook/assets/worker2.png)
+
+Stack Complete ဖြစ်ပြီဆိုရင်ကျွန်တော်တို. EKS Cluster နဲ့ Worker Nodes တွေကို Join ဖို. တွက် အောက်ဖော်ပြပါ ပုံထဲကလိုမျိူး "**NodeInstanceRole**" ARN ကို မှတ်ထားရပါမယ်။ 
+
+![](../.gitbook/assets/worker3.png)
 
 
 
