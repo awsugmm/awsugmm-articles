@@ -111,7 +111,7 @@ EKS Cluster ကိုတည်ဆောက်ပြီးရင် ကျွန�
 #aws eks --region us-east-1 update-kubeconfig --name demo-eks-cluster
 ```
 
-![](../.gitbook/assets/1%20%285%29.png)
+![](../.gitbook/assets/1%20%286%29.png)
 
 {% hint style="danger" %}
 Demo Cluster ဖြစ်တဲ့ အတွက် ပြီးရင် ပြန်ဖျက်မှာပါ။ 
@@ -119,7 +119,7 @@ Demo Cluster ဖြစ်တဲ့ အတွက် ပြီးရင် ပြ�
 
 demo-eks-cluster တွက် kube config လေး ထွက်လာပါလိမ့်မယ်။ config ရပြီဆိုတော့ကျွန်တော်တို. kubectl command  လေးနဲ့ နည်းနည်း ပါးပါးစမ်းကြည့်ရအောင်။ 
 
-![](../.gitbook/assets/2%20%283%29.png)
+![](../.gitbook/assets/2%20%284%29.png)
 
 ပုံပါအတိုင်းဆို ကျွန်တော်တို. EKS cluster ကတော့ အလုပ်လုပ်နေပါပြီ။ဆိုတော့ကျွန်တော်တို.တွေ Worker nodes တွေ ထည့်ကြည့်ရအောင်။ 
 
@@ -159,9 +159,40 @@ Stack Complete ဖြစ်ပြီဆိုရင်ကျွန်တော�
 
 kubectl apply command နဲ့ Configmap ကို run ပြီးရင် တခဏ လောက်ကြာရင် \#kubectl get nodes command ရိုက်လိုက်ရင် အောက်ဖော်ပြပါပုံအတိုင်း worker nodes တွေ Ready ဖြစ်နေတာကိုတွေ.ရပါလိမ့်မည်။ 
 
-![](../.gitbook/assets/1%20%283%29.png)
+![](../.gitbook/assets/1%20%284%29.png)
+
+![](../.gitbook/assets/1%20%282%29.png)
 
 ထိုအပြင် kube-system namespace ထဲ က pods တွေလည်း running ဖြစ်နေတာကိုတွေ.မြင်ရပါလိမ့်မယ်။အိုခေ 🤩ဒါဆို Node လည်း Ready ဆို ကျန်တာတွေလည်း running ဆိုတော့ EKS Cluster က up and running ဖြစ်နေပြီပေါ့ဗျာ။ သေချာအောင်ကျွန်တော် တို. Application တစ်ခုလောက် run ကြည့်ကြရအောင်ဗျာ။ လွယ်လွယ်ကူကူလေးဖြစ်အောင် 2048 game လေးကို EKS Cluster  မှာ run ကြည့်ရအောင်။ 
+
+2048 yaml file လေးကို အောက်က လင့်လေးမှာ Download လုပ်လို.ရပါတယ်။ Deployment file and service file လေးနှစ်ခုကို Download လုပ်ပြီး terminal ကနေ အောက်ပါ command လေးရိုက်ပြီး run နိုင်ပါတယ်။ 
+
+```text
+#kubectl apply -f file.yml
+```
+
+{% hint style="success" %}
+[https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git](https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git)
+{% endhint %}
+
+![](../.gitbook/assets/2%20%281%29.png)
+
+အိုခေ ကျွန်တော်တို. Cluster မှာ namespace ဆောက်တယ် deployment ကို replica သုံးလုံး ဆောက်တယ်ပြီးတော့ NodePort service ထုတ်လိုက်တယ်။ ဒါဆို NodePort \(31957\)ကို instance security group မှာ allow လုပ်ပြီး 2048 game ကို access လုပ်ကြည်ကြရအောင်။  
+
+{% hint style="info" %}
+[http://34.239.94.225:31957/](http://34.239.94.225:31957/)
+{% endhint %}
+
+![](../.gitbook/assets/screen-shot-2020-04-16-at-02.44.48.png)
+
+အိုခေပြီဗျာ .. ကျွန်တော်တို. AWS EKS Cluster က up and running လည်းဖြစ် application ပါတင်ပြီး Run လို.ရနေပါပြီ။ ဒါဆို ကျွန်တော်တို. ဒီ tutorial လေးကို မိတ်ဆွေတို. ကိုယ်တိုင် လိုက်လုပ်ရင်း EKS Cluster ရဲ. feature တွေ kubernetes cluster ရဲ. feature တွေကို ကိုယ်ကိုတိုင် လိုက်လုပ်ကြည့်ရင်း ကိုယ်ပိုင် cluster များ ဆောက်နိုင်ပါစေဟုပြောကြားရင်း နိဂုံးချူပ်ပါရစေ။ 
+
+ကျွန်တော်တို. AWS User Group Myanmar က ပြုလုပ်မဲ့ Online Meetup မှာ ပြန်ဆုံပြီး ထပ်ပြီးဆွေးနွေးကြမယ်။ 
+
+ကျေးဇူးတင်လျက် ...   
+AWS User Group Myanmar 
+
+Stay Safe and Healthy!  
 
 
 
