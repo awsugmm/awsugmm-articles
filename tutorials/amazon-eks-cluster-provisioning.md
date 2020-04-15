@@ -61,5 +61,15 @@ EKS IAM Role ဆောက်ပြီးပြီ ဆိုတော့ နေ�
 [https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git](https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git)
 {% endhint %}
 
+Download လုပ်ပြီးပြီဆိုရင်ကျွန်တော်တို. တွေ CloudFormation Console ကိုသွားပါမယ်။ပြီးနောက် VPC Create template yml file ကို အောက်ဖော်ပြပါအတိုင်း upload template နေရာမှာ upload တင်ပါမယ်။  
+
+![Upload Template in CF Console](../.gitbook/assets/cf-1.png)
+
+![View in designer in CF console](../.gitbook/assets/cf-2.png)
+
+VPC မဆောက်ခင် တစ်ချက်ကြည့်ကြည့် ရင် VPC က Subnet သုံးခု အကြမ်းဖျဉ်းပါပါတယ်။ ထိုနောက်အောက်ဖော်ပြပါအတိုင်းဆက်လက်တည်ဆောက်ပါမယ်။ကျွန်တော်ကတော့ Template ထဲကအတိုင်း default ထားလိုက်ပြီးတည်ဆောက်ပါမယ်။ 
+
+![VPC Network CIDR ](../.gitbook/assets/cf-3.png)
+
 
 
