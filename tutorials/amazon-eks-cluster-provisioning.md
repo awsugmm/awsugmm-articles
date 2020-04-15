@@ -41,7 +41,7 @@ Amazon EKS က Amazon Web Services ရဲ. Managed Kubernetes Service တစ်�
 
 ![EKS High Level Architecture](../.gitbook/assets/eks.png)
 
-![EKS Consumption Design](../.gitbook/assets/eks2.png)
+![EKS Consumption Design \(Re-Draw by Wai Yan Min\)](../.gitbook/assets/eks2.png)
 
 Official Documentation here 👇 👇 👇 
 
