@@ -111,7 +111,7 @@ EKS Cluster ကိုတည်ဆောက်ပြီးရင် ကျွန�
 #aws eks --region us-east-1 update-kubeconfig --name demo-eks-cluster
 ```
 
-![](../.gitbook/assets/1%20%283%29.png)
+![](../.gitbook/assets/1%20%285%29.png)
 
 {% hint style="danger" %}
 Demo Cluster ဖြစ်တဲ့ အတွက် ပြီးရင် ပြန်ဖျက်မှာပါ။ 
@@ -119,7 +119,7 @@ Demo Cluster ဖြစ်တဲ့ အတွက် ပြီးရင် ပြ�
 
 demo-eks-cluster တွက် kube config လေး ထွက်လာပါလိမ့်မယ်။ config ရပြီဆိုတော့ကျွန်တော်တို. kubectl command  လေးနဲ့ နည်းနည်း ပါးပါးစမ်းကြည့်ရအောင်။ 
 
-![](../.gitbook/assets/2%20%282%29.png)
+![](../.gitbook/assets/2%20%283%29.png)
 
 ပုံပါအတိုင်းဆို ကျွန်တော်တို. EKS cluster ကတော့ အလုပ်လုပ်နေပါပြီ။ဆိုတော့ကျွန်တော်တို.တွေ Worker nodes တွေ ထည့်ကြည့်ရအောင်။ 
 
@@ -139,11 +139,29 @@ Download လုပ်ပြီးပြီဆိုတော့ ကျနော�
 
 ![](../.gitbook/assets/worker2.png)
 
-Stack Complete ဖြစ်ပြီဆိုရင်ကျွန်တော်တို. EKS Cluster နဲ့ Worker Nodes တွေကို Join ဖို. တွက် အောက်ဖော်ပြပါ ပုံထဲကလိုမျိူး "**NodeInstanceRole**" ARN ကို မှတ်ထားရပါမယ်။ 
+Stack Complete ဖြစ်ပြီဆိုရင်ကျွန်တော်တို. EKS Cluster နဲ့ Worker Nodes တွေကို Join ဖို. တွက် အောက်ဖော်ပြပါ ပုံထဲက "**NodeInstanceRole**" ARN ကို မှတ်ထားရပါမယ်။ 
 
 ![](../.gitbook/assets/worker3.png)
 
+ထို.နောက် ကျွန်တော်တို. Worker nodes ချိတ်ဆက်ဖို.တွက် Configmap ကို Download လုပ်ပြီး cluster မှာ run ပေးရန်လိုအပ်ပါသည်။ အရင်ဆုံး auth Configmap ကို download 
 
+{% hint style="success" %}
+[https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git](https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git)
+{% endhint %}
+
+ပြီးရင်ကျွန်တော်တို. အပေါ်မှာ မှတ်ထားတဲ့  "**NodeInstanceRole**" ARN ကိုအစားထိုးပြီး  run ပေးရပါမယ်။ 
+
+![](../.gitbook/assets/1%20%281%29.png)
+
+```text
+#kubectl apply -f aws-authentation-cm-workers.yaml
+```
+
+kubectl apply command နဲ့ Configmap ကို run ပြီးရင် တခဏ လောက်ကြာရင် \#kubectl get nodes command ရိုက်လိုက်ရင် အောက်ဖော်ပြပါပုံအတိုင်း worker nodes တွေ Ready ဖြစ်နေတာကိုတွေ.ရပါလိမ့်မည်။ 
+
+![](../.gitbook/assets/1%20%283%29.png)
+
+ထိုအပြင် kube-system namespace ထဲ က pods တွေလည်း running ဖြစ်နေတာကိုတွေ.မြင်ရပါလိမ့်မယ်။အိုခေ 🤩ဒါဆို Node လည်း Ready ဆို ကျန်တာတွေလည်း running ဆိုတော့ EKS Cluster က up and running ဖြစ်နေပြီပေါ့ဗျာ။ သေချာအောင်ကျွန်တော် တို. Application တစ်ခုလောက် run ကြည့်ကြရအောင်ဗျာ။ လွယ်လွယ်ကူကူလေးဖြစ်အောင် 2048 game လေးကို EKS Cluster  မှာ run ကြည့်ရအောင်။ 
 
 
 

@@ -18,7 +18,7 @@ Storage Type ဘယ်နှစ်မျိုးရှိသလဲ ဆို �
 
 ## File Storage 
 
-![File Storage \[Image Credit : redhat.com\]](../.gitbook/assets/1%20%281%29.png)
+![File Storage \[Image Credit : redhat.com\]](../.gitbook/assets/1%20%282%29.png)
 
 File Storage လို ပြောလိုက်တာနဲ့ ကျွန်တော်တို.တော်တော်များများ ရင်းနှီးပီးသားဖြစ်ပါလိမ့်မယ်။ Files တွေ Folders တွေကို Network ကနေတဆင့် Share ပြီးသုံးကြတာပါ။ Data တွေက File Server ရဲ့ folder တစ်ခုမှာ စုဝေးထားပြီးတော့ တခြားသော ကွန်ပြူတာကနေ တဆင့် Data တွေကို သိမ်းဆည်းထားပါတယ်။ 
 
