@@ -75,7 +75,45 @@ VPC မဆောက်ခင် တစ်ချက်ကြည့်ကြည့
 
 ![EKS-VPC](../.gitbook/assets/cf-6.png)
 
-ကျွန်တော်တို. EKS Cluster တွက် VPC ကို CloudFormation Template နဲ့ တည်ဆောက်ပြီးသွားပြီဆိုတော့ ကျွန်တော်တို.ဆက်ပြီး EKS Cluster ကို ဆက်လက်တည်ဆောက်ပါမယ်။ AWS EKS Cluster တည်ဆောက် ရာတွင် ကျွန်တော်တို.သုံးမျိုး တည်ဆောက်လို.ရပါတယ် AWS Management Console , AWS CLI နှင့် eksctl နဲ့တည်ဆောက်လို.ရပါတယ်။ကျွန်တော်ကတော့ AWS CLI သုံးပြီး တော့တည်ဆောက်ပါမယ်။ 
+ကျွန်တော်တို. EKS Cluster တွက် VPC ကို CloudFormation Template နဲ့ တည်ဆောက်ပြီးသွားပြီဆိုတော့ ကျွန်တော်တို.ဆက်ပြီး EKS Cluster ကို ဆက်လက်တည်ဆောက်ပါမယ်။ AWS EKS Cluster တည်ဆောက် ရာတွင် ကျွန်တော်တို.သုံးမျိုး တည်ဆောက်လို.ရပါတယ် AWS Management Console , AWS CLI နှင့် eksctl နဲ့တည်ဆောက်လို.ရပါတယ်။ကျွန်တော်ကတော့ AWS CLI သုံးပြီး တော့တည်ဆောက်ပါမယ်။ အောက်မှာဖော်ပြထားတဲ့ Command \(AWS CLI\) နဲ့ EKS Cluster ကို တည်ဆောက်ပါမယ်။ 
+
+{% hint style="info" %}
+AWS CLI ကို Configure လုပ်ပေးရပါမယ်။ 
+{% endhint %}
+
+```text
+#aws configure
+```
+
+```text
+#aws eks --region region-code create-cluster --name demo-eks-cluster --kubernetes-version 1.15 --role-arn arn:aws:iam::111122223333:role/EKS-Role --resources-vpc-config subnetIds=subnet-01,subnet-02,subnet-03,securityGroupIds=[sg-id]
+```
+
+![EKS Cluster](../.gitbook/assets/eks-cluster-create-1%20%281%29.png)
+
+EKS Cluster ကိုတည်ဆောက်ပြီးရင် ကျွန်တော်တို. EKS Console ကနေသွားကြည့်ရအောင်။ EKS Cluster ကိုတည်ဆောက်ပြီးရင်ကျွန်တော် တို. Console မှာ တွေ.နိုင်ပါတယ်။ 
+
+![](../.gitbook/assets/screen-shot-2020-04-16-at-00.50.28.png)
+
+အိုခေ ကျွန်တော်တို. EKS Cluster တည်ဆောက် ပြီးပြီဆိုတော့ Worker Nodes တွေ မထည့်ခင် ကျွန်တော်တို. kube config ကို configure လုပ်ကြစို.။ EKS Cluster တွက် kube config ကို configure လုပ်ဖို.တွက်အောက်ဖော်ပြပါ command လေးနဲ့ configure လုပ်ကြရအောင်။ 
+
+```text
+#aws eks --region us-east-1 update-kubeconfig --name demo-eks-cluster
+```
+
+![](../.gitbook/assets/1%20%283%29.png)
+
+{% hint style="danger" %}
+Demo Cluster ဖြစ်တဲ့ အတွက် ပြီးရင် ပြန်ဖျက်မှာပါ။ 
+{% endhint %}
+
+demo-eks-cluster တွက် kube config လေး ထွက်လာပါလိမ့်မယ်။ config ရပြီဆိုတော့ကျွန်တော်တို. kubectl command  လေးနဲ့ နည်းနည်း ပါးပါးစမ်းကြည့်ရအောင်။ 
+
+![](../.gitbook/assets/2%20%282%29.png)
+
+ပုံပါအတိုင်းဆို ကျွန်တော်တို. EKS cluster ကတော့ အလုပ်လုပ်နေပါပြီ။ဆိုတော့ကျွန်တော်တို.င်္တွေ Worker nodes တွေ ထည့်ကြည့်ရအောင်။ 
+
+Worker nodes တွေထည့်ဖို. ကျွန်တော်တို. CloudFormation Template ကို အောက်က လင့်မှာ Download လုပ်လို.ရပါတယ်။  \(**Official Link ကနေလဲ Download လုပ်လို.ရပါတယ်**\)။ 
 
 
 
