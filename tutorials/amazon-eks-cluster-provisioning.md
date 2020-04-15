@@ -111,7 +111,7 @@ demo-eks-cluster တွက် kube config လေး ထွက်လာပါလ�
 
 ![](../.gitbook/assets/2%20%282%29.png)
 
-ပုံပါအတိုင်းဆို ကျွန်တော်တို. EKS cluster ကတော့ အလုပ်လုပ်နေပါပြီ။ဆိုတော့ကျွန်တော်တို.င်္တွေ Worker nodes တွေ ထည့်ကြည့်ရအောင်။ 
+ပုံပါအတိုင်းဆို ကျွန်တော်တို. EKS cluster ကတော့ အလုပ်လုပ်နေပါပြီ။ဆိုတော့ကျွန်တော်တို.တွေ Worker nodes တွေ ထည့်ကြည့်ရအောင်။ 
 
 Worker nodes တွေထည့်ဖို. ကျွန်တော်တို. CloudFormation Template ကို အောက်က လင့်မှာ Download လုပ်လို.ရပါတယ်။  \(**Official Link ကနေလဲ Download လုပ်လို.ရပါတယ်**\)။ 
 
