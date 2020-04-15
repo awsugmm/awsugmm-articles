@@ -42,10 +42,24 @@ Amazon EKS က Amazon Web Services ရဲ. Managed Kubernetes Service တစ်�
 CloudFormation Template တွေကိုလည်းတနေရာထဲက Download ချင်ရင်လည်းအဆင်ပြေဖို.တွက်ပြန် Share ပေးထားပါတယ်။  
 
 {% hint style="info" %}
-[https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction](https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction)
+[https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction](https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git)
 {% endhint %}
 
-ဆိုတော့ကျွန်တော်တို. EKS Cluster စဆောက်ကြရအောင်။ပထမဆုံးအနေနဲ့ cluster provision မလုပ်ခင် EKS တွက် IAM Role ကို စဆောက်ရပါမယ်။  
+ဆိုတော့ကျွန်တော်တို. EKS Cluster စဆောက်ကြရအောင်။ပထမဆုံးအနေနဲ့ cluster provision မလုပ်ခင် EKS တွက် IAM Role ကို စဆောက်ရပါမယ်။  AWS IAM Console ကို သွားပြီးအောက်မှာဖော်ပြထားတဲ့အတိုင်း IAM Role တစ်ခုကို တည်ဆောက်ပါမယ်။ 
+
+![Creating EKS Role](../.gitbook/assets/eks-role-1.png)
+
+![Creating EKS Role](../.gitbook/assets/eks-role-2.png)
+
+![Creating EKS Role ](../.gitbook/assets/eks-role-3.png)
+
+![Creating EKS Role](../.gitbook/assets/eks-role-4.png)
+
+EKS IAM Role ဆောက်ပြီးပြီ ဆိုတော့ နောက်တစ်ဆင့်အနေနဲ့ EKS Cluster အတွက် VPC ဆောက်ပြီး Networking setting ချပေးရပါမယ်။ VPC ဆောက်ရာတွင် manual ဆောက်တာထက် CloudFormation နဲ့တည်ဆောက်ပါမယ်။ EKS VPC တည်ဆောက်တဲ့ CloudFormation Template ကိုအောက်ကလင့်မှာ Clone or Download လုပ်လို.ရပါတယ်။ \(**Official Link ကနေလဲ Download လုပ်လို.ရပါတယ်**\)။ 
+
+{% hint style="info" %}
+[https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git](https://github.com/phyominhtun1990/AWS-EKS-Cluster-Introduction.git)
+{% endhint %}
 
 
 
