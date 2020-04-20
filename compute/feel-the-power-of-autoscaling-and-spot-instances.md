@@ -58,7 +58,11 @@ Launch Template ကို create လုပ်ပြီးရင်တော့  
 
 Auto Scaling Group ကို Create လုပ်ပြီးပြီဆိုရင်တော့ ကိုယ့်ရဲ့ Desire Capacity အလိုက် EC2 Instance တွေကို create လုပ်သွားပါလိမ့်မယ်။ 
 
-ကျွန်တော်တို့က Auto Scaling ကို Spot Instance သုံးထားတဲ့ အတွက် EC2 Instance က Spot Instance ကိုသူ့ဘာသူတည်ဆောက်ပေးသွားမှာပါ။ 
+ကျွန်တော်တို့က Auto Scaling ကို Spot Instance သုံးထားတဲ့ အတွက် EC2 Instance က Spot Instance ကိုသူ့ဘာသူတည်ဆောက်ပေးသွားမှာပါ။ AWS Console ထဲက Spot Request ဆိုတဲ့ Tab မှာသွားကြည့်လို့ရပါတယ်။ 
+
+![Spot Request](../.gitbook/assets/screenshot-from-2020-04-20-15-24-36.png)
+
+ဒါဆိုရင်တော့ Auto Scaling Group အကူအညီနဲ့ Spot Instance ကို တည်ဆောက်လို့ပြီးပါပြီ ။ ဒီထိအပြီးမှာ ဘာဖြစ်မလဲဆိုတော့ အပေါ်မှာပြောခဲ့သလို ASG သုံးထားတာဖြစ်တဲ့ အတွက် Instance တစ်လုံး Down သွားရင် အသစ်တစ်လုံး Auto ပြန်တက်လာမယ်၊ Spot Instance ကို သုံးပါဆိုပြီး ရွေးထားတဲ့ အတွက် On-Demand Instance ထပ်စျေးကပိုသက်သာမယ်။ ဒါဆိုကိုယ်လိုချင်တာနဲ့ နည်းနည်းကိုက်လာပြီ။ ဒီမှာတင်ပြီးသွားမှာလားဆိုတော့ မဟုတ်သေးဘူး။ အသစ်တက်လာတဲ့ Instance ကို Elastic IP auto associate လုပ်ချင်တာကျန်သေးတယ်။ EIP auto associate လုပ်ဖို့က EC2 Instance မှာ Permission လိုအပ်တယ်။ အဲ့တော့ ကျွန်တော်တို့က EC2 Instance ကနေ သူ့ဘာသာသူ Elastic IP ကို auto associate လုပ်နိုင်ဖို့ [**IAM Role**](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html) တစ်ခုဆောက်ပေးရပါမယ်။ IAM Role 
 
 
 
