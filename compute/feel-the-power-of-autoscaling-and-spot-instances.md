@@ -46,7 +46,19 @@ Launch Template ကို create လုပ်ပြီးရင်တော့  
 
 ![auto scaling setting 1](../.gitbook/assets/screenshot-from-2020-04-20-14-32-18.png)
 
+နောက်တစ်ခုက Launch Template မှာ EC2 Instance Type တွေကို Define လုပ်ခဲ့ပေမယ့် Auto Scaling ရောက်မှလည်း  Define လုပ်လို့လည်းရသလို Override လုပ်လို့လည်းရပါတယ်။ နောက်ထပ် Instance Type တွေလည်းထပ်ထည့်လို့ရပါတယ်။  Option 1 ကတော့ Launch Template မှာ Define လုပ်ခဲ့တဲ့ Instance Type အတိုင်းသုံးမှာပါ။ Option 2 ကတော့ စိတ်ကြိုက်ဖန်တီးလို့ရတဲ့ Option ပေါ့။ နောက်ထည့် Instance အသစ်တွေပြောင်းတာ တွေဘာတွေ အတွက်အသုံးတည့်ပါတယ်။ ကျွန်တော်ကတော့ Option 2 နဲ့ရွေးလိုက်ပါတယ်။ 
 
+#### Option 1
+
+![Option 1](../.gitbook/assets/screenshot-from-2020-04-20-15-13-32.png)
+
+#### Option 2
+
+![Option 2](../.gitbook/assets/screenshot-from-2020-04-20-15-13-11.png)
+
+Auto Scaling Group ကို Create လုပ်ပြီးပြီဆိုရင်တော့ ကိုယ့်ရဲ့ Desire Capacity အလိုက် EC2 Instance တွေကို create လုပ်သွားပါလိမ့်မယ်။ 
+
+ကျွန်တော်တို့က Auto Scaling ကို Spot Instance သုံးထားတဲ့ အတွက် EC2 Instance က Spot Instance ကိုသူ့ဘာသူတည်ဆောက်ပေးသွားမှာပါ။ 
 
 
 
