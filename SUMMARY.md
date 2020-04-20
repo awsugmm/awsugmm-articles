@@ -17,7 +17,7 @@
 * [Elastic Compute Cloud \(or\) EC2 - Episode \(1\)](compute/elastic-compute-cloud-or-ec2-episode-1.md)
 * [Reduce cloud compute cost with EC2 Spot Instance](compute/reduce_cloud_compute_cost_with_ec2_spot_instance.md)
 * [Deploying Wordpress Website with Amazon Lightsail](compute/deploying-wordpress-website-with-amazon-lightsail.md)
-* [Feel the power of AutoScaling and Spot Instances](compute/feel-the-power-of-autoscaling-and-spot-instances.md)
+* [Feel the power of Auto Scaling and Spot Instances with auto assign EIP](compute/feel-the-power-of-autoscaling-and-spot-instances.md)
 
 ## Tutorials
 
