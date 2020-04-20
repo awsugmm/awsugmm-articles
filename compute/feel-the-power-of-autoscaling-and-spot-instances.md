@@ -103,5 +103,14 @@ aws ec2 associate-address --instance-id $INSTANCE_ID --allocation-id <your_eip's
 
 စမ်းလို့အဆင်ပြေတယ်ဆိုရင်တော့ ကျွန်တော်တို့က ဒီ Command လေးကို EC2 Instance စစ Boot တက်တက်ချင်းမှာ Run တဲ့ [**UserData**](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html) or cloud-init မှာ သွား ထည့်ထားပေးလိုက်မယ်ဆိုရင် EC2 Auto Scaling က Instance အသစ်တက်လာတိုင်းမှာ EIP ကို Auto ချိတ်ပေးသွားမှာဖြစ်ပါတယ်။ 
 
+အချုပ်အနေနဲ့ပြောရရင်တော့ ဒီ setup လေးက စျေးသက်သက်သာသာနဲ့ ကိုယ်ရဲ့ Game Server လေးအမြဲတမ်း Up and Running ဖြစ်စေမယ့် scenario လေးတစ်ခုပဲဖြစ်ပါတယ်။ Single point of failure လည်းရှိပါသေးတယ်။ ဒါတော့ထည့်မရေးတော့ပါဘူး :D Spot Instance ကစျေးသက်သာတယ်ဆိုပေမယ့် Instance Type ရွေးချယ်တဲ့နေရာမှာလည်း နည်းနည်းစကားပြောပါသေးတယ်။ Anyway anyhow , EC2 Spot Instance ကို Auto EIP assign လုပ်ပြီး Auto Scaling Group လေးနဲ့ တွဲသုံးတဲ့ scenario လေးကတော့ ဒီလောက်ပါပဲ။ နားမလည်လိုက်တာဖြစ်စေ ထပ်ဆောင်းသိချင်လို့ဖြစ်စေ ကျွန်တော်တို့ [**AWS User Group Myanmar Facebook Group**](https://www.facebook.com/groups/AWSusergroupmyanmar/) မှာ ဝင်ရောက်ဆွေးနွေးလို့ ရပါတယ်လို့ ပြောကြားရင်း ... 
+
+ဆက်လက်ကြိုးစားပါဦးမည်
+
+ကျေးဇူးတင်လျက်  
+AWS User Group Myanmar 
+
+Images from AWS and Internet
+
 
 
