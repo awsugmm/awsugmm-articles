@@ -82,5 +82,17 @@ Auto Scaling Group ကို Create လုပ်ပြီးပြီဆို�
 }
 ```
 
-IAM Policy ကို ဒီအတိုင်း create လုပ်ပြီး IAM Role နဲ့ attach လုပ်ပေးရပါမယ်။ ဒါဆိုရင် IAM Role ရပါပြီ။ ရလာတဲ့ IAM Role ကို Web/App EC2 Instance မှာ Attach လုပ်ပြီး permission အလုပ်လုပ်လား မလုပ်လားစမ်းကြည့်ဖို့လိုပါတယ်။ 
+IAM Policy ကို ဒီအတိုင်း create လုပ်ပြီး IAM Role နဲ့ attach လုပ်ပေးရပါမယ်။ ဒါဆိုရင် IAM Role ရပါပြီ။ ရလာတဲ့ IAM Role ကို Web/App EC2 Instance မှာ Attach လုပ်ပြီး permission အလုပ်လုပ်လား မလုပ်လားစမ်းကြည့်ဖို့လိုပါတယ်။ အဲသည်တော့ EC2 Instance ထဲကို SSH Login ဝင်ပြီး [**AWS CLI**](https://aws.amazon.com/cli/) နဲ့စမ်းကြည့်ပါမယ်။  
+
+```text
+root@ip-10-0-4-69:~# aws configure
+AWS Access Key ID [None]: <- enter
+AWS Secret Access Key [None]: <- enter
+Default region name [ap-southeast-1]: < your region >
+Default output format [json]: json
+```
+
+အရင်ဆုံး အနေနဲ့ aws cli သုံးတဲအခါမှာ Region မရွေးထားမိရင် error တက်နိုင်တာမို့ AWS CLI configuration လေးကို အပေါ်က Command နဲ့ Configure လုပ်ရပါတယ်။  
+
+အဲ့ဒါတွေပြီးရင်တော့ 
 
