@@ -94,5 +94,12 @@ Default output format [json]: json
 
 အရင်ဆုံး အနေနဲ့ aws cli သုံးတဲအခါမှာ Region မရွေးထားမိရင် error တက်နိုင်တာမို့ AWS CLI configuration လေးကို အပေါ်က Command နဲ့ Configure လုပ်ရပါတယ်။  
 
-အဲ့ဒါတွေပြီးရင်တော့ 
+အဲ့ဒါတွေပြီးရင်တော့ ဒီအောက်က Command လေးကို ထည့်ရိုက်ကြည့်ပါမယ်။ သူကဘာလုပ်ပေးလဲဆိုတော့ ကိုယ့်ရဲ့ EC2 Instace ID ကို AWS Metadata ကနေယူပြီးတော့ EIP ကို associate လုပ်ပေးမှာပါ။ 
+
+```text
+INSTANCE_ID=`/usr/bin/curl -s http://169.254.169.254/latest/meta-data/instance-id`
+aws ec2 associate-address --instance-id $INSTANCE_ID --allocation-id <your_eip's_allocation_ID> --allow-reassociation
+```
+
+
 
