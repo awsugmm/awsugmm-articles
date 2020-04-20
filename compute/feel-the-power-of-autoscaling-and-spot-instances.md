@@ -64,3 +64,23 @@ Auto Scaling Group ကို Create လုပ်ပြီးပြီဆို�
 
 ဒါဆိုရင်တော့ Auto Scaling Group အကူအညီနဲ့ Spot Instance ကို တည်ဆောက်လို့ပြီးပါပြီ ။ ဒီထိအပြီးမှာ ဘာဖြစ်မလဲဆိုတော့ အပေါ်မှာပြောခဲ့သလို ASG သုံးထားတာဖြစ်တဲ့ အတွက် Instance တစ်လုံး Down သွားရင် အသစ်တစ်လုံး Auto ပြန်တက်လာမယ်၊ Spot Instance ကို သုံးပါဆိုပြီး ရွေးထားတဲ့ အတွက် On-Demand Instance ထပ်စျေးကပိုသက်သာမယ်။ ဒါဆိုကိုယ်လိုချင်တာနဲ့ နည်းနည်းကိုက်လာပြီ။ ဒီမှာတင်ပြီးသွားမှာလားဆိုတော့ မဟုတ်သေးဘူး။ အသစ်တက်လာတဲ့ Instance ကို Elastic IP auto associate လုပ်ချင်တာကျန်သေးတယ်။ EIP auto associate လုပ်ဖို့က EC2 Instance မှာ Permission လိုအပ်တယ်။ အဲ့တော့ ကျွန်တော်တို့က EC2 Instance ကနေ သူ့ဘာသာသူ Elastic IP ကို auto associate လုပ်နိုင်ဖို့ [**IAM Role**](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html) တစ်ခုဆောက်ပေးရပါမယ်။ IAM Role မှာက Permission polices တွေ attach လုပ်ဖို့အတွက် [**IAM Policies**](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) ****ကိုအရင် create လုပ်ရပါမယ်။ 
 
+```text
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeAddresses",
+                "ec2:AssociateAddress",
+                "ec2:AllocateAddress"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+IAM Policy ကို ဒီအတိုင်း create လုပ်ပြီး IAM Role နဲ့ attach လုပ်ပေးရပါမယ်။ ဒါဆိုရင် IAM Role ရပါပြီ။ ရလာတဲ့ IAM Role ကို Web/App EC2 Instance မှာ Attach လုပ်ပြီး permission အလုပ်လုပ်လား မလုပ်လားစမ်းကြည့်ဖို့လိုပါတယ်။ 
+
