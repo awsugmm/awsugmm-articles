@@ -101,5 +101,7 @@ INSTANCE_ID=`/usr/bin/curl -s http://169.254.169.254/latest/meta-data/instance-i
 aws ec2 associate-address --instance-id $INSTANCE_ID --allocation-id <your_eip's_allocation_ID> --allow-reassociation
 ```
 
+စမ်းလို့အဆင်ပြေတယ်ဆိုရင်တော့ ကျွန်တော်တို့က ဒီ Command လေးကို EC2 Instance စစ Boot တက်တက်ချင်းမှာ Run တဲ့ [**UserData**](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html) or cloud-init မှာ သွား ထည့်ထားပေးလိုက်မယ်ဆိုရင် EC2 Auto Scaling က Instance အသစ်တက်လာတိုင်းမှာ EIP ကို Auto ချိတ်ပေးသွားမှာဖြစ်ပါတယ်။ 
+
 
 
