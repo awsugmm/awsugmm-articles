@@ -28,7 +28,7 @@ Elastic IP သုံးထားတဲ့အတွက် Auto Scaling Group မ�
 
 Auto Scaling Group သုံးပြီး EC2 Instance တည်ဆောက်တဲ့အခါမှာ ရေရှည်အတွက် အဆင်ပြေအောင် [**Launch Template**](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-templates.html) လေးတစ်ခုပါ create လုပ်လိုက်ပါတယ်။ Launch Template ဆိုတာကတော့ အလွယ်ပြောရရင် VM Template ပေါ့ဗျာ။ ဘာတွေပါမယ် ဘယ်လိုလုပ်မယ်ဆိုတာကြိုတင် Define လုပ်ထားလို့ရတယ်။ သူကတော့ Auto Scaling နဲ့တွဲသုံးဖို့ပါ။ Auto Scaling Group က Instance တွေအတွက် ဘယ် Image \(  AMI \) ကိုသုံးမယ် Security Group \( SG \) ကဘာထားမယ် ဘယ် Instance size သုံးမယ် ဆိုတာမျိုးတွေကိုပေါ့။ ဒီအတိုင်း EC2 Instance ကို Create လုပ်ပြီး စိတ်ကြိုက်လိုတာတွေသွင်းပြီမှ Launch Template ကိုပြန်ပြီး create လုပ်လို့လည်းရပါတယ်။ Auto Scaling Group အတွက် Launch Template တစ်ခုဘယ်လို create လုပ်လဲဆိုတာကိုတော့ အောက်ကလင့်မှာလေ့လာနိုင်ပါတယ် ။ 
 
-{% hint style="info" %}
+{% hint style="success" %}
 [https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html)
 {% endhint %}
 
@@ -37,6 +37,14 @@ Auto Scaling Group သုံးပြီး EC2 Instance တည်ဆောက�
 ![Launch Template Sample](../.gitbook/assets/screenshot-from-2020-04-20-10-00-23.png)
 
 Versioning လုပ်လို့ရတဲ့ အတွက် ကျွန်တော်တို့ အခု use case အတွက်လည်းတော်တော်အဆင်ပြေပါတယ်။ 
+
+Launch Template ကို create လုပ်ပြီးရင်တော့  Auto Scaling Group ကို Spot Instance နဲ့ စတင် create လုပ်လို့ရပါပြီ။ Launch Template ထဲမှာတော့ ကျွန်တော်တို့က EC2 Instance ကိုဘယ် Subnet မှာထားမယ်ဆိုတာတွေကို Define မလုပ်ခဲ့တဲအတွက် Auto Scaling Group မှာ Define လုပ်ရပါမယ်။ 
+
+{% hint style="success" %}
+/App Server နဲ့ Database Server ကို Same Subnet မှာထားရင် Latency မဆိုသလောက်နည်းနည်းလေး ရှိတဲ့ issue ကိုအဆင်ပြေနိုင်ပါတယ်။ Same Subnet ဆိုတာထပ် Same Availability Zone \( AZ \) တူတူထားတာကို ပြောတာပါ။ AZ မတူရင်ဘာဖြစ်လဲဆိုတော့ Millisecond latency မှာသိသာပါတယ်။  
+{% endhint %}
+
+![auto scaling setting 1](../.gitbook/assets/screenshot-from-2020-04-20-14-32-18.png)
 
 
 
