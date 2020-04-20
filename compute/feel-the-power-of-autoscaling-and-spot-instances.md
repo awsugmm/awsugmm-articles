@@ -32,7 +32,11 @@ Auto Scaling Group သုံးပြီး EC2 Instance တည်ဆောက�
 [https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html)
 {% endhint %}
 
+ဒီမှာနောက်ထပ်တစ်ခုရှိတာက Auto Scaling Group ကို Launch Template နဲ့မဟုတ်ပဲ [**Launch Configuration**](https://docs.aws.amazon.com/autoscaling/ec2/userguide/LaunchConfiguration.html) ဆိုတာနဲ့လည်းတွဲသုံးလို့ရတယ်ဆိုတာပါပဲ။ ဒါပေမယ့် Launch Template ကပိုလုပ်လို့ရပါတယ်။ ဆိုလိုတာက Launch Template မှာ များများပိုကလိလို့ရတယ်။ အဓိကအားသာတာ တစ်ခုကတော့ Launch Template က Versioning လုပ်လို့ရတာပဲ။ 
 
+![Launch Template Sample](../.gitbook/assets/screenshot-from-2020-04-20-10-00-23.png)
+
+Versioning လုပ်လို့ရတဲ့ အတွက် ကျွန်တော်တို့ အခု use case အတွက်လည်းတော်တော်အဆင်ပြေပါတယ်။ 
 
 
 
