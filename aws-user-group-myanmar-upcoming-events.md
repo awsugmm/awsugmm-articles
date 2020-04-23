@@ -21,9 +21,9 @@ Online Webinar Platform ကို support ပေးတဲ့ [Kernellix](https:/
 We are conducting our first ever ONLINE meetup for 2 days straight which will be on May 9 and May 10.  
 Grab your ticket right away to engage with our Meetup speakers:
 
-Topic Board - [https://airtable.com/shrGToJczSuy1KZAr](https://airtable.com/shrGToJczSuy1KZAr?fbclid=IwAR27A4SdGwix8-oUCFKa_apILaanFafpQ7xKyQ3Z21Ul_EWbV5zI0OUlbkU)
+**Topic Board -** [**https://airtable.com/shrGToJczSuy1KZAr**](https://airtable.com/shrGToJczSuy1KZAr?fbclid=IwAR27A4SdGwix8-oUCFKa_apILaanFafpQ7xKyQ3Z21Ul_EWbV5zI0OUlbkU)\*\*\*\*
 
-Registration - [https://airtable.com/shrTH0svvDvzTykEd](https://airtable.com/shrTH0svvDvzTykEd?fbclid=IwAR1ddVQVPB7XIk0NixboF9mqvn-nciHopivD8UcUtxuzzEivshyjCaMZt9g)
+**Registration -** [**https://airtable.com/shrTH0svvDvzTykEd**](https://airtable.com/shrTH0svvDvzTykEd?fbclid=IwAR1ddVQVPB7XIk0NixboF9mqvn-nciHopivD8UcUtxuzzEivshyjCaMZt9g)\*\*\*\*
 
 We also dedicated Thanks to the [Kernellix](https://www.facebook.com/kernellix/?__tn__=KH-R&eid=ARAFt845ZDrUHtFBsC70O1smddK1eou7wjeygcKnTc7qF6MC6VAVw9hZz2PufN3xY_cAzeVaAoeXWP4C&fref=mentions&__xts__%5B0%5D=68.ARBYRy6nf9FCh_pGIC7eZ-d7cLesj0x-lnM_aA0dUqGXNJzoMmKL5xIXW2eQyBcvsVoTSO9BmBhM_f7Iv64a9mGPMEZm9caOng2Yi8d-uOVoAjJ7oRBepIL2EfHazPPF_mpdy2MKuQ8gnn7oEIIapaqyxl2ua1bqrmQd455gldkF7PyguG5bB1ZnEvasSSoD6lGbAmhSS-U-7HpLBqIWg1wLzprp_U6ICg3NivVlJjwiv1C6BoeiNWHBcNjYyq2gW_PHPcyFNFWyADNg3ga6H6j88qRdzzCp6gCaGtsQNszcFM_hQmgkXTs_aAZ51hq4RML9_sJLu6ksMtxivRcLwQ) Team for supporting the online webinar platform.
 
