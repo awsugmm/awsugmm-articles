@@ -81,5 +81,9 @@ AWS အသုံးပြုပြီး Cost တွေများနေလိ�
 
 {% file src="../.gitbook/assets/awsome\_day\_online\_2019\_-\_module4\_aws\_architecting.pdf" caption="Well-Architected Framework" %}
 
+### A newbie's guide to getting started with AWS
+
+{% file src="../.gitbook/assets/a+newbies+guide+to+getting+started+with+aws\_v4.1.pdf" caption="A Newbie\'s Guide" %}
+
 
 
