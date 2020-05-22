@@ -110,7 +110,7 @@ aws ec2 associate-address --instance-id $INSTANCE_ID --allocation-id <your_eip's
 ကျေးဇူးတင်လျက်  
 AWS User Group Myanmar 
 
-Images from AWS and Internet
+Ref: Images from AWS and Internet
 
 
 
