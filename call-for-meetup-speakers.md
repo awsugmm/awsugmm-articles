@@ -12,7 +12,7 @@ Please submit your application to speak at our meetups and we shall get back to 
 AWS User Group Myanmar မှကျင်းပမည့် Eventsများ Meetupများတွင် ပူးပေါင်းပါဝင်နိုင်ရန်အတွက် Contributors များကို လေးစားစွာကြိုဆိုလျက်ရှိပါသည်။ သို့ပါ၍ AWS User Group Myanmar ကကျင်းပမည့်ပွဲများတွင် AWS နှင့်ပတ်သတ်သော Cloud နည်းပညာများကို Knowledge Sharing လုပ်ချင်ပါက အောက်ဖော်ပြပါ link မှတဆင့် ဆက်သွယ်နိုင်ပါသည်။  
 
 
-![Scan for Speaker Registration](.gitbook/assets/awsugmm-cfp-form.png)
+![AWSUGMM Speaker Registration](.gitbook/assets/cfp-new.png)
 
 
 
