@@ -56,7 +56,7 @@ description: AWSUGMM Events History
 
 ## AWS User Group Myanmar Online Meetup 
 
-| Date | 09/05/2020 ~ 10/05/2020 |
+| Date | 09.05.2020 ~ 10.05.2020 |
 | :--- | :--- |
 | Venue | Online Meetup |
 | Activities | [**https://www.facebook.com/events/872576129921652/**](https://www.facebook.com/events/872576129921652/?acontext=%7B%22source%22%3A22%2C%22action_history%22%3A%22%5B%7B%5C%22surface%5C%22%3A%5C%22timeline%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A%5B%5D%7D%5D%22%2C%22has_source%22%3Atrue%7D&source=22&action_history=%5B%7B%22surface%22%3A%22timeline%22%2C%22mechanism%22%3A%22surface%22%2C%22extra_data%22%3A%5B%5D%7D%5D&has_source=1&__tn__=KH-R&eid=ARCs0TSCDB0xa6QYiAFjls311ijjwSG_7L2buBbk0saEjObw5Elj2dwH1aER-TwUzJ_2o82FxPsWXy3F&fref=mentions&__xts__%5B0%5D=68.ARBYRy6nf9FCh_pGIC7eZ-d7cLesj0x-lnM_aA0dUqGXNJzoMmKL5xIXW2eQyBcvsVoTSO9BmBhM_f7Iv64a9mGPMEZm9caOng2Yi8d-uOVoAjJ7oRBepIL2EfHazPPF_mpdy2MKuQ8gnn7oEIIapaqyxl2ua1bqrmQd455gldkF7PyguG5bB1ZnEvasSSoD6lGbAmhSS-U-7HpLBqIWg1wLzprp_U6ICg3NivVlJjwiv1C6BoeiNWHBcNjYyq2gW_PHPcyFNFWyADNg3ga6H6j88qRdzzCp6gCaGtsQNszcFM_hQmgkXTs_aAZ51hq4RML9_sJLu6ksMtxivRcLwQ)\*\*\*\* |
