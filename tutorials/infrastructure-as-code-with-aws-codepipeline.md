@@ -319,6 +319,8 @@ oauth\_token အတွက် Github ရဲ့  Settings -&gt; Developer settings
 
 ဒါဆိုရင် ကျွန်တော်တို့ `terraform init` ပြုလုပ်တော့မှာ ဖြစ်ပါတယ်။
 
+{% embed url="https://youtu.be/UscXFURaHBA" %}
+
 
 
 `terraform init` ပြုလုပ်ပြီး code တွေအဆင်ပြေမပြေ၊ ဘာတွေ တည်ဆောက်သွားမှာလဲ​ဆိုတာကို မတည်ဆောက်ခင် `terraform plan` နဲ့ စစ်ကြည့်မှာ ဖြစ်ပါတယ်။
