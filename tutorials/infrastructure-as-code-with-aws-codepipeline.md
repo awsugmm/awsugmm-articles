@@ -295,5 +295,35 @@ Code Pipeline အတွက် Adminstrator/Cloud Ops မှ terraform ကို 
 
 ![main.tf](../.gitbook/assets/screen-shot-2020-08-13-at-15.54.09.png)
 
-အထက် main.tf ပုံမှာ ဖေါ်ပြထားတာကတော့ repo ထဲမှာ `terraform-demo` folder ထဲတွင် တည်ရှိပါတယ်။ module များကိုတော့ terraform registry မှာ ရရှိနိုင်ပါတယ်။ `source =` ရဲ့ value မှာ အသုံးပြုမဲ့ terraform modeule ရဲ့ path ဖြစ်ပါတယ်။
+အထက် main.tf ပုံမှာ ဖေါ်ပြထားတာကတော့ repo ထဲမှာ `terraform-demo` folder ထဲတွင် တည်ရှိပါတယ်။ module များကိုတော့ terraform registry မှာ ရရှိနိုင်ပါတယ်။ `source =` ရဲ့ value မှာ အသုံးပြုမဲ့ terraform modeule ရဲ့ path ဖြစ်ပါတယ်။ module ရဲ့ input / output တွေကိုတော့ terraform registry မှာ တွေ့နိုင်ပါတယ်။
+
+{% hint style="info" %}
+[https://registry.terraform.io/modules/DTherHtun/s3backend](https://registry.terraform.io/modules/DTherHtun/s3backend)
+
+[https://registry.terraform.io/modules/DTherHtun/codepipeline](https://registry.terraform.io/modules/DTherHtun/codepipeline)
+{% endhint %}
+
+လိုအပ်ချက်တွေ ကိုတော့ variables အနေနဲ့ ထည့်ပေးရမှာဖြစ်ပါတယ်။ `terraform.tfvars` ကတော့ terraform ရဲ့ variables တွေ ထားတဲ့ file ဖြစ်ပါတယ်။ လိုအပ်ချက်တွေကတော့ aws ရဲ့ resoruces တွေကို တည်ဆောက်နိုင်တဲ့ permission ရှိတဲ့ access key / secret key နဲ့ region လိုအပ်ပါတယ်၊ s3backend အတွက် terraform backend ရဲ့ namespace \(workspace\) နဲ့  User  ရဲ့ arn  လိုအပ်ပါတယ်၊ code pipeline  အတွက် ချိတ်ဆက်မဲ့ source repo ရဲ့ oauth\_token၊ repo name နဲ့ branch တွေလိုအပ်ပါတယ်။ 
+
+![oauth token](../.gitbook/assets/screen-shot-2020-08-13-at-15.45.56.png)
+
+oauth\_token အတွက် Github ရဲ့  Settings -&gt; Developer settings ထဲက Personal access tokens တွင် အထက်ပုံတွင်ဖေါ်ပြတဲ့ ထားတဲ့ အတိုင်း ပြုလုပ်နိုင်ပါတယ်။
+
+![Repo for Infra code ](../.gitbook/assets/screen-shot-2020-08-13-at-15.57.36.png)
+
+ဒီ  repo ကတော့ pipeline နဲ့ ချိတ်ဆက်မဲ့  repo ဖြစ်ပါတယ်။ engineer များမှ စုပေါင်း အသုံးပြုရမဲ့ repo ဖြစ်ပါတယ်။
+
+![terraform.tfvars](../.gitbook/assets/screen-shot-2020-08-13-at-15.52.44.png)
+
+ဒီ   `terraform.tfvars` ကတော့ အပေါ်မှာ ပြောခဲ့တဲ့ လိုအပ်ချက်တွေကို ထည့်သွင်းပေးထားတဲ့  variables file ဖြစ်ပါတယ်။ နမူနာပြထားတာ ဖြစ်ပါတယ်။
+
+ဒါဆိုရင် ကျွန်တော်တို့ `terraform init` ပြုလုပ်တော့မှာ ဖြစ်ပါတယ်။
+
+
+
+`terraform init` ပြုလုပ်ပြီး code တွေအဆင်ပြေမပြေ၊ ဘာတွေ တည်ဆောက်သွားမှာလဲ​ဆိုတာကို မတည်ဆောက်ခင် `terraform plan` နဲ့ စစ်ကြည့်မှာ ဖြစ်ပါတယ်။
+
+
+
+နောက်ဆုံမှာတော့ `terraform apply` command နဲ့ s3backend/ codepipe တို့ကိုတည်ဆောက် configure ပြုလုပ်သွားမှာဖြစ်ပါတယ်။
 
