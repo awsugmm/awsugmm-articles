@@ -355,7 +355,11 @@ References:
 [https://aws.amazon.com/about-aws/whats-new/2016/11/aws-codepipeline-introduces-aws-cloudformation-deployment-action/](https://aws.amazon.com/about-aws/whats-new/2016/11/aws-codepipeline-introduces-aws-cloudformation-deployment-action/) [https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html) [https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html)
 {% endhint %}
 
-AWS User Group Myanmar    
+{% hint style="info" %}
+Also Dedicated Thanks to Ko D Ther Htun \(dtherhtun.cw@gmail.com\)
+{% endhint %}
+
+PhyoMinHtun @ AWS User Group Myanmar    
 phyominhtun1990@gmail.com,   
-dtherhtun.cw@gmail.com
+
 
