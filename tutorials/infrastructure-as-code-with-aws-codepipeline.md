@@ -319,13 +319,25 @@ oauth\_token အတွက် Github ရဲ့  Settings -&gt; Developer settings
 
 ဒါဆိုရင် ကျွန်တော်တို့ `terraform init` ပြုလုပ်တော့မှာ ဖြစ်ပါတယ်။
 
-{% embed url="https://youtu.be/UscXFURaHBA" %}
-
-
+{% embed url="https://youtu.be/UscXFURaHBA" caption="Terraform init" %}
 
 `terraform init` ပြုလုပ်ပြီး code တွေအဆင်ပြေမပြေ၊ ဘာတွေ တည်ဆောက်သွားမှာလဲ​ဆိုတာကို မတည်ဆောက်ခင် `terraform plan` နဲ့ စစ်ကြည့်မှာ ဖြစ်ပါတယ်။
 
+{% embed url="https://youtu.be/7aBy3waTUdk" caption="Terraform apply" %}
 
+နောက်ဆုံမှာတော့ `terraform apply` command နဲ့ s3backend/codepipe တို့ကိုတည်ဆောက် configure ပြုလုပ်သွားမှာဖြစ်ပါတယ်။
 
-နောက်ဆုံမှာတော့ `terraform apply` command နဲ့ s3backend/ codepipe တို့ကိုတည်ဆောက် configure ပြုလုပ်သွားမှာဖြစ်ပါတယ်။
+{% embed url="https://youtu.be/JNTxgRejU0Q" %}
+
+ပထမဆုံး အကြိမ်မှာတော့ ဒီ [repo](https://github.com/DTherHtun/deploy-infra) ထဲမှာ ရှိတဲ့ infra code တွေကို တစ်ခါထဲ Pipeline ကနေ တည်ဆောက်သွားမှာ ဖြစ်ပါတယ်။ Pipeline မှာ video ထဲမှာ ပါတဲ့ အတိုင်း ​တကယ် မတည်ဆောက်ခင် plan ကို review လုပ်ပြီး approve ပြုလုပ်ပေးရမှာ ဖြစ်ပါတယ်။
+
+![](../.gitbook/assets/screen-shot-2020-08-13-at-16.16.01.png)
+
+ approve ပြုလုပ်ပြီးတဲ့ နောက်မှာ deploy-infra ထဲမှာ ရှိသော terraform infra code အတိုင်း ec2 vm တစ်လုံးကို `us-west-2` region မှာဆောက်ပေးသွားမှာ ဖြစ်ပါတယ်။
+
+![running ec2 via code pipeline](../.gitbook/assets/screen-shot-2020-08-13-at-16.16.35.png)
+
+ဒါဆိုရင်တော့ နောက်ပိုင်မှာ Team ထဲမှာ Engineer များ၊ Ops များ က deploy-infra git repo ကို အသုံးပြုပြီး  Code Pipeline မှ တဆင့် Infrastructure ကို develope ဆက်လုပ်နိုင်မှာ ဖြစ်ပါတယ်။
+
+![](../.gitbook/assets/raw-arch1.png)
 
