@@ -6,7 +6,7 @@ description: 'We Love IaC 3000! (AWS CloudFormation, Terraform and AWS CodePipel
 
 ![Infrastructure as Code with AWS CodePipeline](../.gitbook/assets/diagram.png)
 
-Tutorial တစ်ခုရေးမယ်ဆိုပြီး အလုပ်မအားတာက တကြောင်း .. Project တွေပိနေတာနဲ့ မရေးဖြစ်တာတောင်တော်တော်ကြာသွားပြီ နဂို စာရေးပျင်းတာလည်းပါတာပေါ့။ အခု Project တစ်ခုလုပ်နေရင်း Idea လေးတစ်ခုရတာနဲ့ Infrastructure as Code ကို AWS မှာ Continuous Delivery Pipeline နဲ့လုပ်တာလေးရေးမယ်ဆိုပြီး ဒီ tutorial လေးကိုရေးဖြစ်တာ။ ဆိုတော့ဒီ tutorial လေးကို အစက AWS User Group Myanmar Meetup တွေ Workshop event တွေမှာပြောမယ်ပေါ့.. Covid19 ဖြစ်သွားတော့ပွဲလည်းအပြင်မှာ မလုပ်ဖြစ်တော့ Online ပွဲမှာ Workshop လုပ်ရတာအားလည်းမရတာနဲ့ စာပဲရေးမယ်ဆိုပြီးဆုံးဖြတ်ဖြစ်သွားတယ်။ ဒီ tutorial မှာ နှစ်ပိုင်းပါမယ် ။ တစ်ပိုင်းက ကျနော် IaC Pipeline ကို AWS CloudFormation and AWS CodePipeline နဲ.အသုံးပြုတာကိုရေးသွားမယ် နောက်တစ်ပိုင်းက ညီလေး ဒီသာထွန်း က သူက Terraform နဲ့ ရေးထားတာရှိတယ်ဆိုတာနဲ့ နှစ်ယောက်ပေါင်းပြီးရေးဖြစ်သွားတယ်ပေါ့။ Terraform ကို AWS CodePipeline နဲ့ AWS CloudFormation ကို AWS CodePipeline နဲ့ဆိုပြီးတော့နှစ်ပိုင်းပေါ့။ 
+AWS User Group Myanmar Blog မှာ tutorial တစ်ခုရေးမယ်ဆိုပြီး အလုပ်မအားတာက တကြောင်း .. Project တွေပိနေတာနဲ့ မရေးဖြစ်တာတောင်တော်တော်ကြာသွားပြီ နဂို စာရေးပျင်းတာလည်းပါတာပေါ့။ အခု Project တစ်ခုလုပ်နေရင်း Idea လေးတစ်ခုရတာနဲ့ Infrastructure as Code ကို AWS မှာ Continuous Delivery Pipeline နဲ့လုပ်တာလေးရေးမယ်ဆိုပြီး ဒီ tutorial လေးကိုရေးဖြစ်တာ။ ဆိုတော့ဒီ tutorial လေးကို အစက AWS User Group Myanmar Meetup တွေ Workshop event တွေမှာပြောမယ်ပေါ့.. Covid19 ဖြစ်သွားတော့ပွဲလည်းအပြင်မှာ မလုပ်ဖြစ်တော့ Online ပွဲမှာ Workshop လုပ်ရတာအားလည်းမရတာနဲ့ စာပဲရေးမယ်ဆိုပြီးဆုံးဖြတ်ဖြစ်သွားတယ်။ ဒီ tutorial မှာ နှစ်ပိုင်းပါမယ် ။ တစ်ပိုင်းက ကျနော် IaC Pipeline ကို AWS CloudFormation and AWS CodePipeline နဲ.အသုံးပြုတာကိုရေးသွားမယ် နောက်တစ်ပိုင်းက ညီလေး ဒီသာထွန်း က သူက Terraform နဲ့ ရေးထားတာရှိတယ်ဆိုတာနဲ့ နှစ်ယောက်ပေါင်းပြီးရေးဖြစ်သွားတယ်ပေါ့။ Terraform ကို AWS CodePipeline နဲ့ AWS CloudFormation ကို AWS CodePipeline နဲ့ဆိုပြီးတော့နှစ်ပိုင်းပေါ့။ 
 
 အိုခေ ဒါဆိုနိဒါန်း ချွေနေတာကလည်း တော်တော်များပြီဆိုတော့ ပထမဆုံးအနေနဲ့  **Infrastructure as Code \( IaC \) ဆိုတာဘာလဲ?** ဘာအတွက်သုံးတာလဲ? ဆိုပြီးမေးခွန်းတွေရှိတယ်။ ဆိုတော့ကာ နောက်ပိုင်း DevOps တို. Automation တွေ အလုပ်များလာတာနဲ့အမျှ Infrastructure as Code ကိုနောက်ပိုင်း Organization Infrastructure တွေမှာ အသုံးပြုလာကြပါတယ်။ အရှင်းဆုံးပြောရရင်တော့ Infrastructure as Code ဆိုတာ လက်ရှိကျနော်တို.တွေ manual တည်ဆောက်ကြတဲ့ Infrastructure တွေ Server, Database အစရှိတဲ့ resource တွေကို code နဲ့ automated တည်ဆောက်တာကို ဆိုလိုပါတယ် Cloud Infrastructure မှာဖြစ်ဖြစ် On-Premesis Infrastructure မှာပဲ ဖြစ်ဖြစ်ပေါ့။   
 Code နဲ့တည်ဆောက်တယ်ဆိုတာ Programming Code တစ်ခုခု နဲ့ဖြစ်ဖြစ် Configuration Code တွေနဲ့ဖြစ်ဖြစ် တည်ဆောက်နိုင်ပါတယ်။ အထူးသဖြင့် infrastructure orchestration tools တွေဖြစ်တဲ့ Terraform တို. AWS မှာ ဆို AWS CloudFormation တို.ကို အသုံးပြုလေ့ရှိပါတယ်။တခြား Provider တွေက tools တွေလည်းရှိပါတယ်။သေချာလေ့လာပြီး သိချင်ရင်အောက်က လင့်မှာဖတ်နိုင်ပါတယ်။   
@@ -29,7 +29,7 @@ Code နဲ့တည်ဆောက်တယ်ဆိုတာ Programming Code 
 အိုခေ ဒါဆို ပထမဆုံး အနေနဲ့ ကျနော်တို. CloudFormation မလုပ်ခင်အရင်ဆုံး ကျွန်တော်တို. AWS IAM Role တွေတည်ဆောက်ရပါမယ်။ Role ကတော့ **နှစ်ခု** ဆောက်ပေးရပါ။ 
 
 1. CodePipeline IAM Role 
-2. CloudFormation IAM Role  ဆိုပြီးတော့ Role နှစ်ခုအရင်ဆောက်ရပါမယ်။ ဒီ လင့်ကနေ policy ကို download လုပ်ပြီးတည်ဆောက်နိုင်ပါတယ်။ 
+2. A  ဆိုပြီးတော့ Role နှစ်ခုအရင်ဆောက်ရပါမယ်။ ဒီ လင့်ကနေ policy ကို download လုပ်ပြီးတည်ဆောက်နိုင်ပါတယ်။ 
 
 {% hint style="info" %}
 [https://github.com/phyominhtun1990/cloudformation-codepipeline](https://github.com/phyominhtun1990/cloudformation-codepipeline)
