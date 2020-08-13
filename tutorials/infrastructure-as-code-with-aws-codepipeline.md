@@ -341,3 +341,21 @@ oauth\_token အတွက် Github ရဲ့  `Settings -> Developer settings` 
 
 ![](../.gitbook/assets/raw-arch1.png)
 
+စာလည်းတော်တော်ရှည်သွားပြီဆိုတော့ နိဂုံးချုပ်ရမယ်ဆိုရင် မတူညီတဲ့ IaC နှစ်မျိုး နဲ့ AWS CodePipeline ဆောက်ပြီး AWS Resources တွေ Automated Build ဖို. ကြိုက်တဲ့ ပုံစံမျိုးကိုသုံးပြီး တည်ဆောက်လို.ရတာလေးကို ဒီ tutorial လေးမှာ  ဖော်ပြပေးသွားတာဖြစ်ပါတယ်။တစ်ခုခုလိုအပ်လို.ပဲဖြစ်ဖြစ် အမှားအယွင်းတစ်ခုခုပါသွားခဲ့ရင်ဖြစ်ဖြစ် ကျွန်တော်တို.ကို အကြံပြုတင်ပြနိုင်ပါတယ် ဟုပြောရင်း ဒီ tutorial လေးကို နိဂုံးချုပ်ပါရစေ။
+
+အောက်က URL တွေမှာ Reference ယူပြီးကိုယ်ကိုတိုင်လိုအပ်သလို  ပြင်ဆင်နိုင်ပါတယ်။    
+အားလုံးကိုကျေးဇူးတင်ပါသည်။
+
+{% hint style="info" %}
+[https://github.com/aws-user-group-myanmar-aws-ugm/infrastructure-as-code-with-aws](https://github.com/aws-user-group-myanmar-aws-ugm/infrastructure-as-code-with-aws)
+{% endhint %}
+
+{% hint style="success" %}
+References:   
+[https://aws.amazon.com/about-aws/whats-new/2016/11/aws-codepipeline-introduces-aws-cloudformation-deployment-action/](https://aws.amazon.com/about-aws/whats-new/2016/11/aws-codepipeline-introduces-aws-cloudformation-deployment-action/) [https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html) [https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html)
+{% endhint %}
+
+AWS User Group Myanmar    
+phyominhtun1990@gmail.com,   
+dtherhtun.cw@gmail.com
+
