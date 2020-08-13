@@ -244,7 +244,7 @@ Outputs:
     Description: Name of S3 bucket to hold website content
 ```
 
-ဒီလိုရောက်နေပြီဆိုရင်ကျွန်တော်တို. AWS Management Console ကနေ AWS CodePipeline ကိုတည်ဆောက်ပါမယ်။ ပြီးရင်ကျနော်တို. AWS CodePipeline နဲ့ Github နဲ့ကို ချိတ်ပါမယ်။   
+ဒီလိုရောက်နေပြီဆိုရင် ကျွန်တော်တို. AWS Management Console ကနေ AWS CodePipeline ကိုတည်ဆောက်ပါမယ်။ ပြီးရင်ကျနော်တို. AWS CodePipeline နဲ့ Github နဲ့ကို ချိတ်ပါမယ်။   
 အရင်ဆုံး AWS Console ကနေ CodePipeline Service ကိုသွားမယ်။ ပြီးရင် Create Pipeline ဆိုပြီး  Pipeline အသစ်တစ်ခုဆောက်မယ်။ 
 
 အဲ့ဒီမှာ Role နေရာမှာ Existing service role ကိုရွေးချယ်ပြီး အပေါ်မှာတည်ဆောက်ထားတဲ့ IAM Role နှစ်ခုထဲက CodePipeline IAM Service Role ကို ရွေးထည့်ပေးရပါမယ်။ 
