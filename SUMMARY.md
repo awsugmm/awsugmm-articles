@@ -26,6 +26,7 @@
 * [Managing private EC2 instance with Bastion Host](tutorials/managing-private-ec2-instance-with-bastion-host.md)
 * [How to complete setup Kubernetes Cluster on AWS using Kops](tutorials/kops-on-aws.md)
 * [Amazon EKS Cluster Provisioning](tutorials/amazon-eks-cluster-provisioning.md)
+* [Infrastructure as Code with AWS CodePipeline](tutorials/infrastructure-as-code-with-aws-codepipeline.md)
 
 ## Internet of Things
 
