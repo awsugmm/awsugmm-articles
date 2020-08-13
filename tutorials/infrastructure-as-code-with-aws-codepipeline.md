@@ -253,11 +253,11 @@ Outputs:
 
 ပြီးသွားရင် Add Source Stage မှာ GitHub Repo နဲ့ချိတ်ပေးရပါမယ်။ချိတ်ဆက်ပြီးသွားရင်တော့ ကိုယ့် Github Repo တွေကိုတွေ.ရပါမယ်။ အဲ့ကနေမှာ ခုနက ကိုယ် CloudFormation Template store ထားတဲ့ Repo ကို ရွေးချယ်ပြီး  Webhooks တည်ဆောက်ပေးရပါမယ်။ 
 
-![](../.gitbook/assets/2%20%282%29.png)
+![](../.gitbook/assets/2%20%285%29.png)
 
 ပြီးရင် Build Stage ကို ကျော်မယ်။ ထို.နောက် Deployment Provider ကို AWS CloudFormation ရွေးပေးပြီး Artifact name မှာ SourceArtifact နှင့် File name မှာ AWS CloudFormation Template name ကို ထည့်ပေးရပါမယ်။ Role Name မှာတော့ အပေါ်ကတည်ဆောက်ခဲ့သော IAM Role နှစ်ခုထဲက CloudFormation Role ကို ရွေးချယ်ပေးရပါမယ်။ 
 
-![](../.gitbook/assets/3%20%281%29.png)
+![](../.gitbook/assets/3%20%282%29.png)
 
 ပြီးတာနဲ့တပြိုင်နက်ထဲ AWS CodePipeline က ချက်ချင်းကို အောက်ကပုံပါအတိုင်း စပြီး Source Repo ကနေဆွဲချပြီး Deployment Process ကို စတင်ပါတော့တယ်။ 
 
@@ -267,7 +267,13 @@ Outputs:
 
 အပေါ်ကပုံအတိုင်း အားလုံး အိုကေတယ်ဆိုရင် Deployment Success ဖြစ်သွားတာပေါ့။ ဒါဆိုရင်ကျွန်တော်တို.တွေ AWS CloudFormation Console ကိုသွားပြီး ကြည့်ရအောင်။ 
 
+![](../.gitbook/assets/1%20%287%29.png)
+
+![](../.gitbook/assets/2%20%282%29.png)
+
 အိုကေ...ဒါဆိုကျွန်တော်တို. CodePipeline ကနေ CloudFormation ကို Deploy လုပ်ပြီးတော့ S3 Static WebHost လုပ်ဖို.အတွက် Bucket ကို CloudFormation Template နဲ့ တည်ဆောက်ပြီးဖြစ်ပါတယ်။ 
+
+![](../.gitbook/assets/3%20%281%29.png)
 
 ဒါဆိုကျွန်တော်တို. CodePipeline ကနေဆောက်ထားတဲ့ Bucket မှာ Web data တင်ပြီးတော့ Static Website တစ်ခု run လို.ရပါပြီ။ နောက်တစ်ပိုင်းကတော့ ကျွန်တော် ညီလေး ဒီသာထွန်းရဲ့ Terraform နဲ့ Pipeline တည်ဆောက်တာကိုဆက်ရေးသွားမှာ ဖြစ်မှာဖြစ်ပါတယ်။ အောက်တွင်ဆက်လက်ဖတ်ရှုပေးကြပါရန် ။။ 
 
