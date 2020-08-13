@@ -283,7 +283,7 @@ Outputs:
 
 အခုကတော့ အပေါ်မှာ ပြောခဲ့ တဲ့ ပုံစံမျိုး အလားတူ ကို  Terraform အသုံးပြုပြီး  Terraform fan တွေအတွက် ဖော်ပြပေးသွားမှာ ဖြစ်ပါတယ်၊။ Infrastructure  ကို code အနေနဲ့ စတင် အသုံးပြုမယ်၊ Infrastrure ကိုလဲ အရည်သွေးကောင်းမွန်အောင်၊ စနစ်တစ်ကျဖြစ်အောင်၊ Application/Software တွေကို Treat သလိုမျိုး Treat သင့်ပါတယ်။ ဒါဆိုရင်တော့ Build/Test အမျိုးမျိုး ပြုလုပ်နိုင်ဖို့ CI/CD Pipeline နဲ့  Environment တွေ ဖန်တီးဖို့ လိုအပ်လာမှာ ဖြစ်ပါတယ်။ အခုအကြောင်းအရာမှာတော့  Infra ကို Environment တွေခွဲပြီး Testing တွေ integration တွေ ပြုလုပ်ဖို့ထက် basic code pipeline အရင် အလွယ်တကူတည် ဆောက်နိင်ဖို့ ပြောပြပေးသွားမှာ ဖြစ်ပါတယ်။ အရင်ဦးဆုံး ဘာမှမလုပ်ခင် Overview Diagram ကို အောက်တွင် ဖေါ်ပြပေးပါမယ်။
 
-![](../.gitbook/assets/raw-arch.png)
+![Create &amp; Configure IAC Pipeline using IAC tool terraform](../.gitbook/assets/raw-arch.png)
 
 Code Pipeline အတွက် Adminstrator/Cloud Ops မှ terraform ကို အသုံးပြုပြီး AWS Code Pipeline၊ S3 backend with Dynamo DB၊ Github တွေကို setup ပြုလုပ်မှာဖြစ်ပါတယ်။ ဒါတွေကို တည်ဆောက်ဖို့ terraform modules များက အဆင်သင့် ရေးပြီးသားဖြစ်ပါတယ်။ Github  က တော့ ကျွန်တော်တို့ ရဲ့ Infra code  တွေကို versioning ပြုုလုပ်ပြီး ထိန်းသိမ်းဖို့ ဖြစ်ပါတည်။ s3 နဲ့ Dynamon DB ကတော့ Terraform backend အတွက်ဖြစ်ပါတယ် အသေးစိပ်ကို  [`ဒီမှာ`](https://blog.k8smm.org/k8s-related-articles/teamwork-with-terraform) ဖတ်ကြည့်နိုင်ပါတယ်။ Code Pipeline ကတော့ git push လုပ်လိုက်တဲ့ infra code တွေကို Pipeline က ဖြတ်စေပြီ release or deploy လုပ်ဖို့ ဖြစ်ပါတယ်။ 
 
