@@ -295,7 +295,7 @@ Code Pipeline အတွက် Adminstrator/Cloud Ops မှ terraform ကို 
 
 ![main.tf](../.gitbook/assets/screen-shot-2020-08-13-at-15.54.09.png)
 
-အထက် main.tf ပုံမှာ ဖေါ်ပြထားတာကတော့ repo ထဲမှာ `terraform-demo` folder ထဲတွင် တည်ရှိပါတယ်။ module များကိုတော့ terraform registry မှာ ရရှိနိုင်ပါတယ်။ `source =` ရဲ့ value မှာ အသုံးပြုမဲ့ terraform modeule ရဲ့ path ဖြစ်ပါတယ်။ module ရဲ့ input / output တွေကိုတော့ terraform registry မှာ တွေ့နိုင်ပါတယ်။
+အထက် [main.tf](https://github.com/aws-user-group-myanmar-aws-ugm/infrastructure-as-code-with-aws/blob/master/terraform-demo/main.tf) ပုံမှာ ဖေါ်ပြထားတာကတော့ repo ထဲမှာ `terraform-demo` folder ထဲတွင် တည်ရှိပါတယ်။ module များကိုတော့ terraform registry မှာ ရရှိနိုင်ပါတယ်။ `source =` ရဲ့ value မှာ အသုံးပြုမဲ့ terraform modeule ရဲ့ path ဖြစ်ပါတယ်။ module ရဲ့ [input](https://registry.terraform.io/modules/DTherHtun/codepipeline/aws/0.1.0?tab=inputs) / [output](https://registry.terraform.io/modules/DTherHtun/s3backend/aws/0.1.0?tab=outputs) တွေကိုတော့ terraform registry မှာ တွေ့နိုင်ပါတယ်။
 
 {% hint style="info" %}
 [https://registry.terraform.io/modules/DTherHtun/s3backend](https://registry.terraform.io/modules/DTherHtun/s3backend)
@@ -307,15 +307,15 @@ Code Pipeline အတွက် Adminstrator/Cloud Ops မှ terraform ကို 
 
 ![oauth token](../.gitbook/assets/screen-shot-2020-08-13-at-15.45.56.png)
 
-oauth\_token အတွက် Github ရဲ့  Settings -&gt; Developer settings ထဲက Personal access tokens တွင် အထက်ပုံတွင်ဖေါ်ပြတဲ့ ထားတဲ့ အတိုင်း ပြုလုပ်နိုင်ပါတယ်။
+oauth\_token အတွက် Github ရဲ့  `Settings -> Developer settings` ထဲက `Personal access tokens` တွင် အထက်ပုံတွင်ဖေါ်ပြတဲ့ ထားတဲ့ အတိုင်း ပြုလုပ်နိုင်ပါတယ်။
 
 ![Repo for Infra code ](../.gitbook/assets/screen-shot-2020-08-13-at-15.57.36.png)
 
-ဒီ  repo ကတော့ pipeline နဲ့ ချိတ်ဆက်မဲ့  repo ဖြစ်ပါတယ်။ engineer များမှ စုပေါင်း အသုံးပြုရမဲ့ repo ဖြစ်ပါတယ်။
+ဒီ  [repo](https://github.com/DTherHtun/deploy-infra) ကတော့ pipeline နဲ့ ချိတ်ဆက်မဲ့  repo ဖြစ်ပါတယ်။ engineer များမှ စုပေါင်း အသုံးပြုရမဲ့ repo ဖြစ်ပါတယ်။
 
 ![terraform.tfvars](../.gitbook/assets/screen-shot-2020-08-13-at-15.52.44.png)
 
-ဒီ   `terraform.tfvars` ကတော့ အပေါ်မှာ ပြောခဲ့တဲ့ လိုအပ်ချက်တွေကို ထည့်သွင်းပေးထားတဲ့  variables file ဖြစ်ပါတယ်။ နမူနာပြထားတာ ဖြစ်ပါတယ်။
+ဒီ   [`terraform.tfvars`](https://github.com/aws-user-group-myanmar-aws-ugm/infrastructure-as-code-with-aws/blob/master/terraform-demo/terrraform.tfvars) ကတော့ အပေါ်မှာ ပြောခဲ့တဲ့ လိုအပ်ချက်တွေကို ထည့်သွင်းပေးထားတဲ့  variables file ဖြစ်ပါတယ်။ နမူနာပြထားတာ ဖြစ်ပါတယ်။
 
 ဒါဆိုရင် ကျွန်တော်တို့ `terraform init` ပြုလုပ်တော့မှာ ဖြစ်ပါတယ်။
 
