@@ -360,6 +360,6 @@ Also Dedicated Thanks to Ko D Ther Htun \(dtherhtun.cw@gmail.com\)
 {% endhint %}
 
 PhyoMinHtun @ AWS User Group Myanmar    
-phyominhtun1990@gmail.com,   
+phyominhtun1990@gmail.com  
 
 
