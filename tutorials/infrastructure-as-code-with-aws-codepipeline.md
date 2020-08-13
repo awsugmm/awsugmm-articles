@@ -29,7 +29,7 @@ Code နဲ့တည်ဆောက်တယ်ဆိုတာ Programming Code 
 အိုခေ ဒါဆို ပထမဆုံး အနေနဲ့ ကျနော်တို. CloudFormation မလုပ်ခင်အရင်ဆုံး ကျွန်တော်တို. AWS IAM Role တွေတည်ဆောက်ရပါမယ်။ Role ကတော့ **နှစ်ခု** ဆောက်ပေးရပါ။ 
 
 1. CodePipeline IAM Role 
-2. A  ဆိုပြီးတော့ Role နှစ်ခုအရင်ဆောက်ရပါမယ်။ ဒီ လင့်ကနေ policy ကို download လုပ်ပြီးတည်ဆောက်နိုင်ပါတယ်။ 
+2. CloudFormation IAM Role ဆိုပြီးတော့ Role နှစ်ခုအရင်ဆောက်ရပါမယ်။ ဒီ လင့်ကနေ policy ကို download လုပ်ပြီးတည်ဆောက်နိုင်ပါတယ်။ 
 
 {% hint style="info" %}
 [https://github.com/phyominhtun1990/cloudformation-codepipeline](https://github.com/phyominhtun1990/cloudformation-codepipeline)
