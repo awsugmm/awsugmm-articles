@@ -327,7 +327,7 @@ oauth\_token အတွက် Github ရဲ့  `Settings -> Developer settings` 
 
 နောက်ဆုံမှာတော့ `terraform apply` command နဲ့ s3backend/codepipe တို့ကိုတည်ဆောက် configure ပြုလုပ်သွားမှာဖြစ်ပါတယ်။
 
-{% embed url="https://youtu.be/JNTxgRejU0Q" %}
+{% embed url="https://youtu.be/JNTxgRejU0Q" caption="Code Pipeline Approval" %}
 
 ပထမဆုံး အကြိမ်မှာတော့ ဒီ [repo](https://github.com/DTherHtun/deploy-infra) ထဲမှာ ရှိတဲ့ infra code တွေကို တစ်ခါထဲ Pipeline ကနေ တည်ဆောက်သွားမှာ ဖြစ်ပါတယ်။ Pipeline မှာ video ထဲမှာ ပါတဲ့ အတိုင်း ​တကယ် မတည်ဆောက်ခင် plan ကို review လုပ်ပြီး approve ပြုလုပ်ပေးရမှာ ဖြစ်ပါတယ်။
 
