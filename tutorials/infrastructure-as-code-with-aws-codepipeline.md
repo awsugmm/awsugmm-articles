@@ -193,7 +193,11 @@ Code နဲ့တည်ဆောက်တယ်ဆိုတာ Programming Code 
 }
 ```
 
+![](../.gitbook/assets/iam-roles.png)
+
 ပြီးရင်အပေါ်ကပုံအတိုင်းကျနော်တို. IAM Role နှစ်ခုရလာပါလိမ့်မယ်။ပြီးသွားရင်ကျနော်တို.တွေ S3 Static WebHost Bucket တည်ဆောက်တဲ့ AWS CloudFormation Template ကို Github ပေါ်ကိုတင်ပါမယ်။ကျနော်ကတော့တင်ထားပြီးသားဆိုတော့  GitHub ပေါ်မှာရောက်နေပါလိမ့်မယ်။  
+
+![](../.gitbook/assets/screen-shot-2020-08-13-at-00.41.16.png)
 
 ```text
 ## CloudFormation Template Sample - AWS S3 StaticWebHost Bucket
