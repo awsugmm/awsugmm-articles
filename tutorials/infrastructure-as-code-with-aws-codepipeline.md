@@ -24,7 +24,7 @@ Code နဲ့တည်ဆောက်တယ်ဆိုတာ Programming Code 
 
 ကျွန်တော်တိုအပေါ်က Diagram လို Infrastructure as Code တွက် AWS CloudFormation Template ရေးမယ် ပြီးရင် GitHub Repository မှာ Push မယ် Push လိုက်တာနဲ့ တပြိုင်နက် AWS CodePipeline က Trigger မိပြီး Automatically Infrastructure Stacks တွေကို သွားဆောက်မယ် အဲ့လိုဆိုတော့ ကျနော်တို.အရင် ဆုံး AWS CloudFormation Template ရေးဖို.တွက်ကို ကျနော် စလုပ်ပါမယ်။ဒီ tutorial မှာ စမ်းမှာက Amazon S3 Static WebHost Bucket ကို CloudFormation နဲ. auto တည်ဆောက်တဲ့ Template ကို သုံးမှာဖြစ်ပြီး ကိုယ်ကိုတိုင်အသုံးပြုရင်တော့ ကိုယ်ကြိုက်တဲ့ resource ကို CloudFormation နဲ့တည်ဆောက်လို.ရပါတယ် ဥပမာ Ec2 တို. RDS တို. VPC  တို.ဆောက်တာပေါ ့။ 
 
-အိုခေ ဒါဆို ပထမဆုံး အနေနဲ့ ကျနော်တို. CloudFormation မလုပ်ခင်အရင်ဆုံး ကျွန်တော်တို. AWS IAM Role တွေတည်ဆောက်ရပါမယ်။ Role ကတော့နှစ်ခုဆောက်ပေးရပါ။ 
+အိုခေ ဒါဆို ပထမဆုံး အနေနဲ့ ကျနော်တို. CloudFormation မလုပ်ခင်အရင်ဆုံး ကျွန်တော်တို. AWS IAM Role တွေတည်ဆောက်ရပါမယ်။ Role ကတော့ **နှစ်ခု** ဆောက်ပေးရပါ။ 
 
 1. CodePipeline IAM Role 
 2. CloudFormation IAM Role  ဆိုပြီးတော့ Role နှစ်ခုအရင်ဆောက်ရပါမယ်။ ဒီ လင့်ကနေ policy ကို download လုပ်ပြီးတည်ဆောက်နိုင်ပါတယ်။ 
