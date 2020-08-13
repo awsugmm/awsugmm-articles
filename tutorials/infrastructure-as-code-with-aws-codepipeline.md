@@ -293,3 +293,7 @@ Code Pipeline အတွက် Adminstrator/Cloud Ops မှ terraform ကို 
 [https://github.com/aws-user-group-myanmar-aws-ugm/infrastructure-as-code-with-aws](https://github.com/aws-user-group-myanmar-aws-ugm/infrastructure-as-code-with-aws)
 {% endhint %}
 
+![main.tf](../.gitbook/assets/screen-shot-2020-08-13-at-15.54.09.png)
+
+အထက် main.tf ပုံမှာ ဖေါ်ပြထားတာကတော့ repo ထဲမှာ `terraform-demo` folder ထဲတွင် တည်ရှိပါတယ်။ module များကိုတော့ terraform registry မှာ ရရှိနိုင်ပါတယ်။ `source =` ရဲ့ value မှာ အသုံးပြုမဲ့ terraform modeule ရဲ့ path ဖြစ်ပါတယ်။
+
