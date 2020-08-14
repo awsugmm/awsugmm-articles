@@ -285,7 +285,7 @@ Outputs:
 
 ![Create &amp; Configure IAC Pipeline using IAC tool terraform](../.gitbook/assets/raw-arch.png)
 
-Code Pipeline အတွက် Adminstrator/Cloud Ops မှ terraform ကို အသုံးပြုပြီး AWS Code Pipeline၊ S3 backend with Dynamo DB၊ Github တွေကို setup ပြုလုပ်မှာဖြစ်ပါတယ်။ ဒါတွေကို တည်ဆောက်ဖို့ terraform modules များက အဆင်သင့် ရေးပြီးသားဖြစ်ပါတယ်။ Github  က တော့ ကျွန်တော်တို့ ရဲ့ Infra code  တွေကို versioning ပြုုလုပ်ပြီး ထိန်းသိမ်းဖို့ ဖြစ်ပါတည်။ s3 နဲ့ Dynamon DB ကတော့ Terraform backend အတွက်ဖြစ်ပါတယ် အသေးစိပ်ကို  [`ဒီမှာ`](https://blog.k8smm.org/k8s-related-articles/teamwork-with-terraform) ဖတ်ကြည့်နိုင်ပါတယ်။ Code Pipeline ကတော့ git push လုပ်လိုက်တဲ့ infra code တွေကို Pipeline က ဖြတ်စေပြီ release or deploy လုပ်ဖို့ ဖြစ်ပါတယ်။ 
+Code Pipeline အတွက် Adminstrator/Cloud Ops မှ terraform ကို အသုံးပြုပြီး AWS Code Pipeline၊ S3 backend with Dynamo DB၊ Github တွေကို setup ပြုလုပ်မှာဖြစ်ပါတယ်။ ဒါတွေကို တည်ဆောက်ဖို့ terraform modules များက အဆင်သင့် ရေးပြီးသားဖြစ်ပါတယ်။ Github  က တော့ ကျွန်တော်တို့ ရဲ့ Infra code  တွေကို versioning ပြုုလုပ်ပြီး ထိန်းသိမ်းဖို့ ဖြစ်ပါတည်။ s3 နဲ့ Dynamon DB ကတော့ Terraform backend အတွက်ဖြစ်ပါတယ် အသေးစိပ်ကို  [**`ဒီမှာ`**](https://blog.k8smm.org/k8s-related-articles/teamwork-with-terraform) ဖတ်ကြည့်နိုင်ပါတယ်။ Code Pipeline ကတော့ git push လုပ်လိုက်တဲ့ infra code တွေကို Pipeline က ဖြတ်စေပြီ release or deploy လုပ်ဖို့ ဖြစ်ပါတယ်။ 
 
 ဒါကတော့ လိုအပ်တဲ့ Terraform source code တွေရှိတဲ့ github repo ဖြစ်ပါတယ်။ လိုက်စမ်းကြည့်ဖို့ folk/clone ပြုလုပ်နိုင်ပါတယ်။
 
@@ -311,7 +311,7 @@ oauth\_token အတွက် Github ရဲ့  `Settings -> Developer settings` 
 
 ![Repo for Infra code ](../.gitbook/assets/screen-shot-2020-08-13-at-15.57.36.png)
 
-ဒီ  [repo](https://github.com/DTherHtun/deploy-infra) ကတော့ pipeline နဲ့ ချိတ်ဆက်မဲ့  repo ဖြစ်ပါတယ်။ engineer များမှ စုပေါင်း အသုံးပြုရမဲ့ repo ဖြစ်ပါတယ်။
+ဒီ  [repo](https://github.com/DTherHtun/deploy-infra) ကတော့ pipeline နဲ့ ချိတ်ဆက်မဲ့  repo ဖြစ်ပါတယ်။ Engineer များမှ စုပေါင်း အသုံးပြုရမဲ့ repo ဖြစ်ပါတယ်။
 
 ![terraform.tfvars](../.gitbook/assets/screen-shot-2020-08-13-at-15.52.44.png)
 
@@ -325,7 +325,7 @@ oauth\_token အတွက် Github ရဲ့  `Settings -> Developer settings` 
 
 {% embed url="https://youtu.be/7aBy3waTUdk" caption="Terraform apply" %}
 
-နောက်ဆုံမှာတော့ `terraform apply` command နဲ့ s3backend/codepipe တို့ကိုတည်ဆောက် configure ပြုလုပ်သွားမှာဖြစ်ပါတယ်။
+နောက်ဆုံမှာတော့ `terraform apply` command နဲ့ s3backend/codepipeline တို့ကိုတည်ဆောက် configure ပြုလုပ်သွားမှာဖြစ်ပါတယ်။
 
 {% embed url="https://youtu.be/JNTxgRejU0Q" caption="Code Pipeline Approval" %}
 
@@ -333,7 +333,7 @@ oauth\_token အတွက် Github ရဲ့  `Settings -> Developer settings` 
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-16.16.01.png)
 
- approve ပြုလုပ်ပြီးတဲ့ နောက်မှာ deploy-infra ထဲမှာ ရှိသော terraform infra code အတိုင်း ec2 vm တစ်လုံးကို `us-west-2` region မှာဆောက်ပေးသွားမှာ ဖြစ်ပါတယ်။
+ approve ပြုလုပ်ပြီးတဲ့ နောက်မှာ deploy-infra ထဲမှာ ရှိသော terraform infra code အတိုင်း EC2 Instance တစ်လုံးကို `us-west-2` region မှာဆောက်ပေးသွားမှာ ဖြစ်ပါတယ်။
 
 ![running ec2 via code pipeline](../.gitbook/assets/screen-shot-2020-08-13-at-16.16.35.png)
 
@@ -343,7 +343,7 @@ oauth\_token အတွက် Github ရဲ့  `Settings -> Developer settings` 
 
 စာလည်းတော်တော်ရှည်သွားပြီဆိုတော့ နိဂုံးချုပ်ရမယ်ဆိုရင် မတူညီတဲ့ IaC နှစ်မျိုး နဲ့ AWS CodePipeline ဆောက်ပြီး AWS Resources တွေ Automated Build ဖို. ကြိုက်တဲ့ ပုံစံမျိုးကိုသုံးပြီး တည်ဆောက်လို.ရတာလေးကို ဒီ tutorial လေးမှာ  ဖော်ပြပေးသွားတာဖြစ်ပါတယ်။တစ်ခုခုလိုအပ်လို.ပဲဖြစ်ဖြစ် အမှားအယွင်းတစ်ခုခုပါသွားခဲ့ရင်ဖြစ်ဖြစ် ကျွန်တော်တို.ကို အကြံပြုတင်ပြနိုင်ပါတယ် ဟုပြောရင်း ဒီ tutorial လေးကို နိဂုံးချုပ်ပါရစေ။
 
-အောက်က URL တွေမှာ Reference ယူပြီးကိုယ်ကိုတိုင်လိုအပ်သလို  ပြင်ဆင်နိုင်ပါတယ်။    
+အောက်က URL တွေမှာ Reference ယူပြီးကိုတိုင်လိုအပ်သလို  ပြင်ဆင်နိုင်ပါတယ်။    
 အားလုံးကိုကျေးဇူးတင်ပါသည်။
 
 {% hint style="info" %}
@@ -356,10 +356,10 @@ References:
 {% endhint %}
 
 {% hint style="info" %}
-Also Dedicated Thanks to Ko D Ther Htun \(dtherhtun.cw@gmail.com\)
+Also Dedicated Thanks to **Ko D Ther Htun \(dtherhtun.cw@gmail.com\)**
 {% endhint %}
 
-PhyoMinHtun @ AWS User Group Myanmar    
-phyominhtun1990@gmail.com  
+**PhyoMinHtun @ AWS User Group Myanmar    
+phyominhtun1990@gmail.com**  
 
 
