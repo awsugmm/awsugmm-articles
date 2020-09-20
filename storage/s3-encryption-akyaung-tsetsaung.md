@@ -38,6 +38,6 @@ Client side encryption နည်းကိုသုံးဖို့ ဖြစ�
 * SSE-C – key ကို customer က ကိုယ်တိုင်ထုတ်ပြီးတော့ AWS က အဲ့ encryption key ကို သိမ်းထားမှာမဟုတ်ပါဘူး။ ထုတ်ပေးလိုက်တဲ့ key ကို AWS ဆီ ပေးလိုက်ပြီး data encryption, decryption နဲ့ ဆိုင်ရာ request တိုင်းကို handle လုပ်စေမှာဖြစ်ပါတယ်။ User ဘက်က key ရဲ့ လုံခြုံရေးအတွက် အပြည့်အဝတာဝန်ယူရမှာဖြစ်ပါတယ်။ KMS နဲ့မတူတဲ့အချက်ကတော့ master key ရော data key ရော user က ကိုင်ဆောင်ထိန်းသိမ်းခွင့်ရမှာဖြစ်ပါတယ်။
 
 ကျေးဇူးတင်ပါတယ်။   
-**AWS User Group Myanmar  
-ခင်ချမ်းမြေ့ထွန်း**
+[**AWS User Group Myanmar**](https://www.facebook.com/awsugmm/)  
+**ခင်ချမ်းမြေ့ထွန်း**
 
