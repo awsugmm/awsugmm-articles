@@ -10,7 +10,7 @@ AWS မှာ Data တွေကို သိမ်းဖို့အတွက်
 
 \(၁\) Data တွေ Instance /Server မှ S3 သို့  ဖြစ်စေ၊ S3 မှ Instance သို့ဖြစ်စေ ကူးပြောင်းနေဆဲအချိန်မှာ Secure Socket Layer/ Transport Layer Security \(SSL/TLS\) ကိုအသုံးပြုပြီး encrypt တဲ့ **In Transit** နဲ့
 
-\(၂\) **At rest**  တို့ပဲဖြစ်ပါတယ်။ **At Reset** မှာမှ
+\(၂\) **At rest**  တို့ပဲဖြစ်ပါတယ်။ **At Rest** မှာမှ
 
 \(၁\)Server-Side Encryption
 
