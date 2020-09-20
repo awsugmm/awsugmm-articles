@@ -31,13 +31,13 @@ Client side encryption နည်းကိုသုံးဖို့ ဖြစ�
 
 ### **Server-Side Encryption**
 
-ပိုပြီးရိုးရှင်းတဲ့ Server Side Encryption\(SSE\) က Client Side Encryption နဲ့တူတဲ့ အရာတွေရှိပေမယ့် ပိုပြီး အမျိုးအစားစုံလင်စွာ Encrypt \(ဥပမာ- Customer Provided key\) လို့ရပါတယ်။ ဒါကြောင့်မလို့ ကိုယ်နဲ့သင့်တော်မယ့် Encryption နည်းကို စိတ်တိုင်းကျရွေးနိုင်တာကြောင့် ရိုးရိုးရှင်းရှင်း key \(သို့\) ရှုပ်ထွေးတဲ့ key သုံး မလား ဆိုတဲ့ အချက်ကိုပါ user ဘက်က ဆုံးဖြတ်နိုင်တဲ့ အတွက် ပိုပြီးတော့ ရွေးချယ်ဖို့ သင့်တော်ပါတယ်။ Uncrypted မလုပ်ရသေးတဲ့ raw data တွေကို aws ဆီပို့တဲ့ ပြီးတဲ့အခါ aws ဘက်မှာ encrypt လုပ်ပြီး cloud storage \(S3\) ပေါ်သိမ်းလိုက်ပါတယ်။ Encrypted data တွေကိုပြန်ပြီး retrieve မယ်ဆိုရင်တော့ amazon က encrypted data ကို ဖတ်ပြီး server ဘက္် မှာပဲ decrypt လုပ်ပါတယ်။ ပြီးရင်တော့ decrypted date \(unencrypted data\) ကို userဆီ အင်တာနက် \(HTTP\) ကတစ်ဆင့် ပို့လိုက်ပါတယ်။
+ပိုပြီးရိုးရှင်းတဲ့ Server Side Encryption\( SSE \) က Client Side Encryption နဲ့တူတဲ့ အရာတွေရှိပေမယ့် ပိုပြီး အမျိုးအစားစုံလင်စွာ Encrypt \(ဥပမာ- Customer Provided key\) လို့ရပါတယ်။ ဒါကြောင့်မလို့ ကိုယ်နဲ့သင့်တော်မယ့် Encryption နည်းကို စိတ်တိုင်းကျရွေးနိုင်တာကြောင့် ရိုးရိုးရှင်းရှင်း key \(သို့\) ရှုပ်ထွေးတဲ့ key သုံး မလား ဆိုတဲ့ အချက်ကိုပါ user ဘက်က ဆုံးဖြတ်နိုင်တဲ့ အတွက် ပိုပြီးတော့ ရွေးချယ်ဖို့ သင့်တော်ပါတယ်။ Encrypt မလုပ်ရသေးတဲ့ raw data တွေကို AWS ဆီပို့တဲ့ ပြီးတဲ့အခါ AWS ဘက်မှာ encrypt လုပ်ပြီး cloud storage \(S3\) ပေါ်သိမ်းလိုက်ပါတယ်။ Encrypted data တွေကိုပြန်ပြီး retrieve မယ်ဆိုရင်တော့ amazon က encrypted data ကို ဖတ်ပြီး server ဘက္် မှာပဲ decrypt လုပ်ပါတယ်။ ပြီးရင်တော့ decrypted date \( unencrypted data \) ကို userဆီ အင်တာနက် \(HTTP\) ကတစ်ဆင့် ပို့လိုက်ပါတယ်။
 
-* SSE- S3 – အရိုးရှင်းဆုံး နည်းဖြစ်ပြီး data ကို encrypt လုပ်ဖို့ key ကိုတော့ aws က ကိုင်ဆောင်ထားပါတယ်။ ဒီအချက်က ဘာကို ဆိုလိုတာလဲ ဆိုရင်တော့ user ဘက်က key ကို မမြင်နိုင်တဲ့အပြင် manually လည်းသုံးခွင့်ရှိမှာမဟုတ်ပါဘူး။ Default algorithm ကတော့ AES-256 ဖြစ်ပါတယ်။
-* SSE-KMS – ဒီမှာတော့ server ဘက်မှာ S3 data encryption လုပ်ဖို့ AWS Key Management Service \(KMS\) ကို သုံးပါတယ်။ data keyကိုတော့ aws က ထိန်းသိမ်းပြီးတော့ AWS KMS ထဲက customer master key \(CMK\) ကိုတော့ user ကထိန်းသိမ်းခွင့်ရှိပါတယ်။ SSE-KMS သုံးခြင်းရဲ့ အကျိုးတွေကတော့ user control ရနိုင်ခြင်းနဲ့ audit ပိုင်းပါဝင်နိုင်ခြင်းဖြစ်ပါတယ်။
-* SSE-C – key ကို customer က ကိုယ်တိုင်ထုတ်ပြီးတော့ aws က အဲ့ encryption key ကို သိမ်းထားမှာမဟုတ်ပါဘူး။ထုတ်ပေးလိုက်တဲ့ key ကို aws ဆီ ပေးလိုက်ပြီး data encryption, decryption နဲ့ ဆိုင်ရာ request တိုင်းကို handle လုပ်စေမှာဖြစ်ပါတယ်။ user ဘက်က key ရဲ့ လုံခြုံရေးအတွက် အပြည့်အဝတာဝန်ယူရမှာဖြစ်ပါတယ်။KMS နဲ့မတူတဲ့အချက်ကတော့ master key ရော data key ရော user က ကိုင်ဆောင်ထိန်းသိမ်းခွင့်ရမှာဖြစ်ပါတယ်။
+* SSE- S3 – အရိုးရှင်းဆုံး နည်းဖြစ်ပြီး data ကို encrypt လုပ်ဖို့ key ကိုတော့ aws က ကိုင်ဆောင်ထားပါတယ်။ ဒီအချက်က ဘာကို ဆိုလိုတာလဲ ဆိုရင်တော့ user ဘက်က key ကို မမြင်နိုင်တဲ့အပြင် manually လည်းသုံးခွင့်ရှိမှာမဟုတ်ပါဘူး။ Default algorithm ကတော့ AES-256 ဖြစ်ပါတယ်။ 
+* SSE-KMS – ဒီမှာတော့ server ဘက်မှာ S3 data encryption လုပ်ဖို့ AWS Key Management Service \(KMS\) ကို သုံးပါတယ်။ data keyကိုတော့ AWS က ထိန်းသိမ်းပြီးတော့ AWS KMS ထဲက customer master key \(CMK\) ကိုတော့ user ကထိန်းသိမ်းခွင့်ရှိပါတယ်။ SSE-KMS သုံးခြင်းရဲ့ အကျိုးတွေကတော့ user control ရနိုင်ခြင်းနဲ့  audit ပိုင်းပါဝင်နိုင်ခြင်းဖြစ်ပါတယ်။ 
+* SSE-C – key ကို customer က ကိုယ်တိုင်ထုတ်ပြီးတော့ AWS က အဲ့ encryption key ကို သိမ်းထားမှာမဟုတ်ပါဘူး။ ထုတ်ပေးလိုက်တဲ့ key ကို AWS ဆီ ပေးလိုက်ပြီး data encryption, decryption နဲ့ ဆိုင်ရာ request တိုင်းကို handle လုပ်စေမှာဖြစ်ပါတယ်။ User ဘက်က key ရဲ့ လုံခြုံရေးအတွက် အပြည့်အဝတာဝန်ယူရမှာဖြစ်ပါတယ်။ KMS နဲ့မတူတဲ့အချက်ကတော့ master key ရော data key ရော user က ကိုင်ဆောင်ထိန်းသိမ်းခွင့်ရမှာဖြစ်ပါတယ်။
 
 ကျေးဇူးတင်ပါတယ်။   
-AWS User Group Myanmar  
-ခင်ချမ်းမြေ့ထွန်း
+**AWS User Group Myanmar  
+ခင်ချမ်းမြေ့ထွန်း**
 
