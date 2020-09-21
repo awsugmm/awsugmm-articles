@@ -6,7 +6,7 @@ description: S3 Encryption
 
 ![](../.gitbook/assets/s3-ko-kms-master-key-thonpyi-encryptionkhyin.png)
 
-AWS မှာ Data တွေကို သိမ်းဖို့အတွက် durable ဖြစ်တဲ့ S3\(Simple Storage Service\) ကိုသုံးဖို့ ဆုံးဖြတ်လိုက်တာနဲ့  “data လုံခြုံမှု” ဆိုတဲ့  အချက်ဟာ နောက်ဆက်တွဲထည့်သွင်းစဉ်းစားသင့်တဲ့ အချက်တစ်ခု အနေနဲ့ရှိနေပါတယ်။  Data တွေလုံခြုံမှုရှိဖို့အတွက် AWS က S3 အတွက်    ပံ့ပေးတဲ့ data protection နည်း \(၂\) မျိုးကို အသုံးပြုလို့ရပါတယ်။ ထိုနည်း \(၂\) မျိုး ကတော့-
+AWS မှာ Data တွေကို သိမ်းဖို့အတွက် Durable ဖြစ်တဲ့ S3\(Simple Storage Service\) ကိုသုံးဖို့ ဆုံးဖြတ်လိုက်တာနဲ့  “data လုံခြုံမှု” ဆိုတဲ့  အချက်ဟာ နောက်ဆက်တွဲထည့်သွင်းစဉ်းစားသင့်တဲ့ အချက်တစ်ခု အနေနဲ့ရှိနေပါတယ်။  Data တွေလုံခြုံမှုရှိဖို့အတွက် AWS က S3 အတွက်  ထောက်ပံ့ပေးတဲ့ data protection နည်း \(၂\) မျိုးကို အသုံးပြုလို့ရပါတယ်။ ထိုနည်း \(၂\) မျိုး ကတော့ 
 
 \(၁\) Data တွေ Instance /Server မှ S3 သို့  ဖြစ်စေ၊ S3 မှ Instance သို့ဖြစ်စေ ကူးပြောင်းနေဆဲအချိန်မှာ Secure Socket Layer/ Transport Layer Security \(SSL/TLS\) ကိုအသုံးပြုပြီး encrypt တဲ့ **In Transit** နဲ့
 
