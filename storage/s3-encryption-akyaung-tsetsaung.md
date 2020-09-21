@@ -12,7 +12,7 @@ AWS မှာ Data တွေကို သိမ်းဖို့အတွက်
 
 \(၂\) **At rest**  တို့ပဲဖြစ်ပါတယ်။ **At Rest** မှာမှ
 
-\(၁\)Server-Side Encryption
+\(၁\) Server-Side Encryption
 
 * Amazon S3-Managed Keys\(SSE-S3\) \(default\)
 * AWS KMS-Managed Keys \(SSE-KMS\)
