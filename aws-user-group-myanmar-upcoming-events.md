@@ -4,5 +4,5 @@ description: AWSUGMM Upcoming Events
 
 # AWS User Group Myanmar Upcoming Events
 
-## Coming Soon!!
+## AWS Community Day Myanmar 2020 \(Online Event\) 
 
