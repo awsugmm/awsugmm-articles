@@ -68,3 +68,10 @@ description: AWSUGMM Events History
 | Venue | Online  |
 | Activities | [https://www.facebook.com/events/289433975762847/](https://www.facebook.com/events/289433975762847/) |
 
+### AWS Community Day Myanmar
+
+| Date | 1.11.2020 |
+| :--- | :--- |
+| Venue | Online |
+| Activities | [https://www.facebook.com/events/393100585149718](https://www.facebook.com/events/393100585149718) |
+
