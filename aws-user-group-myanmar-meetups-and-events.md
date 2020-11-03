@@ -74,4 +74,5 @@ description: AWSUGMM Events History
 | :--- | :--- |
 | Venue | Online |
 | Activities | [https://www.facebook.com/events/393100585149718](https://www.facebook.com/events/393100585149718) |
+| Website | [https://awsugmm.org/community-day/](https://awsugmm.org/community-day/) |
 
