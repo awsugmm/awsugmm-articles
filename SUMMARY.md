@@ -27,6 +27,7 @@
 * [How to complete setup Kubernetes Cluster on AWS using Kops](tutorials/kops-on-aws.md)
 * [Amazon EKS Cluster Provisioning](tutorials/amazon-eks-cluster-provisioning.md)
 * [Infrastructure as Code with AWS CodePipeline](tutorials/infrastructure-as-code-with-aws-codepipeline.md)
+* [Using AWS Lambda to monitor websites](tutorials/using-aws-lambda-to-monitor-websites.md)
 
 ## Internet of Things
 
