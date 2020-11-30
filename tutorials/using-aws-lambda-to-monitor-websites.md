@@ -33,3 +33,42 @@ AWS ဘက်အခြမ်းမှာ လိုအပ်တဲ့ Service ဆ
 
 ကျွန်တော်တို့အခု ကိစ္စမှာတော့ AWS Lambda Function နဲ့တွဲပြီးအသုံးပြုပါမယ်။ အရင်ဆုံးအနေနဲ့ ကျွန်တော်တို့ Service က Lambda ပေါ်မှာ Run ပြီးတော့ CloudWatch ကို Metric Data တွေနဲ့ Log တွေ ပို့မှာဆိုတော့ Lambda ကနေ CloudWatch ကို Right Access ရှိဖို့လိုပါတယ်။  ဒီတော့ ကျွန်တော်တို့က **AWS IAM Custom Policy** တစ်ခုကို create လုပ်ပြီး IAM Role နဲ့တွဲပါမယ်။ ဒီနေရာမှာ **AWS IAM Role** ကို အသုံးပြုချင်းက မှန်ကန်တဲ့ ရွေးချယ်မှပဲဖြစ်ပါတယ်။ **ဘာလို့လဲဆိုတော့ Best Practices တွေအရ ကျွန်တော်အနေနဲ့ AWS Service တွေအချင်းချင်း communicate လုပ်တဲ့နေရာမှာ access တွေလိုအပ်လာတဲ့ အခါမှာ အကောင်းဆုံးဖြစ်လို့ပါပဲ။** 
 
+**ဒီတော့ AWS IAM Custom Policy တစ်ခု Create လုပ်ဖို့အတွက်** 
+
+```text
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowMeticAlarmCreation",
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:PutMetricAlarm",
+                "cloudwatch:PutMetricData"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "AllowLogCollection",
+            "Effect": "Allow",
+            "Action": [
+                "logs:PutLogEvents",
+                "logs:CreateLogStream",
+                "logs:CreateLogGroup"
+            ],
+            "Resource": "arn:aws:logs:*:*:*"
+        }
+    ]
+}
+```
+
+
+
+
+
+ ****
+
+\*\*\*\*
+
+\*\*\*\*
+
