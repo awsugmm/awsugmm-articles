@@ -15,5 +15,19 @@ AWS Lambda Function ကလုပ်ဆောင်ပေးမဲ့ဟာ လ�
 
 ဒီ ပို့စ်ရေးဖို့ အတွက် Microservice လေးကို Develop လုပ်ပေးထားတာကတော့ [**ကိုအောင်အေးသန်း** ](https://github.com/AungAyeThan)ပဲဖြစ်ပါတယ်။  
 
-နောက်ပြီးတော့ အသုံးပြုမဲ့ Tech Stack ကလည်းရှင်းပါတယ်။ AWS Lambda Function  
+နောက်ပြီးတော့ အသုံးပြုမဲ့ Tech Stack ကလည်းရှင်းပါတယ်။ 
+
+{% embed url="https://github.com/AungAyeThan/monitoring-service" %}
+
+Source Code အနေနဲ့ကတော့ Golang နဲ့ရေးထားတဲ့ monitoring service တစ်ခုဖြစ်ပါတယ်။ Local မှာပဲအသုံးပြုနိုင်သလို  AWS Lambda နဲ့လည်းတွဲဖက်ပြီး အသုံးပြုနိုင်ပါတယ်။ 
+
+AWS ဘက်အခြမ်းမှာ လိုအပ်တဲ့ Service ဆိုရင်တော့ - 
+
+* AWS IAM
+* AWS Lambda
+* AWS CloudWatch
+* AWS EventBridge \( Formerly CloudWatch Event \)
+* AWS Simple Notification Service \( SNS \)
+
+တို့ပဲဖြစ်ပါတယ်။ 
 
